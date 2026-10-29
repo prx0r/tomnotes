@@ -1,0 +1,415 @@
+ok new validator script pls adhere to this one now: import json
+import re
+from typing import List, Dict, Tuple
+
+# -------------------------------
+# CANONICAL ENUMS (MUST MATCH GENERATOR)
+# -------------------------------
+
+VALID_PHASES = {"UNMAKING", "REMAKING", "SELF-MAKING", "META", "UNKNOWN"}
+
+VALID_FUNCTION_IDS = {
+    # UNMAKING
+    "UM_01", "UM_02", "UM_03", "UM_04", "UM_05", "UM_06",
+    # REMAKING
+    "RM_01", "RM_02", "RM_03", "RM_04", "RM_05",
+    # SELF-MAKING
+    "SM_01", "SM_02", "SM_03", "SM_04",
+    # META
+    "META_01", "META_02", "META_03",
+    # Unknown
+    "UNKNOWN",
+}
+
+VALID_MECHANISMS = {
+    "constraint_collapse",
+    "subject_object_inversion",
+    "ontological_shift",
+    "abstraction_strip",
+    "structural_analogy",
+    "structural_mapping",
+    "comparison_contrast",
+    "causal_chain",
+    "system_dynamics",
+    "identity_split",
+    "perspective_lift",
+    "instruction_protocol",
+    "thresholding",
+    "negation_purge",
+    "meta_language_exposure",
+    "source_tracing",
+    "distributed_responsibility",
+    "normalization_reframe",
+    "verification_criterion",
+    "non_doing_pointer",
+    "none",
+}
+
+VALID_LINEAGES = {
+    "Gurdjieffian",
+    "Advaita",
+    "Buddhist",
+    "Socratic",
+    "Realist",
+    "Therapeutic",
+    "UNKNOWN",
+}
+
+VALID_INTENSITIES = {f"PR_0{i}" for i in range(1, 6)}  # PR_01–PR_05
+VALID_INTIMACIES = {f"IN_0{i}" for i in range(1, 6)}  # IN_01–IN_05
+VALID_ATTUNEMENTS = {f"AT_0{i}" for i in range(1, 6)}  # AT_01–AT_05
+
+VALID_APPROACHES = {
+    "increase_pressure",
+    "introduce_threshold",
+    "offer_perspective_shift",
+    "mirror_back",
+    "withdraw_support",
+    "apply_standard_function",
+}
+
+VALID_PREDICTED_RESPONSES = {
+    "resist_intellectually",
+    "request_clarification",
+    "experience_recognition",
+    "deflect_with_humor",
+    "complain_about_method",
+    "fall_silent",
+    "ask_deeper_question",
+    "episode_ends",
+    "unknown",
+}
+
+PEDAGOGY_FIELDS_IN_ORDER = [
+    "lineage",
+    "phase",
+    "function_id",
+    "student_state",
+    "behavior_tags",
+    "mechanism_shape",
+    "teaching_actions",
+    "register",
+    "style",
+    "depth",
+    "meta_mode",
+    "traps_avoided",
+    "intent",
+    "approach",
+    "predicted_response",
+]
+
+# Register line: exact spacing & ranges
+REGISTER_REGEX = re.compile(
+    r"^register: intensity=(PR_0[1-5]), intimacy=(IN_0[1-5]), attunement=(AT_0[1-5])$"
+)
+
+SYSTEM_PROMPT = "USE_HXRMXS_TRAINING_PROMPT"
+
+
+# -------------------------------
+# PEDAGOGY PARSING
+# -------------------------------
+
+def parse_pedagogy_block(content: str) -> Tuple[Dict[str, str], List[str]]:
+    """
+    Extract [PEDAGOGY] block as dict of field->value.
+    Returns (fields_dict, errors).
+    """
+    errors: List[str] = []
+
+    if "[PEDAGOGY]" not in content or "[/PEDAGOGY]" not in content:
+        errors.append("Missing [PEDAGOGY] tags")
+        return {}, errors
+
+    try:
+        start_idx = content.index("[PEDAGOGY]")
+        end_idx = content.index("[/PEDAGOGY]") + len("[/PEDAGOGY]")
+    except ValueError:
+        errors.append("Malformed PEDAGOGY block delimiters")
+        return {}, errors
+
+    block = content[start_idx:end_idx]
+    lines = [ln.rstrip("\n") for ln in block.split("\n")]
+    nonempty = [ln for ln in lines if ln.strip() != ""]
+
+    # Expect:
+    #  [PEDAGOGY]
+    #  15 field lines
+    #  [/PEDAGOGY]
+    if len(nonempty) != 17:
+        errors.append(
+            f"PEDAGOGY block must have 17 non-empty lines "
+            f"([PEDAGOGY], 15 fields, [/PEDAGOGY]); got {len(nonempty)}"
+        )
+        return {}, errors
+
+    if nonempty[0] != "[PEDAGOGY]":
+        errors.append("First non-empty line in PEDAGOGY block must be '[PEDAGOGY]'")
+    if nonempty[-1] != "[/PEDAGOGY]":
+        errors.append("Last non-empty line in PEDAGOGY block must be '[/PEDAGOGY]'")
+
+    fields: Dict[str, str] = {}
+    for idx, field_name in enumerate(PEDAGOGY_FIELDS_IN_ORDER, start=1):
+        line = nonempty[idx]
+        expected_prefix = f"{field_name}: "
+        if not line.startswith(expected_prefix):
+            errors.append(
+                f"Inside PEDAGOGY, line {idx} must start with '{expected_prefix}' "
+                f"but got '{line}'"
+            )
+            continue
+        value = line[len(expected_prefix):].strip()
+        if value == "":
+            errors.append(f"Field '{field_name}' must not be empty")
+        fields[field_name] = value
+
+    return fields, errors
+
+
+def validate_pedagogy_fields(fields: Dict[str, str]) -> List[str]:
+    """
+    Validate enums and formatting of PEDAGOGY fields.
+    """
+    errors: List[str] = []
+
+    # lineage
+    lineage = fields.get("lineage")
+    if lineage not in VALID_LINEAGES:
+        errors.append(f"Invalid lineage '{lineage}'")
+
+    # phase
+    phase = fields.get("phase")
+    if phase not in VALID_PHASES:
+        errors.append(f"Invalid phase '{phase}'")
+
+    # function_id
+    func = fields.get("function_id")
+    if func not in VALID_FUNCTION_IDS:
+        errors.append(f"Invalid function_id '{func}'")
+
+    # mechanism_shape
+    mech = fields.get("mechanism_shape")
+    if mech not in VALID_MECHANISMS:
+        errors.append(f"Invalid mechanism_shape '{mech}'")
+
+    # register (intensity/intimacy/attunement)
+    reg_line = fields.get("register", "")
+    m = REGISTER_REGEX.match(reg_line)
+    if not m:
+        errors.append(
+            f"Malformed register line '{reg_line}'. "
+            "Expected: register: intensity=PR_0X, intimacy=IN_0X, attunement=AT_0X"
+        )
+    else:
+        intensity, intimacy, attunement = m.groups()
+        if intensity not in VALID_INTENSITIES:
+            errors.append(f"Invalid intensity '{intensity}'")
+        if intimacy not in VALID_INTIMACIES:
+            errors.append(f"Invalid intimacy '{intimacy}'")
+        if attunement not in VALID_ATTUNEMENTS:
+            errors.append(f"Invalid attunement '{attunement}'")
+
+    # style
+    style = fields.get("style", "")
+    if not re.match(r"^LS_0[1-9]$", style):
+        errors.append(f"Invalid style '{style}'")
+
+    # depth
+    depth = fields.get("depth", "")
+    if not re.match(r"^PD_0[1-9]$", depth):
+        errors.append(f"Invalid depth '{depth}'")
+
+    # meta_mode
+    meta_mode = fields.get("meta_mode", "")
+    if not re.match(r"^MM_0[1-9]$", meta_mode):
+        errors.append(f"Invalid meta_mode '{meta_mode}'")
+
+    # approach
+    approach = fields.get("approach")
+    if approach not in VALID_APPROACHES:
+        errors.append(f"Invalid approach '{approach}'")
+
+    # predicted_response
+    predicted = fields.get("predicted_response")
+    if predicted not in VALID_PREDICTED_RESPONSES:
+        errors.append(f"Invalid predicted_response '{predicted}'")
+
+    # student_state / behavior_tags / traps_avoided / intent: only need to be non-empty;
+    # parse_pedagogy_block already enforces that.
+
+    return errors
+
+
+def validate_assistant_message(content: str, conv_idx: int, msg_idx: int) -> List[str]:
+    """
+    Validate a single assistant message: pedagogy structure, enums, and presence of teacher text.
+    """
+    errors: List[str] = []
+
+    fields, ped_errors = parse_pedagogy_block(content)
+    for e in ped_errors:
+        errors.append(f"Conversation {conv_idx}, message {msg_idx}: {e}")
+
+    if fields and not ped_errors:
+        field_errors = validate_pedagogy_fields(fields)
+        for e in field_errors:
+            errors.append(f"Conversation {conv_idx}, message {msg_idx}: {e}")
+
+    # Ensure there's teacher text after [/PEDAGOGY]
+    try:
+        end = content.index("[/PEDAGOGY]") + len("[/PEDAGOGY]")
+        after = content[end:].strip()
+        if not after:
+            errors.append(
+                f"Conversation {conv_idx}, message {msg_idx}: "
+                "No teacher text after [/PEDAGOGY]"
+            )
+    except ValueError:
+        # Already reported missing tag.
+        pass
+
+    return errors
+
+
+# -------------------------------
+# CONVERSATION VALIDATION
+# -------------------------------
+
+def validate_conversation(conv: Dict, conv_idx: int) -> List[str]:
+    errors: List[str] = []
+
+    messages = conv.get("messages")
+    if not isinstance(messages, list) or not messages:
+        errors.append(f"Conversation {conv_idx}: 'messages' must be a non-empty list")
+        return errors
+
+    # episode_id
+    if "episode_id" not in conv:
+        errors.append(f"Conversation {conv_idx}: missing 'episode_id'")
+    elif not isinstance(conv["episode_id"], str):
+        errors.append(f"Conversation {conv_idx}: 'episode_id' must be a string")
+
+    # top-level lineage
+    if "lineage" not in conv:
+        errors.append(f"Conversation {conv_idx}: missing 'lineage'")
+    else:
+        top_lin = conv.get("lineage")
+        if top_lin not in VALID_LINEAGES:
+            errors.append(
+                f"Conversation {conv_idx}: top-level lineage '{top_lin}' "
+                f"not in {sorted(VALID_LINEAGES)}"
+            )
+
+    # First message must be system with the placeholder prompt.
+    first = messages[0]
+    if first.get("role") != "system":
+        errors.append(f"Conversation {conv_idx}: first message must have role 'system'")
+    else:
+        sys_content = first.get("content", "")
+        if sys_content != SYSTEM_PROMPT:
+            errors.append(
+                f"Conversation {conv_idx}: system prompt must be exactly "
+                f"'{SYSTEM_PROMPT}', got '{sys_content}'"
+            )
+
+    # Strict alternation: user / assistant / user / assistant / ...
+    expected = "user"
+    user_count = 0
+    assistant_count = 0
+
+    for i, msg in enumerate(messages[1:], start=1):
+        role = msg.get("role")
+        if role != expected:
+            errors.append(
+                f"Conversation {conv_idx}, message {i}: expected role '{expected}', got '{role}'"
+            )
+
+        if role == "user":
+            user_count += 1
+        elif role == "assistant":
+            assistant_count += 1
+            content = msg.get("content", "")
+            errors.extend(validate_assistant_message(content, conv_idx, i))
+
+        expected = "assistant" if expected == "user" else "user"
+
+    # At least one user+assistant pair
+    if user_count == 0 or assistant_count == 0:
+        errors.append(
+            f"Conversation {conv_idx}: must contain at least one user and one assistant message"
+        )
+
+    # Conversation must end on assistant (because generator drops orphan final user)
+    last_role = messages[-1].get("role")
+    if last_role != "assistant":
+        errors.append(
+            f"Conversation {conv_idx}: last message must be 'assistant', got '{last_role}'"
+        )
+
+    return errors
+
+
+def validate_dataset(data: List[Dict]) -> Tuple[bool, List[str]]:
+    all_errors: List[str] = []
+    total_messages = 0
+    total_assistant = 0
+
+    for idx, conv in enumerate(data):
+        errs = validate_conversation(conv, idx)
+        all_errors.extend(errs)
+        msgs = conv.get("messages", [])
+        total_messages += len(msgs)
+        total_assistant += sum(1 for m in msgs if m.get("role") == "assistant")
+
+    print("=== DATASET SUMMARY ===")
+    print(f"Conversations : {len(data)}")
+    print(f"Total messages: {total_messages}")
+    print(f"Assistant msgs: {total_assistant}")
+    print(f"Total errors  : {len(all_errors)}")
+
+    return len(all_errors) == 0, all_errors
+
+
+# -------------------------------
+# ENTRY POINT
+# -------------------------------
+
+def main() -> None:
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="Strict validator for HXRMXS training JSON."
+    )
+    parser.add_argument("input_path", help="Path to generated JSON (e.g. llm_output.json)")
+    parser.add_argument(
+        "--max-errors",
+        type=int,
+        default=50,
+        help="How many errors to print before truncating",
+    )
+
+    args = parser.parse_args()
+
+    print(f"Loading {args.input_path} ...")
+    with open(args.input_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    if not isinstance(data, list):
+        raise SystemExit("Top-level JSON must be a list of conversation objects.")
+
+    ok, errors = validate_dataset(data)
+
+    if ok:
+        print("\n✅ VALIDATION PASSED — data is ready for fine-tuning.")
+    else:
+        print("\n❌ VALIDATION FAILED — see errors below:\n")
+        for e in errors[: args.max_errors]:
+            print(" -", e)
+        if len(errors) > args.max_errors:
+            print(f" ... and {len(errors) - args.max_errors} more.")
+
+        raise SystemExit(1)
+
+
+if __name__ == "__main__":
+    main()

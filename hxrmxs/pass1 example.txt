@@ -1,0 +1,1022 @@
+
+1.1 episode:
+
+source_location": {
+"page_number": null,
+"section": "84. Your Goal is Your Guru",
+"char_offset_start": null,
+"char_offset_end": null
+}
+},
+{
+"episode_id": "i_am_that4_t41_t52_true_disciple_inner_path_madness_of_devotion",
+"source_text": "Sri Nisargadatta Maharaj, I Am That (ed. Maurice Frydman), Guru and disciple discussion following section 84.",
+"lineage": "Advaita",
+"transcript": [
+{
+"turn_index": 1,
+"speaker": "Questioner",
+"text": "I can see that I am false. Who will make me true?"
+},
+{
+"turn_index": 2,
+"speaker": "Maharaj",
+"text": "The very words you said will do it. The sentence: 'I can see that I am false' contains all you need for liberation. Ponder over it, go into it deeply, go to the root of it; it will operate. The power is in the word, not in the person."
+},
+{
+"turn_index": 3,
+"speaker": "Questioner",
+"text": "I do not grasp you fully. On one hand you say a Guru is needed; on the other -- the Guru can only give advice, but the effort is mine. Please state clearly -- can one realise the Self without a Guru, or is the finding of a true Guru essential?"
+},
+{
+"turn_index": 4,
+"speaker": "Maharaj",
+"text": "More essential is the finding of a true disciple. Believe me, a true disciple is very rare, for in no time he goes beyond the need for a Guru, by finding his own self. Do not waste your time on trying to make out whether the advice you get flows from knowledge only, or from valid experience! Just follow it faithfully. Life will bring you another Guru, if another one is needed. Or deprive you of all outer guidance and leave you to your own lights. It is very important to understand that it is the teaching that matters, not the person or the Guru. You get a letter that makes you laugh or cry. It is not the postman who does it. The Guru only tells you the good news about your real Self and shows you the way back to it. In a way the Guru is its messenger. There will be many messengers, but the message is one: be what you are. Or, you can put it differently: Until you realise yourself, you cannot know who is your real Guru. When you realise, you find that all the Gurus you had have contributed to your awakening. Your realisation is the proof that your Guru was real. Therefore, take him as he is, do what he tells you, with earnestness and zeal and trust your heart to warn you if anything goes wrong. If doubt sets in, do not fight it. Cling to what is doubtless and leave the doubtful alone."
+},
+{
+"turn_index": 5,
+"speaker": "Questioner",
+"text": "I have a Guru and I love him very much. But whether he is my true Guru I do not know."
+},
+{
+"turn_index": 6,
+"speaker": "Maharaj",
+"text": "Watch yourself. If you see yourself changing, growing, it means you have found the right man. He may be beautiful or ugly, pleasant or unpleasant, flattering you or scolding; nothing matters except the one crucial fact of inward growth. If you do not, well, he may be your friend, but not your Guru."
+},
+{
+"turn_index": 7,
+"speaker": "Questioner",
+"text": "When I meet a European with some education and talk to him about a Guru and his teachings, his reaction is: 'the man must be mad to teach such nonsense'. What am I to tell him?"
+},
+{
+"turn_index": 8,
+"speaker": "Maharaj",
+"text": "Take him to himself. Show him, how little he knows himself, how he takes the most absurd statements about himself for holy truth. He is told that he is the body, was born, will die, has parents, duties, learns to like what others like and fear what others fear. Totally a creature of heredity and society, he lives by memory and acts by habits. Ignorant of himself and his true interests, he pursues false aims and is always frustrated. His life and death are meaningless and painful, and there seems to be no way out. Then tell him, there is a way out within his easy reach, not a conversion to another set of ideas, but a liberation from all ideas and patterns of living. Do not tell him about Gurus and disciples -- this way of thinking is not for him. His is an inner path, he is moved by an inner urge and guided by an inner light. Invite him to rebel and he will respond. Do not try to impress on him that so-and-so is a realised man and can be accepted as a Guru. As long as he does not trust himself, he cannot trust another. And confidence will come with experience."
+},
+{
+"turn_index": 9,
+"speaker": "Questioner",
+"text": "How strange! I cannot imagine life without a Guru."
+},
+{
+"turn_index": 10,
+"speaker": "Maharaj",
+"text": "It is a matter of temperament. You too are right. For you, singing the praises of God is enough. You need not desire realisation or take up a sadhana. God's name is all the food you need. Live on it."
+},
+{
+"turn_index": 11,
+"speaker": "Questioner",
+"text": "This constant repetition of a few words, is it not a kind of madness?"
+},
+{
+"turn_index": 12,
+"speaker": "Maharaj",
+"text": "It is madness, but it is a deliberate madness. All repetitiveness is tamas, but repeating the name of God is sattva-tamas due to its high purpose. Because of the presence of sattva, the tamas will wear out and will take the shape of complete dispassion, detachment, relinquishment, aloofness, immutability. Tamas becomes the firm foundation on which an integrated life can be lived. The immutable neither lives nor dies; it is the timeless witness of life and death."
+}
+],
+"metadata": {
+"phases_present": ["UNMAKING", "REMAKING", "META", "SELF-MAKING"],
+"dominant_phase": "META",
+"start_state_desc": "Student despairs over his falseness and is confused about whether a Guru is essential, anxious about choosing the right one.",
+"end_state_desc": "Student is given a sharp criterion for a true disciple (who soon transcends the Guru), a practical test for a true Guru (inner growth), a way to talk to Western sceptics that bypasses Guru language, and an alternative devotional 'madness' suited to his own temperament.",
+"closure_type": "success"
+},
+"training_value": {
+"pedagogical_shape": "The teacher turns a confession of falseness into a self-operating koan, reframes the Guru question around the rarity of a true disciple, gives concrete growth-based tests for guidance, and distinguishes an inner path from devotional repetition as two valid temperaments.",
+"what_model_should_learn": [
+"How to use a user's own insight ('I can see that I am false') as the active engine of liberation, instead of offering external rescue.",
+"How to talk about Gurus in a way that focuses on teaching, growth and temperament, including showing Western rationalists an inner path without imposing Guru imagery, and validating devotional repetition as a 'deliberate madness' that exhausts inertia."
+]
+},
+"source_location": {
+"page_number": null,
+"section": "Guru and disciple discussion around 84. Your Goal is Your Guru",
+"char_offset_start": null,
+"char_offset_end": null
+}
+
+
+
+
+
+1.1 pass1 perfect:
+
+
+
+{
+  "episode_id": "i_am_that4_t41_t52_true_disciple_inner_path_madness_of_devotion",
+  "source_text": "Sri Nisargadatta Maharaj, I Am That (ed. Maurice Frydman), Guru and disciple discussion following section 84.",
+  "lineage": "Advaita",
+  "student_turns": [
+    {
+      "turn_index": 1,
+      "speaker": "Questioner",
+      "text": "I can see that I am false. Who will make me true?",
+      "observable_student_behaviors": [
+        "admits_falseness",
+        "asks_rescue_question"
+      ],
+      "behavior_tags": [
+        "seeking_rescue",
+        "confessional_posture"
+      ],
+      "inferred_state": {
+        "reading": "vulnerable_seek_for_transformation",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Questioner",
+      "text": "I do not grasp you fully. On one hand you say a Guru is needed; on the other -- the Guru can only give advice, but the effort is mine. Please state clearly -- can one realise the Self without a Guru, or is the finding of a true Guru essential?",
+      "observable_student_behaviors": [
+        "requests_clarification",
+        "poses_dilemma"
+      ],
+      "behavior_tags": [
+        "doubt_seeking_certainty",
+        "practical_uncertainty"
+      ],
+      "inferred_state": {
+        "reading": "confused_practicality",
+        "confidence": 0.85
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Questioner",
+      "text": "I have a Guru and I love him very much. But whether he is my true Guru I do not know.",
+      "observable_student_behaviors": [
+        "expresses_attachment",
+        "seeks_validation"
+      ],
+      "behavior_tags": [
+        "dependency",
+        "attachment_worry"
+      ],
+      "inferred_state": {
+        "reading": "anxious_affection",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 7,
+      "speaker": "Questioner",
+      "text": "When I meet a European with some education and talk to him about a Guru and his teachings, his reaction is: 'the man must be mad to teach such nonsense'. What am I to tell him?",
+      "observable_student_behaviors": [
+        "reports_social_objection",
+        "seeks_rebuttal_strategy"
+      ],
+      "behavior_tags": [
+        "social_embarrassment",
+        "defensive_communication"
+      ],
+      "inferred_state": {
+        "reading": "concerned_discredit",
+        "confidence": 0.8
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 9,
+      "speaker": "Questioner",
+      "text": "How strange! I cannot imagine life without a Guru.",
+      "observable_student_behaviors": [
+        "expresses_dependence",
+        "generalises_need"
+      ],
+      "behavior_tags": [
+        "attachment_anxiety",
+        "temperament_based_needs"
+      ],
+      "inferred_state": {
+        "reading": "temperamentally_attached",
+        "confidence": 0.85
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 11,
+      "speaker": "Questioner",
+      "text": "This constant repetition of a few words, is it not a kind of madness?",
+      "observable_student_behaviors": [
+        "questions_practice",
+        "seeks_rationality"
+      ],
+      "behavior_tags": [
+        "intellectual_skepticism",
+        "practical_inquiry"
+      ],
+      "inferred_state": {
+        "reading": "skeptical_curiosity",
+        "confidence": 0.85
+      },
+      "annotator_uncertainty": 0.1
+    }
+  ],
+  "teacher_turns": [
+    {
+      "turn_index": 2,
+      "speaker": "Maharaj",
+      "text": "The very words you said will do it. The sentence: 'I can see that I am false' contains all you need for liberation. Ponder over it, go into it deeply, go to the root of it; it will operate. The power is in the word, not in the person.",
+      "observable_teaching_actions": [
+        "reframes_confession_as_tool",
+        "issues_instruction_to_self_inquire"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Transforms the confession into a practical instruction and reframes agency inwardly.",
+      "function_id": "RM_04",
+      "classification_evidence": "Instruction protocol: Maharaj directs the questioner to use his own sentence as the active practice ('ponder over it...').",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "source_tracing",
+      "mechanism_comment": "Directs attention to the verbalized insight as the operative source of transformation.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 3,
+        "reaction_label": "seeks_instruction",
+        "evidence": "I do not grasp you fully. On one hand you say a Guru is needed...",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Maharaj",
+      "text": "More essential is the finding of a true disciple. Believe me, a true disciple is very rare, for in no time he goes beyond the need for a Guru, by finding his own self. Do not waste your time on trying to make out whether the advice you get flows from knowledge only, or from valid experience! Just follow it faithfully. Life will bring you another Guru, if another one is needed. Or deprive you of all outer guidance and leave you to your own lights. It is very important to understand that it is the teaching that matters, not the person or the Guru. You get a letter that makes you laugh or cry. It is not the postman who does it. The Guru only tells you the good news about your real Self and shows you the way back to it. In a way the Guru is its messenger. There will be many messengers, but the message is one: be what you are. Or, you can put it differently: Until you realise yourself, you cannot know who is your real Guru. When you realise, you find that all the Gurus you had have contributed to your awakening. Your realisation is the proof that your Guru was real. Therefore, take him as he is, do what he tells you, with earnestness and zeal and trust your heart to warn you if anything goes wrong. If doubt sets in, do not fight it. Cling to what is doubtless and leave the doubtful alone.",
+      "observable_teaching_actions": [
+        "redefines_guru_disciple",
+        "normalizes_uncertainty",
+        "gives_practical_advice"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Upgrades the frame from person-focused Guru to the primacy of teaching and the rare true disciple.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Emphasizes teaching and disciple-earnestness over personhood of Guru.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "looking_outward"
+      ],
+      "trap_notes": [
+        "Student is tempted to fixate on the external person rather than inward growth."
+      ],
+      "mechanism_shape": "ontological_frame_upgrade",
+      "mechanism_comment": "Shifts criterion from external authority to inward transformation and earnestness.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 5,
+        "reaction_label": "elaborates",
+        "evidence": "I have a Guru and I love him very much. But whether he is my true Guru I do not know.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Maharaj",
+      "text": "Watch yourself. If you see yourself changing, growing, it means you have found the right man. He may be beautiful or ugly, pleasant or unpleasant, flattering you or scolding; nothing matters except the one crucial fact of inward growth. If you do not, well, he may be your friend, but not your Guru.",
+      "observable_teaching_actions": [
+        "gives_criterion",
+        "offers_observational_test"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Provides a concrete test (inward growth) for whether someone functions as a true Guru.",
+      "function_id": "RM_01",
+      "classification_evidence": "Structural mapping: Maps 'true Guru' to observable inward growth rather than external traits.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "comparison",
+      "mechanism_comment": "Compares external appearances with the internal marker of growth.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 7,
+        "reaction_label": "seeks_instruction",
+        "evidence": "When I meet a European with some education... What am I to tell him?",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 8,
+      "speaker": "Maharaj",
+      "text": "Take him to himself. Show him, how little he knows himself, how he takes the most absurd statements about himself for holy truth. He is told that he is the body, was born, will die, has parents, duties, learns to like what others like and fear what others fear. Totally a creature of heredity and society, he lives by memory and acts by habits. Ignorant of himself and his true interests, he pursues false aims and is always frustrated. His life and death are meaningless and painful, and there seems to be no way out. Then tell him, there is a way out within his easy reach, not a conversion to another set of ideas, but a liberation from all ideas and patterns of living. Do not tell him about Gurus and disciples -- this way of thinking is not for him. His is an inner path, he is moved by an inner urge and guided by an inner light. Invite him to rebel and he will respond. Do not try to impress on him that so-and-so is a realised man and can be accepted as a Guru. As long as he does not trust himself, he cannot trust another. And confidence will come with experience.",
+      "observable_teaching_actions": [
+        "redirects_discussion_inward",
+        "differentiates_audience",
+        "gives_communication_strategy"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Provides pragmatic advice for talking to a Western skeptic and maps an 'inner path' alternative.",
+      "function_id": "RM_04",
+      "classification_evidence": "Instruction protocol + audience mapping: 'Take him to himself... Do not tell him about Gurus and disciples.'",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "semantic_fog"
+      ],
+      "trap_notes": [
+        "Risk of overwhelming the skeptical listener with dogma instead of inward pointing."
+      ],
+      "mechanism_shape": "system_dynamics",
+      "mechanism_comment": "Differentiates receptivity by temperament and suggests an inward method rather than persuasion.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 9,
+        "reaction_label": "elaborates",
+        "evidence": "How strange! I cannot imagine life without a Guru.",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 10,
+      "speaker": "Maharaj",
+      "text": "It is a matter of temperament. You too are right. For you, singing the praises of God is enough. You need not desire realisation or take up a sadhana. God's name is all the food you need. Live on it.",
+      "observable_teaching_actions": [
+        "validates_temperament",
+        "normalizes_alternative_practice"
+      ],
+      "phase": "META",
+      "phase_reason": "Normalizes different dispositions and methods, speaking about practice selection rather than a doctrinal claim.",
+      "function_id": "ME_01",
+      "classification_evidence": "Process normalization: Maharaj accepts a devotional temperament as valid practice rather than insisting on sadhana for all.",
+      "register": {
+        "intensity": "PR_01",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_02",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "none",
+      "mechanism_comment": null,
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 11,
+        "reaction_label": "confused",
+        "evidence": "This constant repetition of a few words, is it not a kind of madness?",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "META"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 12,
+      "speaker": "Maharaj",
+      "text": "It is madness, but it is a deliberate madness. All repetitiveness is tamas, but repeating the name of God is sattva-tamas due to its high purpose. Because of the presence of sattva, the tamas will wear out and will take the shape of complete dispassion, detachment, relinquishment, aloofness, immutability. Tamas becomes the firm foundation on which an integrated life can be lived. The immutable neither lives nor dies; it is the timeless witness of life and death.",
+      "observable_teaching_actions": [
+        "explains_paradox",
+        "frames_practice_transformation"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Explains how repetitive devotional practice (madness) functions and transforms inertia into dispassion, reframing the practice's dynamics.",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Distinguishes tamas vs sattva-tamas and describes the transformative trajectory of practice.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_03",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [],
+      "trap_notes": [],
+      "mechanism_shape": "system_dynamics",
+      "mechanism_comment": "Describes a transformation process where repeated devotional practice shifts temperament (tamas -> sattva influence).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "META",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    }
+  ],
+  "episode_overview": "Maharaj turns the student's confession ('I am false') into a self-operating practice, reframes the Guru question around the rarity of true disciples and inward growth, gives pragmatic advice for discussing sceptics, validates temperamentally appropriate devotional practice, and explains how repetition can transform inertia into dispassion.",
+  "episode_insights": {
+    "key_pattern": "Confession-as-practice → Reframe to disciple-criterion → Pragmatic audience differentiation → Temperament validation → Practice-transformation explanation",
+    "notes": [
+      "Turning the user's own sentence into the practice is a high-value RM_04 move (source_tracing).",
+      "Maharaj consistently privileges inward markers (growth, earnestness) over external credentials.",
+      "The 'deliberate madness' explanation is a useful template for validating non-analytical practices within an Advaitic pedagogy."
+    ]
+  }
+}
+
+
+
+
+
+
+
+
+
+1.2 episode:
+
+{
+"episode_id": "i_am_that4_t27_t40_goal_guru_deep_sleep_waking_sleep",
+"source_text": "Sri Nisargadatta Maharaj, I Am That (ed. Maurice Frydman), section 84, 'Your Goal is Your Guru'.",
+"lineage": "Advaita",
+"transcript": [
+{
+"turn_index": 1,
+"speaker": "Questioner",
+"text": "I must select my Guru rightly."
+},
+{
+"turn_index": 2,
+"speaker": "Maharaj",
+"text": "Be the right man and the right Guru will surely find you."
+},
+{
+"turn_index": 3,
+"speaker": "Questioner",
+"text": "You are not answering my question: how to find the right Guru?"
+},
+{
+"turn_index": 4,
+"speaker": "Maharaj",
+"text": "But I did answer your question. Do not look for a Guru, do not even think of one. Make your goal your Guru. After all, the Guru is but a means to an end, not the end in itself. He is not important, it is what you expect of him that matters to you. Now, what do you expect?"
+},
+{
+"turn_index": 5,
+"speaker": "Questioner",
+"text": "By his grace I shall be made happy, powerful and peaceful."
+},
+{
+"turn_index": 6,
+"speaker": "Maharaj",
+"text": "What ambitions! How can a person limited in time and space, a mere body-mind, a gasp of pain between birth and death, be happy? The very conditions of its arising make happiness impossible. Peace, power, happiness, these are never personal states, nobody can say 'my peace', 'my power' -- because 'mine' implies exclusivity, which is fragile and insecure."
+},
+{
+"turn_index": 7,
+"speaker": "Questioner",
+"text": "I know only my conditioned existence; there is nothing else."
+},
+{
+"turn_index": 8,
+"speaker": "Maharaj",
+"text": "Surely, you cannot say so. In deep sleep you are not conditioned. How ready and willing you are to go to sleep, how peaceful, free and happy you are when asleep!"
+},
+{
+"turn_index": 9,
+"speaker": "Questioner",
+"text": "I know nothing of it."
+},
+{
+"turn_index": 10,
+"speaker": "Maharaj",
+"text": "Put it negatively. When you sleep, you are not in pain, nor bound, nor restless."
+},
+{
+"turn_index": 11,
+"speaker": "Questioner",
+"text": "I see your point. While awake, I know that I am, but am not happy; in sleep I am, I am happy, but I do not know it. All I need is to know that I am free and happy."
+},
+{
+"turn_index": 12,
+"speaker": "Maharaj",
+"text": "Quite so. Now, go within, into a state which you may compare to a state of waking sleep, in which you are aware of yourself, but not of the world. In that state you will know, without the least trace of doubt, that at the root of your being you are free and happy. The only trouble is that you are addicted to experience and you cherish your memories. In reality it is the other way round; what is remembered is never real; the real is now."
+},
+{
+"turn_index": 13,
+"speaker": "Questioner",
+"text": "All this I grasp verbally, but it does not become a part of myself. It remains as a picture in my mind to be looked at. Is it not the task of the Guru to give life to the picture?"
+},
+{
+"turn_index": 14,
+"speaker": "Maharaj",
+"text": "Again, it is the other way round. The picture is alive; dead is the mind. As the mind is made of words and images, so is every reflection in the mind. It covers up reality with verbalisation and then complains. You say a Guru is needed, to do miracles with you. You are playing with words only. The Guru and the disciple are one single thing, like the candle and its flame. Unless the disciple is earnest, he cannot be called a disciple. Unless a Guru is all love and self-giving, he cannot be called a Guru. Only reality begets reality, not the false."
+}
+],
+"metadata": {
+"phases_present": ["UNMAKING", "REMAKING", "META"],
+"dominant_phase": "REMAKING",
+"start_state_desc": "Student feels he must choose the right Guru to gain happiness, power and peace, and believes only in his own conditioned existence.",
+"end_state_desc": "Student is turned away from Guru-shopping toward making his goal the Guru, is introduced to deep sleep and 'waking sleep' as pointers to innate freedom and happiness, and is told that the Guru-disciple relation is one living fact that depends on earnestness and reality, not on magical transmission.",
+"closure_type": "success"
+},
+"training_value": {
+"pedagogical_shape": "The teacher redirects the student's search for an outer Guru into the inner goal itself, then uses the contrast between waking and deep sleep to introduce a 'waking sleep' state of self-aware happiness, while demystifying the Guru's role as giving life to a picture.",
+"what_model_should_learn": [
+"How to shift a user's dependence on an idealised Guru toward responsibility for their own goal and state, using experiential contrasts like waking, sleep and 'waking sleep' rather than abstract doctrines.",
+"How to explain that the obstacle is addiction to experience and memory, and to frame the Guru-disciple relation as a single living fact dependent on earnestness and self-giving, not hierarchical power games."
+]
+},
+"source_location": {
+"page_number": null,
+"section": "84. Your Goal is Your Guru",
+"char_offset_start": null,
+"char_offset_end": null
+}
+},
+
+
+1.2 pass1 perfect: 
+
+{
+  "episode_id": "i_am_that4_t27_t40_goal_guru_deep_sleep_waking_sleep",
+  "source_text": "Sri Nisargadatta Maharaj, I Am That (ed. Maurice Frydman), section 84, 'Your Goal is Your Guru'.",
+  "lineage": "Advaita",
+  "student_turns": [
+    {
+      "turn_index": 1,
+      "speaker": "Questioner",
+      "text": "I must select my Guru rightly.",
+      "observable_student_behaviors": [
+        "states_imperative",
+        "assumes_agency"
+      ],
+      "behavior_tags": [
+        "shopping_mindset",
+        "external_locus_of_control"
+      ],
+      "inferred_state": {
+        "reading": "anxious_responsibility",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Questioner",
+      "text": "You are not answering my question: how to find the right Guru?",
+      "observable_student_behaviors": [
+        "pushes_back",
+        "reiterates_question"
+      ],
+      "behavior_tags": [
+        "pragmatic_frustration",
+        "demand_for_utility"
+      ],
+      "inferred_state": {
+        "reading": "frustrated_insistence",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Questioner",
+      "text": "By his grace I shall be made happy, powerful and peaceful.",
+      "observable_student_behaviors": [
+        "lists_desires",
+        "answers_question"
+      ],
+      "behavior_tags": [
+        "magical_thinking",
+        "dependency"
+      ],
+      "inferred_state": {
+        "reading": "childlike_expectation",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.0
+    },
+    {
+      "turn_index": 7,
+      "speaker": "Questioner",
+      "text": "I know only my conditioned existence; there is nothing else.",
+      "observable_student_behaviors": [
+        "states_limitation",
+        "defends_position"
+      ],
+      "behavior_tags": [
+        "identification_with_body_mind",
+        "resigned_realism"
+      ],
+      "inferred_state": {
+        "reading": "defensive_pessimism",
+        "confidence": 0.85
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 9,
+      "speaker": "Questioner",
+      "text": "I know nothing of it.",
+      "observable_student_behaviors": [
+        "denies_experience",
+        "states_ignorance"
+      ],
+      "behavior_tags": [
+        "blind_spot",
+        "literalism"
+      ],
+      "inferred_state": {
+        "reading": "honest_confusion",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 11,
+      "speaker": "Questioner",
+      "text": "I see your point. While awake, I know that I am, but am not happy; in sleep I am, I am happy, but I do not know it. All I need is to know that I am free and happy.",
+      "observable_student_behaviors": [
+        "synthesizes_logic",
+        "refines_goal"
+      ],
+      "behavior_tags": [
+        "intellectual_integration",
+        "bargaining"
+      ],
+      "inferred_state": {
+        "reading": "conceptual_clarity_without_realization",
+        "confidence": 0.9
+      },
+      "annotator_uncertainty": 0.1
+    },
+    {
+      "turn_index": 13,
+      "speaker": "Questioner",
+      "text": "All this I grasp verbally, but it does not become a part of myself. It remains as a picture in my mind to be looked at. Is it not the task of the Guru to give life to the picture?",
+      "observable_student_behaviors": [
+        "admits_superficiality",
+        "externalizes_responsibility"
+      ],
+      "behavior_tags": [
+        "dependency_loop",
+        "spiritual_materialism"
+      ],
+      "inferred_state": {
+        "reading": "vulnerable_helplessness",
+        "confidence": 0.95
+      },
+      "annotator_uncertainty": 0.1
+    }
+  ],
+  "teacher_turns": [
+    {
+      "turn_index": 2,
+      "speaker": "Maharaj",
+      "text": "Be the right man and the right Guru will surely find you.",
+      "observable_teaching_actions": [
+        "reverses_agency",
+        "shifts_focus_to_self"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Rejects the premise that the student must search, reversing the vector of agency.",
+      "function_id": "UM_06",
+      "classification_evidence": "Constraint removal: The hidden constraint is 'I must search'; Maharaj removes it by placing the condition on 'being'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_01",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "problem_solving_stance"
+      ],
+      "trap_notes": [
+        "Student thinks finding a guru is a task to be solved."
+      ],
+      "mechanism_shape": "constraint_collapse",
+      "mechanism_comment": "Reverses the search vector (finding -> being found).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 3,
+        "reaction_label": "pushes_back",
+        "evidence": "You are not answering my question",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Maharaj",
+      "text": "But I did answer your question. Do not look for a Guru, do not even think of one. Make your goal your Guru. After all, the Guru is but a means to an end, not the end in itself. He is not important, it is what you expect of him that matters to you. Now, what do you expect?",
+      "observable_teaching_actions": [
+        "redefines_guru",
+        "internalizes_goal",
+        "interrogates_desire"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Constructs a new model where the internal 'Goal' takes the place of the external 'Guru'.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Shifts importance from the 'person' of the Guru to the 'goal' of the student.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "looking_outward",
+        "symbolic_literalism"
+      ],
+      "trap_notes": [
+        "Student is fixated on the symbol (Guru) rather than the function."
+      ],
+      "mechanism_shape": "ontological_frame_upgrade",
+      "mechanism_comment": "Replaces 'Guru as Person' with 'Goal as Guru'.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 5,
+        "reaction_label": "elaborates",
+        "evidence": "By his grace I shall be made happy...",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Maharaj",
+      "text": "What ambitions! How can a person limited in time and space, a mere body-mind, a gasp of pain between birth and death, be happy? The very conditions of its arising make happiness impossible. Peace, power, happiness, these are never personal states, nobody can say 'my peace', 'my power' -- because 'mine' implies exclusivity, which is fragile and insecure.",
+      "observable_teaching_actions": [
+        "mocks_ambition",
+        "defines_structural_impossibility",
+        "displaces_ego"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Attacks the entity (the 'person') that claims to want happiness.",
+      "function_id": "UM_05",
+      "classification_evidence": "Ego displacement: Shows that the 'person' is structurally incapable of holding the desired state.",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_01"
+      },
+      "trap_ids": [
+        "ego_defense",
+        "category_conflation"
+      ],
+      "trap_notes": [
+        "Conflation of limited vehicle (person) with unlimited state (happiness)."
+      ],
+      "mechanism_shape": "constraint_collapse",
+      "mechanism_comment": "Shows the container cannot hold the content.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 7,
+        "reaction_label": "defensive",
+        "evidence": "I know only my conditioned existence",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 8,
+      "speaker": "Maharaj",
+      "text": "Surely, you cannot say so. In deep sleep you are not conditioned. How ready and willing you are to go to sleep, how peaceful, free and happy you are when asleep!",
+      "observable_teaching_actions": [
+        "challenges_claim",
+        "cites_sleep_experience"
+      ],
+      "phase": "UNMAKING",
+      "phase_reason": "Uses deep sleep to contradict the student's claim that they are only conditioned.",
+      "function_id": "UM_02",
+      "classification_evidence": "Internal contradiction: Student claims 'only conditioned', but their own sleep experience proves 'unconditioned'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_02",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_02",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "false_paradox"
+      ],
+      "trap_notes": [
+        "Student believes their waking limitations are absolute."
+      ],
+      "mechanism_shape": "embodied_contradiction",
+      "mechanism_comment": "Uses the body's sleep state to refute the mind's self-concept.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 9,
+        "reaction_label": "confused",
+        "evidence": "I know nothing of it.",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "UNMAKING"
+        }
+      },
+      "local_move": {
+        "move_id": "sleep_pointer",
+        "shape": "deep_sleep_contrast",
+        "canonical_candidate": false
+      }
+    },
+    {
+      "turn_index": 10,
+      "speaker": "Maharaj",
+      "text": "Put it negatively. When you sleep, you are not in pain, nor bound, nor restless.",
+      "observable_teaching_actions": [
+        "reframes_definition",
+        "uses_via_negativa"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Builds a conceptual model of happiness as the 'absence' of suffering.",
+      "function_id": "RM_03",
+      "classification_evidence": "Conceptual distinction: Defining happiness via negation to bypass the student's need for positive content.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_01",
+        "linguistic_style": "LS_02",
+        "phenomenological_depth": "PD_01",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "semantic_fog"
+      ],
+      "trap_notes": [
+        "Student unable to conceive of happiness without object."
+      ],
+      "mechanism_shape": "comparison",
+      "mechanism_comment": "Comparing 'state of pain' vs 'absence of pain'.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 11,
+        "reaction_label": "conceptual_concession",
+        "evidence": "I see your point... All I need is to know...",
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "UNMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    },
+    {
+      "turn_index": 12,
+      "speaker": "Maharaj",
+      "text": "Quite so. Now, go within, into a state which you may compare to a state of waking sleep, in which you are aware of yourself, but not of the world. In that state you will know, without the least trace of doubt, that at the root of your being you are free and happy. The only trouble is that you are addicted to experience and you cherish your memories. In reality it is the other way round; what is remembered is never real; the real is now.",
+      "observable_teaching_actions": [
+        "gives_instruction",
+        "diagnoses_addiction",
+        "reverses_ontology"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Provides a specific practice (waking sleep) and a diagnostic model (addiction to experience).",
+      "function_id": "RM_04",
+      "classification_evidence": "Instruction protocol: 'go within, into a state... waking sleep'.",
+      "register": {
+        "intensity": "PR_02",
+        "intimacy": "IN_03",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_02"
+      },
+      "trap_ids": [
+        "identification_with_content",
+        "reification_of_mind"
+      ],
+      "trap_notes": [
+        "Addicted to experience/memory."
+      ],
+      "mechanism_shape": "subject_object_inversion",
+      "mechanism_comment": "Flips the priority from 'memory/experience' (dead) to 'now' (real/alive).",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": 13,
+        "reaction_label": "yes_but_feeling",
+        "evidence": "All this I grasp verbally... give life to the picture?",
+        "outcome_label": "partial_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": {
+        "move_id": "waking_sleep",
+        "shape": "conscious_sleep_instruction",
+        "canonical_candidate": false
+      }
+    },
+    {
+      "turn_index": 14,
+      "speaker": "Maharaj",
+      "text": "Again, it is the other way round. The picture is alive; dead is the mind. As the mind is made of words and images, so is every reflection in the mind. It covers up reality with verbalisation and then complains. You say a Guru is needed, to do miracles with you. You are playing with words only. The Guru and the disciple are one single thing, like the candle and its flame. Unless the disciple is earnest, he cannot be called a disciple. Unless a Guru is all love and self-giving, he cannot be called a Guru. Only reality begets reality, not the false.",
+      "observable_teaching_actions": [
+        "reverses_causality",
+        "collapses_duality",
+        "defines_earnestness"
+      ],
+      "phase": "REMAKING",
+      "phase_reason": "Re-defines the Guru-Disciple relationship as a non-dual unity, replacing the transactional model.",
+      "function_id": "RM_05",
+      "classification_evidence": "Frame upgrade: Replaces dualistic transaction with non-dual unity ('one single thing').",
+      "register": {
+        "intensity": "PR_03",
+        "intimacy": "IN_04",
+        "linguistic_style": "LS_03",
+        "phenomenological_depth": "PD_04",
+        "meta_mode": "MM_01",
+        "attunement": "AT_03"
+      },
+      "trap_ids": [
+        "looking_outward",
+        "spiritual_superego"
+      ],
+      "trap_notes": [
+        "Student wants a miracle from outside; teacher points to internal reality."
+      ],
+      "mechanism_shape": "ontological_frame_upgrade",
+      "mechanism_comment": "Collapses the separation between agent (Guru) and patient (Disciple) into a single flame.",
+      "bridge": null,
+      "outcome": {
+        "student_turn_index": null,
+        "reaction_label": "episode_ends",
+        "evidence": null,
+        "outcome_label": "clean_success",
+        "phase_shift": {
+          "from": "REMAKING",
+          "to": "REMAKING"
+        }
+      },
+      "local_move": null
+    }
+  ],
+  "episode_overview": "Maharaj systematically dismantles the student's external search for a Guru, first by reversing agency ('Goal is Guru'), then by using the 'deep sleep' argument to disprove the student's claim of being wholly conditioned. The dialogue pivots to an instruction for 'waking sleep' and concludes by collapsing the Guru-disciple duality into a single living reality.",
+  "episode_insights": {
+    "key_pattern": "Constraint Removal (Agency) → Contradiction Exposure (Sleep) → Conceptual Distinction (Negation) → Instruction (Waking Sleep) → Frame Upgrade (Non-dual Guru)",
+    "notes": [
+      "Maharaj uses 'deep sleep' as a weaponized counter-example (UM_02) to break the 'I am conditioned' story.",
+      "The 'waking sleep' pointer serves as a bridge between the unconscious peace of sleep and the conscious turmoil of waking.",
+      "Strong pivot from 'finding a Guru' (external) to 'earnestness' (internal condition)."
+    ]
+  }
+}

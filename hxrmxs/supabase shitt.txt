@@ -1,0 +1,3 @@
+sb_secret_xxshxWevGE9ouDXX2LnR-Q_XDYfFaBj
+
+supabase secret

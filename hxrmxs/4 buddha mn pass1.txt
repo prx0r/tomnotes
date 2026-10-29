@@ -1,0 +1,5189 @@
+{
+  "episodes": [
+    {
+      "episode_id": "mn72_t01_t06_eternalism_annihilationism_trap",
+      "source_text": "MN 72 — Aggi-Vacchagotta",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Vacchagotta",
+          "text": "Master Gotama, does the Tathāgata exist after death?",
+          "observable_student_behaviors": [
+            "asks_metaphysical_question",
+            "seeks_binary_confirmation"
+          ],
+          "behavior_tags": [
+            "eternalism_trap",
+            "metaphysical_speculation"
+          ],
+          "inferred_state": {
+            "reading": "seeking_conceptual_certainty",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Vacchagotta",
+          "text": "Then, Master Gotama, does the Tathāgata not exist after death?",
+          "observable_student_behaviors": [
+            "proposes_opposite",
+            "seeks_binary_confirmation"
+          ],
+          "behavior_tags": [
+            "annihilationism_trap",
+            "binary_logic"
+          ],
+          "inferred_state": {
+            "reading": "systematic_elimination",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Vacchagotta",
+          "text": "Then is it that the Tathāgata both exists and does not exist after death?",
+          "observable_student_behaviors": [
+            "proposes_synthesis",
+            "exhausts_logic_tree"
+          ],
+          "behavior_tags": [
+            "dialectic_grasping",
+            "conceptual_desperation"
+          ],
+          "inferred_state": {
+            "reading": "logical_exhaustion",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.1
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "The Buddha",
+          "text": "Vaccha, that does not apply.",
+          "observable_teaching_actions": [
+            "rejects_premise",
+            "refuses_binary"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "The teacher refuses to engage with the category of 'existence' as a valid predicate for the Tathagata.",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal: The hidden assumption is that the Tathagata is an entity subject to existence/non-existence; the Buddha removes this constraint by declaring it inapplicable.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "category_conflation",
+            "false_paradox"
+          ],
+          "trap_notes": [
+            "Student assumes logic applies to the post-death state of a Tathagata."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapses the logical space in which the question is asked.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "elaborates",
+            "evidence": "Then, Master Gotama, does the Tathāgata not exist...",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "The Buddha",
+          "text": "Vaccha, that does not apply.",
+          "observable_teaching_actions": [
+            "rejects_premise",
+            "maintains_negation"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Maintains the rejection of the frame despite the student flipping the binary.",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal: Continues to reject the applicability of the 'existence' predicate.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "false_paradox"
+          ],
+          "trap_notes": [
+            "Student thinks the opposite of 'exists' must be true."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 5,
+            "reaction_label": "elaborates",
+            "evidence": "Then is it that the Tathāgata both exists and does not exist...",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 6,
+          "speaker": "The Buddha",
+          "text": "Vaccha, that does not apply.",
+          "observable_teaching_actions": [
+            "rejects_premise",
+            "finalizes_negation"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Final rejection of the dialectic synthesis, completing the tetralemma negation.",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal: Rejects the synthesis frame as equally inapplicable.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "conceptual_reification"
+          ],
+          "trap_notes": [
+            "Student attempts to reify a paradox to save the concept."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Total collapse of the logical quadrant (tetralemma).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Vacchagotta attempts to trap the Buddha in a logical tetralemma regarding the existence of the Tathagata after death. The Buddha systematically rejects every permutation of the question using the phrase 'that does not apply'.",
+      "episode_insights": {
+        "key_pattern": "Constraint Removal (Repeated Rejection of Frame)",
+        "notes": [
+          "Demonstrates the 'Not Applicable' move (UM_06) applied relentlessly to all logical options.",
+          "Shows that Unmaking can be done by simple refusal to inhabit the user's ontology."
+        ]
+      }
+    },
+    {
+      "episode_id": "mn72_t07_t14_fire_simile",
+      "source_text": "MN 72 — Aggi-Vacchagotta",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Vacchagotta",
+          "text": "But Master Gotama, when a fire goes out, is it correct to say that the fire has gone east, west, north, or south?",
+          "observable_student_behaviors": [
+            "uses_analogy",
+            "tests_logic"
+          ],
+          "behavior_tags": [
+            "spatial_thinking",
+            "concrete_metaphor"
+          ],
+          "inferred_state": {
+            "reading": "sincere_confusion",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Vacchagotta",
+          "text": "Then how should I understand the disappearance of the fire, Master Gotama?",
+          "observable_student_behaviors": [
+            "admits_ignorance",
+            "requests_model"
+          ],
+          "behavior_tags": [
+            "receptive_inquiry",
+            "model_seeking"
+          ],
+          "inferred_state": {
+            "reading": "open_receptivity",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "The Buddha",
+          "text": "Vaccha, the question does not apply. The fire depended on fuel. When that fuel is used up, it is said to be 'out' through lack of fuel.",
+          "observable_teaching_actions": [
+            "accepts_analogy",
+            "redefines_process"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Uses the student's fire analogy to build a correct causal model (dependency on fuel) rather than a spatial model.",
+          "function_id": "RM_01",
+          "classification_evidence": "Analogy scaffolding: Uses the fire metaphor to explain cessation via fuel exhaustion.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "category_conflation"
+          ],
+          "trap_notes": [
+            "Student conflates state-change (extinction) with spatial movement."
+          ],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Maps 'extinction' to 'exhaustion of fuel' instead of 'movement'.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "seeks_instruction",
+            "evidence": "Then how should I understand the disappearance...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "The Buddha",
+          "text": "In the same way, Vaccha, all terms for the Tathāgata after death do not apply. Freed from reckoning by form, feeling, perception, fabrications, or consciousness, he is deep, immeasurable, unfathomable — like the ocean.",
+          "observable_teaching_actions": [
+            "maps_analogy_to_target",
+            "introduces_sublime_frame"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Upgrades the ontology of the Tathagata from a 'reckonable entity' to an 'immeasurable process' using the ocean analogy.",
+          "function_id": "RM_05",
+          "classification_evidence": "Frame upgrade: Shifts from 'reckoning by form' (countable) to 'unfathomable' (immeasurable).",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "symbolic_literalism"
+          ],
+          "trap_notes": [],
+          "mechanism_shape": "ontological_frame_upgrade",
+          "mechanism_comment": "Replaces the finite entity model with an infinite/unfathomable model.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Vacchagotta tries to understand cessation using a spatial metaphor (fire going North). The Buddha corrects the metaphor to a causal one (fuel exhaustion) and maps this to the Tathagata being freed from the 'fuel' of the aggregates.",
+      "episode_insights": {
+        "key_pattern": "Analogy Scaffolding → Ontological Frame Upgrade",
+        "notes": [
+          "The teacher accepts the student's domain (fire) but corrects the mechanics within it (direction -> fuel).",
+          "Ends with a sublime re-framing (ocean) to replace the void/annihilation fear."
+        ]
+      }
+    },
+    {
+      "episode_id": "mn72_t15_t20_who_is_asking_pivot",
+      "source_text": "MN 72 — Aggi-Vacchagotta",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Vacchagotta",
+          "text": "Then, Master Gotama, is there a self?",
+          "observable_student_behaviors": [
+            "asks_binary_question",
+            "seeks_ontology"
+          ],
+          "behavior_tags": [
+            "essentialism",
+            "metaphysical_anxiety"
+          ],
+          "inferred_state": {
+            "reading": "seeking_foundation",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Vacchagotta",
+          "text": "Then, Master Gotama, is there no self?",
+          "observable_student_behaviors": [
+            "proposes_negation",
+            "seeks_binary_confirmation"
+          ],
+          "behavior_tags": [
+            "nihilism_trap",
+            "binary_oscillation"
+          ],
+          "inferred_state": {
+            "reading": "anxious_elimination",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "The Buddha",
+          "text": "Vaccha, if I were to say 'there is a self,' you would be aligned with the eternalists.",
+          "observable_teaching_actions": [
+            "explains_consequence",
+            "refuses_answer"
+          ],
+          "phase": "META",
+          "phase_reason": "The teacher explains the pedagogical consequence of answering 'yes' (alignment with wrong view) rather than answering the content.",
+          "function_id": "ME_03",
+          "classification_evidence": "Method explanation: Explaining why the answer is withheld based on the student's likely alignment.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "false_paradox"
+          ],
+          "trap_notes": [
+            "Student is stuck in the existence/non-existence binary."
+          ],
+          "mechanism_shape": "system_dynamics",
+          "mechanism_comment": "Shows the systemic consequence of the answer (falling into eternalism).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "elaborates",
+            "evidence": "Then, Master Gotama, is there no self?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "The Buddha",
+          "text": "If I were to say 'there is no self,' you would fall into confusion: 'Formerly I had a self; now I have no self at all.'",
+          "observable_teaching_actions": [
+            "predicts_confusion",
+            "protects_student"
+          ],
+          "phase": "META",
+          "phase_reason": "Explains that the negative answer is withheld to prevent student confusion/despair.",
+          "function_id": "ME_03",
+          "classification_evidence": "Method explanation: justifying the silence by predicting the student's psychological reaction.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_04",
+            "phenomenological_depth": "PD_03",
+            "meta_mode": "MM_02",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "answer_hunting"
+          ],
+          "trap_notes": [
+            "Student wants an answer that will actually harm their understanding."
+          ],
+          "mechanism_shape": "feedback",
+          "mechanism_comment": "Predicting the feedback loop of confusion ('Formerly I had...').",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "The Buddha",
+          "text": "Vaccha, this question is not answered because you are not yet ready for the grasping to be stilled.",
+          "observable_teaching_actions": [
+            "diagnoses_unreadiness",
+            "closes_inquiry"
+          ],
+          "phase": "META",
+          "phase_reason": "Explicitly names the student's lack of readiness as the reason for silence.",
+          "function_id": "ME_01",
+          "classification_evidence": "Process normalization/discipline: 'You are not yet ready' frames the silence as a pedagogical necessity.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Vacchagotta asks the classic binary question 'Is there a self / no self?'. The Buddha refuses to answer both, explaining in Meta mode that one answer leads to Eternalism and the other leads to confusion and Annihilationism.",
+      "episode_insights": {
+        "key_pattern": "Method Explanation (Refusal to Answer) → Consequence Mapping",
+        "notes": [
+          "The Buddha prioritizes the student's psychological safety (avoiding confusion) over metaphysical correctness.",
+          "Shows that 'no self' is not always the correct teaching if the student is prone to annihilationism."
+        ]
+      }
+    },
+    {
+      "episode_id": "mn72_t21_t26_departure_nonanswer",
+      "source_text": "MN 72 — Aggi-Vacchagotta",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Vacchagotta",
+          "text": "Then why, Master Gotama, do you not declare these things plainly?",
+          "observable_student_behaviors": [
+            "expresses_frustration",
+            "demands_clarity"
+          ],
+          "behavior_tags": [
+            "frustrated_seeking",
+            "expectation_of_dogma"
+          ],
+          "inferred_state": {
+            "reading": "intellectual_impatience",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Vacchagotta",
+          "text": "So Master Gotama leaves me uncertain and without ground.",
+          "observable_student_behaviors": [
+            "admits_uncertainty",
+            "complains_of_groundlessness"
+          ],
+          "behavior_tags": [
+            "loss_of_footing",
+            "existential_discomfort"
+          ],
+          "inferred_state": {
+            "reading": "destabilized_vulnerability",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Vacchagotta",
+          "text": "Then I will consider this further, Master Gotama.",
+          "observable_student_behaviors": [
+            "withdraws_politely",
+            "commits_to_reflection"
+          ],
+          "behavior_tags": [
+            "contemplative_retreat",
+            "deescalation"
+          ],
+          "inferred_state": {
+            "reading": "pensive_withdrawal",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "The Buddha",
+          "text": "Vaccha, if I were to answer in your terms, it would not lead to dispassion, to peace, to cessation, to direct knowledge, to awakening.",
+          "observable_teaching_actions": [
+            "explains_teleology",
+            "rejects_terms"
+          ],
+          "phase": "META",
+          "phase_reason": "Explains that the method is governed by the goal (dispassion), not by the student's desire for answers.",
+          "function_id": "ME_03",
+          "classification_evidence": "Method explanation: 'If I answered in your terms... it would not lead to X'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "answer_hunting"
+          ],
+          "trap_notes": [
+            "Student wants answers for comfort; teacher prioritizes awakening."
+          ],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Links 'answering in your terms' to 'failure to awaken'.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "elaborates",
+            "evidence": "So Master Gotama leaves me uncertain and without ground.",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "The Buddha",
+          "text": "Vaccha, it is precisely your ground that must be seen as groundless.",
+          "observable_teaching_actions": [
+            "reframes_distress",
+            "points_to_unmaking"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Turns the student's complaint (no ground) into the central insight (groundlessness).",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement / Constraint removal: The 'ground' the student craves is identified as the illusion to be removed.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "ego_defense"
+          ],
+          "trap_notes": [
+            "Student defends their need for security."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapses the requirement for 'ground'.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 5,
+            "reaction_label": "withdraws",
+            "evidence": "Then I will consider this further...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Vacchagotta complains that the Buddha's non-answers leave him 'without ground'. The Buddha pivots this complaint into a profound instruction, stating that the ground itself must be seen as groundless.",
+      "episode_insights": {
+        "key_pattern": "Method Explanation → Aporia Validation (Groundlessness)",
+        "notes": [
+          "The pivot from 'you are confusing me' to 'confusion/groundlessness is the point' is a classic Unmaking move.",
+          "The interaction ends in a respectful withdrawal rather than a forced conclusion."
+        ]
+      }
+    },
+    {
+      "episode_id": "ud1.10_t01_t04_direct_pointing_seen_only",
+      "source_text": "Ud 1.10 Bāhiya Sutta (Thanissaro Bhikkhu translation)",
+      "lineage": "Buddhist",
+      "student_turns": [],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "THE BUDDHA",
+          "text": "In the seen will be only the seen; in the heard will be only the heard; in the sensed will be only the sensed; in the cognized will be only the cognized.",
+          "observable_teaching_actions": [
+            "gives_instruction",
+            "defines_perception_limit"
+          ],
+          "phase": "SELF-MAKING",
+          "phase_reason": "Direct pointing to immediate sensory experience without conceptual overlay.",
+          "function_id": "SM_01",
+          "classification_evidence": "Direct seeing: Pointing to the raw data of experience ('only the seen').",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapses the 'seer' and 'seen' into just 'the seen'.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "accepts_cleanly",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "SELF-MAKING",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 2,
+          "speaker": "THE BUDDHA",
+          "text": "When for you there will be only the seen in the seen, only the heard in the heard, only the sensed in the sensed, only the cognized in the cognized, then there is no you in connection with that.",
+          "observable_teaching_actions": [
+            "identifies_self_absence",
+            "links_perception_to_no_self"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Explains that pure perception results in the absence of the 'you'.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: 'There is no you in connection with that'.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "ego_defense"
+          ],
+          "trap_notes": [
+            "Anticipates the student looking for themselves in the experience."
+          ],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "If pure perception -> then no 'you'.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "accepts_cleanly",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "SELF-MAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "THE BUDDHA",
+          "text": "When there is no you in connection with that, there is no you there. When there is no you there, you are neither here nor yonder nor between the two. This, just this, is the end of stress.",
+          "observable_teaching_actions": [
+            "collapses_location",
+            "declares_liberation"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Reframes the 'end of stress' as the cessation of locality/identity.",
+          "function_id": "RM_05",
+          "classification_evidence": "Frame upgrade: Redefines liberation not as a place but as the absence of 'here/yonder'.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapses spatial location ('here/yonder').",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Buddha gives Bahiya the famous 'in the seen, only the seen' instruction, systematically stripping away the 'you' that connects to experience, leading to the end of stress.",
+      "episode_insights": {
+        "key_pattern": "Direct Seeing Instruction → Ego Displacement → Spatial Collapse",
+        "notes": [
+          "Rapid-fire delivery of a high-level non-dual instruction.",
+          "Uses a recursive logic: if only seen -> no you -> no here/there -> end of stress."
+        ]
+      }
+    },
+    {
+      "episode_id": "mn140_t08_t15_elements_deconstruction_not_self",
+      "source_text": "MN 140 Dhātu-vibhaṅga Sutta (Bhikkhu Sujato translation)",
+      "lineage": "Buddhist",
+      "student_turns": [],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "THE BUDDHA",
+          "text": "A person has six properties: the earth property, the liquid property, the fire property, the wind property, the space property, and the consciousness property.",
+          "observable_teaching_actions": [
+            "defines_components",
+            "sets_framework"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Establishes a structural model (six properties) for the analysis of the person.",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Decomposing the 'person' into six elemental properties.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "accepts_cleanly",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 2,
+          "speaker": "THE BUDDHA",
+          "text": "And what is the earth property? Anything internal, within oneself, that's hard, solid, & sustained: head-hairs, body-hairs, nails, teeth, skin, flesh, tendons, bones… this is called the internal earth property.",
+          "observable_teaching_actions": [
+            "details_components",
+            "grounds_abstraction"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Fills the model with concrete biological details.",
+          "function_id": "RM_02",
+          "classification_evidence": "Example instantiation: Listing concrete body parts to define 'earth property'.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_02",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "abstract_to_concrete_check",
+          "mechanism_comment": "Maps abstract 'earth' to concrete 'bones/teeth'.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "accepts_cleanly",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "THE BUDDHA",
+          "text": "Now both the internal earth property and the external earth property are simply earth property. And that should be seen as it actually is present with right discernment: 'This is not mine, this I am not, this is not my self.'",
+          "observable_teaching_actions": [
+            "unifies_internal_external",
+            "issues_not_self_instruction"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Directs the student to dis-identify with the body parts via the 'not mine' formula.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: 'This is not mine, this I am not'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_03",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "identification_with_content"
+          ],
+          "trap_notes": [
+            "Student naturally identifies with the body."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Removes the 'mine' label from the physical object.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "accepts_cleanly",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "THE BUDDHA",
+          "text": "When one sees it thus as it actually is present with right discernment, one becomes disenchanted with the earth property and makes the earth property fade from the mind.",
+          "observable_teaching_actions": [
+            "describes_result",
+            "predicts_disenchantment"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Describes the causal result of the practice (disenchantment and fading).",
+          "function_id": "RM_02",
+          "classification_evidence": "Causal chain mapping: Seeing -> Disenchantment -> Fading.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_03",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Links insight to emotional/cognitive release.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Buddha breaks down the 'person' into elemental properties (Earth, etc.), forces a confrontation with the physical reality of the body, and issues the instruction to see them as 'not mine', leading to disenchantment.",
+      "episode_insights": {
+        "key_pattern": "Structural Decomposition (Elements) → Concrete Grounding → Not-Self Instruction",
+        "notes": [
+          "Classic analytic reductionism used for unmaking identity.",
+          "The move from 'bones/flesh' (concrete) to 'not mine' (ontological) is the key pivot."
+        ]
+      }
+    },
+    {
+      "episode_id": "mn35_t01_t05_saccaka_threat",
+      "source_text": "MN 35 — Cula-Saccaka",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Saccaka",
+          "text": "I will question the ascetic Gotama. If he answers me well, so much the better. If he does not, I will shake him, agitate him, pull him about, as a strong man might shake a feeble goat!",
+          "observable_student_behaviors": [
+            "threatens_teacher",
+            "boasts_strength"
+          ],
+          "behavior_tags": [
+            "intellectual_arrogance",
+            "aggression",
+            "debate_posturing"
+          ],
+          "inferred_state": {
+            "reading": "hostile_confidence",
+            "confidence": 1.0
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Saccaka",
+          "text": "Form, Master Gotama, is the self. Feeling is the self. Perception is the self. Fabrications are the self. Consciousness is the self.",
+          "observable_student_behaviors": [
+            "states_doctrine",
+            "asserts_identity"
+          ],
+          "behavior_tags": [
+            "eternalism",
+            "identification_with_aggregates"
+          ],
+          "inferred_state": {
+            "reading": "doctrinal_certainty",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Saccaka",
+          "text": "Exactly so, Master Gotama.",
+          "observable_student_behaviors": [
+            "confirms_position",
+            "doubles_down"
+          ],
+          "behavior_tags": [
+            "commitment_to_view"
+          ],
+          "inferred_state": {
+            "reading": "firm_conviction",
+            "confidence": 1.0
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "The Buddha",
+          "text": "But what is your doctrine, Aggivessana? What is it that you hold?",
+          "observable_teaching_actions": [
+            "ignores_threat",
+            "requests_definition"
+          ],
+          "phase": "META",
+          "phase_reason": "Refuses to engage with the physical threat/posturing and enforces a dialectic protocol (state your view).",
+          "function_id": "ME_01",
+          "classification_evidence": "Process discipline: Ignoring the emotional/physical threat to focus on the argument.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [
+            "Teacher refuses to step into the 'fight' trap."
+          ],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Deflection of aggression via procedural questioning.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "elaborates",
+            "evidence": "Form, Master Gotama, is the self...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "The Buddha",
+          "text": "Do you say, Aggivessana, that all five aggregates are the self?",
+          "observable_teaching_actions": [
+            "clarifies_scope",
+            "pins_student"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Setting up the trap by forcing the student to explicitly commit to the full scope of their error.",
+          "function_id": "UM_01",
+          "classification_evidence": "Definition collapse (setup): Forcing the user to be precise about 'all five' to prevent later maneuvering.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Locking in the premise for later destruction.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 5,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Exactly so, Master Gotama.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Saccaka opens with aggressive posturing. The Buddha ignores the threat and calmly asks Saccaka to state his doctrine, pinning him to the view that the five aggregates are the self.",
+      "episode_insights": {
+        "key_pattern": "Aggressor Deflection (Ignore Threat) → Premise Lockdown",
+        "notes": [
+          "Excellent example of controlling frame by refusing to react to emotional provocation.",
+          "The teacher locks the student into a specific claim ('all five') to prepare for the logical dismantle."
+        ]
+      }
+    },
+    {
+      "episode_id": "mn35_t06_t12_impermanence_trap",
+      "source_text": "MN 35 — Cula-Saccaka",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Saccaka",
+          "text": "Impermanent, Master Gotama.",
+          "observable_student_behaviors": [
+            "concedes_premise"
+          ],
+          "behavior_tags": [
+            "logical_honesty"
+          ],
+          "inferred_state": {
+            "reading": "confident_concession",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Saccaka",
+          "text": "Stressful, Master Gotama.",
+          "observable_student_behaviors": [
+            "concedes_premise"
+          ],
+          "behavior_tags": [
+            "logical_honesty"
+          ],
+          "inferred_state": {
+            "reading": "trapped_logic",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Saccaka",
+          "text": "No indeed, Master Gotama.",
+          "observable_student_behaviors": [
+            "admits_contradiction"
+          ],
+          "behavior_tags": [
+            "defeat",
+            "view_collapse"
+          ],
+          "inferred_state": {
+            "reading": "reluctant_agreement",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "The Buddha",
+          "text": "Aggivessana, is form permanent or impermanent?",
+          "observable_teaching_actions": [
+            "initiates_socratic_chain",
+            "tests_reality"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Starts the logical sequence to contradict the student's previous claim (Form is Self).",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure (Step 1): Establishing Premise A (Form is impermanent) which will conflict with Premise B (Form is Self).",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Setup for the logical syllogism.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Impermanent, Master Gotama.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "The Buddha",
+          "text": "Is what is impermanent easeful or stressful?",
+          "observable_teaching_actions": [
+            "extends_logic",
+            "links_impermanence_to_suffering"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Connects impermanence to suffering (dukkha).",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure (Step 2): Establishing the negative quality of the object.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Impermanent -> Stressful.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Stressful, Master Gotama.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "The Buddha",
+          "text": "Is it fitting to regard what is impermanent, stressful, subject to change, as ‘This is mine; this is my self; this is what I am’?",
+          "observable_teaching_actions": [
+            "closes_trap",
+            "demands_conclusion"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Forces the student to admit their original claim (Form is Self) is logically untenable given the admitted premises.",
+          "function_id": "UM_02",
+          "classification_evidence": "Contradiction exposure (Final): If A (Impermanent/Stressful), then Not-B (Not Self). Student previously claimed B.",
+          "register": {
+            "intensity": "PR_04",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "ego_defense"
+          ],
+          "trap_notes": [
+            "Student forced to abandon the defense of the self-view."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapses the possibility of 'Self' existing within 'Form'.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 6,
+            "reaction_label": "conceptual_concession",
+            "evidence": "No indeed, Master Gotama.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Buddha executes the standard three-mark logic trap: getting Saccaka to admit form is impermanent, then stressful, and finally concluding that such a thing cannot be the self.",
+      "episode_insights": {
+        "key_pattern": "Premise Extraction (Impermanence) → Causal Link (Stress) → Contradiction Exposure (Not Self)",
+        "notes": [
+          "The classic Buddhist 'Tilakkhana' (Three Marks) argument structure.",
+          "Relies on the student being logically honest enough to concede the steps."
+        ]
+      }
+    }
+  ]
+}
+
+{
+  "episodes": [
+    {
+      "episode_id": "mn35_t13_t18_saccaka_sweating",
+      "source_text": "MN 35 — Cula-Saccaka",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Saccaka",
+          "text": "I did, Master Gotama.",
+          "observable_student_behaviors": [
+            "admits_past_claim",
+            "accepts_record"
+          ],
+          "behavior_tags": [
+            "forced_consistency",
+            "trapped"
+          ],
+          "inferred_state": {
+            "reading": "cornered_admission",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Narrator",
+          "text": "And at that moment, Saccaka, the debater, broke into a sweat, as if water were streaming from his body.",
+          "observable_student_behaviors": [
+            "physical_distress",
+            "sweating"
+          ],
+          "behavior_tags": [
+            "psychological_collapse",
+            "somatic_breakdown"
+          ],
+          "inferred_state": {
+            "reading": "acute_anxiety",
+            "confidence": 1.0
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "The Buddha",
+          "text": "Aggivessana, did you not say that form is the self?",
+          "observable_teaching_actions": [
+            "recalls_prior_claim",
+            "closes_pincer"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Retrieving the student's initial assertion to contrast it with their recent concession.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: Bringing Premise A (Form is Self) back into the active frame.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Step 1 of closing the contradiction loop.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "I did, Master Gotama.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "The Buddha",
+          "text": "But now, Aggivessana, you admit it is impermanent, stressful, subject to change, and cannot rightly be regarded as self. How can both of your claims stand?",
+          "observable_teaching_actions": [
+            "highlights_incompatibility",
+            "demands_resolution"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Explicitly stating the contradiction between the two accepted premises.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: 'How can both of your claims stand?' forces the user to see the incoherence.",
+          "register": {
+            "intensity": "PR_04",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "ego_defense"
+          ],
+          "trap_notes": [
+            "Saccaka's ego identity as a debater is crushed by the logic."
+          ],
+          "mechanism_shape": "embodied_contradiction",
+          "mechanism_comment": "The contradiction forces a physical reaction (sweat).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "episode_ends",
+            "evidence": "Narrator: ...broke into a sweat...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "The Buddha",
+          "text": "Aggivessana, your doctrine is being pressed. Take care.",
+          "observable_teaching_actions": [
+            "names_the_collapse",
+            "issues_warning"
+          ],
+          "phase": "META",
+          "phase_reason": "Commenting on the state of the debate/student rather than the content.",
+          "function_id": "ME_01",
+          "classification_evidence": "Process normalization: Acknowledging the pressure the student is under.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Buddha explicitly closes the logical trap, forcing Saccaka to acknowledge his contradiction. Saccaka physically collapses (sweats), and the Buddha marks the moment in Meta mode.",
+      "episode_insights": {
+        "key_pattern": "Contradiction Exposure → Somatic Collapse → Meta Commentary",
+        "notes": [
+          "The unmaking is so effective it produces a somatic release (sweat).",
+          "Teacher switches to Meta (ME_01) to manage the moment of collapse."
+        ]
+      }
+    },
+    {
+      "episode_id": "mn35_t19_t24_exit_block",
+      "source_text": "MN 35 — Cula-Saccaka",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Saccaka",
+          "text": "Master Gotama, let us set aside form. Let us discuss feeling...",
+          "observable_student_behaviors": [
+            "changes_topic",
+            "evades_conclusion"
+          ],
+          "behavior_tags": [
+            "evasive_maneuver",
+            "retreat"
+          ],
+          "inferred_state": {
+            "reading": "flight_response",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Saccaka",
+          "text": "But Master Gotama, I wish to proceed.",
+          "observable_student_behaviors": [
+            "insists_on_topic_change",
+            "resists_constraint"
+          ],
+          "behavior_tags": [
+            "desperation",
+            "loss_of_control"
+          ],
+          "inferred_state": {
+            "reading": "panic_driven_insistence",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Saccaka",
+          "text": "Then proceed, Master Gotama.",
+          "observable_student_behaviors": [
+            "submits_to_process",
+            "abandons_escape"
+          ],
+          "behavior_tags": [
+            "submission",
+            "compliance"
+          ],
+          "inferred_state": {
+            "reading": "resigned_acceptance",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "The Buddha",
+          "text": "Aggivessana, we will not move on until we settle what has already been said.",
+          "observable_teaching_actions": [
+            "blocks_diversion",
+            "enforces_topic_discipline"
+          ],
+          "phase": "META",
+          "phase_reason": "Enforcing the rules of engagement (Process Discipline) to prevent evasion.",
+          "function_id": "ME_01",
+          "classification_evidence": "Process discipline: 'We will not move on until...'",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "retreat"
+          ],
+          "trap_notes": [
+            "Student tries to flee the uncomfortable conclusion."
+          ],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Holding the frame.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "pushes_back",
+            "evidence": "But Master Gotama, I wish to proceed.",
+            "outcome_label": "partial_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "The Buddha",
+          "text": "Aggivessana, when you made your claim, you stood upon it. Now that it falters, you try to flee. But the matter must be resolved here.",
+          "observable_teaching_actions": [
+            "exposes_evasion",
+            "demands_integrity"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Attacking the student's behavior (fleeing) as an inconsistency with their earlier confidence.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement (psychological flavor): Exposing the cowardice/hypocrisy of the 'flight' response.",
+          "register": {
+            "intensity": "PR_04",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "defensive_pivot"
+          ],
+          "trap_notes": [
+            "Student pivoting to avoid defeat."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapsing the escape route.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 5,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Then proceed, Master Gotama.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Saccaka attempts to change the subject to escape his logical defeat. The Buddha uses Meta discipline to block the exit, forcing him to resolve the contradiction before moving on.",
+      "episode_insights": {
+        "key_pattern": "Topic Block (Meta) → Evasion Exposure (Unmaking)",
+        "notes": [
+          "Crucial demonstration of 'Exit Blocking' (ME_01).",
+          "The teacher demands integrity: if you claimed it, you must stand by it or withdraw it."
+        ]
+      }
+    },
+    {
+      "episode_id": "mn35_t25_t33_five_aggregate_collapse",
+      "source_text": "MN 35 — Cula-Saccaka",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Saccaka",
+          "text": "Impermanent, Master Gotama.",
+          "observable_student_behaviors": [
+            "concedes_premise"
+          ],
+          "behavior_tags": [
+            "submission"
+          ],
+          "inferred_state": {
+            "reading": "rote_concession",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Saccaka",
+          "text": "Impermanent, Master Gotama.",
+          "observable_student_behaviors": [
+            "concedes_premise"
+          ],
+          "behavior_tags": [
+            "submission"
+          ],
+          "inferred_state": {
+            "reading": "rote_concession",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Saccaka",
+          "text": "Impermanent, Master Gotama.",
+          "observable_student_behaviors": [
+            "concedes_premise"
+          ],
+          "behavior_tags": [
+            "submission"
+          ],
+          "inferred_state": {
+            "reading": "rote_concession",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 8,
+          "speaker": "Saccaka",
+          "text": "No indeed, Master Gotama.",
+          "observable_student_behaviors": [
+            "concedes_conclusion"
+          ],
+          "behavior_tags": [
+            "total_defeat"
+          ],
+          "inferred_state": {
+            "reading": "surrender",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "The Buddha",
+          "text": "Aggivessana, is feeling permanent or impermanent?",
+          "observable_teaching_actions": [
+            "iterates_logic"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Applying the Unmaking logic to the next aggregate (feeling).",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: Repeating the impermanence check for 'feeling'.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Iteration 2 of 5.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Impermanent, Master Gotama.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "The Buddha",
+          "text": "Is perception permanent or impermanent?",
+          "observable_teaching_actions": [
+            "iterates_logic"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Applying logic to perception.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: Iteration for 'perception'.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Iteration 3 of 5.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Impermanent, Master Gotama.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "The Buddha",
+          "text": "And fabrications, consciousness — are they permanent or impermanent?",
+          "observable_teaching_actions": [
+            "iterates_logic",
+            "batches_remaining_items"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Sweeping the final aggregates.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: Iteration for 'fabrications' and 'consciousness'.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Final sweep.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 6,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Impermanent, Master Gotama.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 7,
+          "speaker": "The Buddha",
+          "text": "Then, Aggivessana, is it fitting to regard any of these as ‘This is mine; this is my self; this is what I am’?",
+          "observable_teaching_actions": [
+            "summarizes_conclusion",
+            "demands_final_concession"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Finalizing the destruction of the self-view across all categories.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: Denying the 'mine/self' label for the entire set.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Total collapse of the 'self' constraint.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 8,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "No indeed, Master Gotama.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Buddha methodically applies the impermanence argument to the remaining aggregates (feeling, perception, fabrications, consciousness), leading Saccaka to a total surrender of his view.",
+      "episode_insights": {
+        "key_pattern": "Sequential Iteration → Total System Collapse",
+        "notes": [
+          "Repetition demonstrates the universality of the defect (impermanence).",
+          "Leaves no corner of the student's ontology for the self to hide in."
+        ]
+      }
+    },
+    {
+      "episode_id": "sn22.59_t01_t06_five_aggregates_not_self_control_test",
+      "source_text": "SN 22.59 Anattalakkhana Sutta (public-domain Pali + CC0 translation fragments)",
+      "lineage": "Buddhist",
+      "student_turns": [],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "THE BUDDHA",
+          "text": "Form is not-self. For if form were self, it would not lead to affliction, and one could say: 'Let my form be thus.' But you cannot.",
+          "observable_teaching_actions": [
+            "states_thesis",
+            "applies_control_test"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Disproving the self-nature of form via the 'control' criterion.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: 'If X were self, X would be controllable. X is not controllable. Therefore X is not self.'",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "category_conflation"
+          ],
+          "trap_notes": [
+            "Student conflates 'me' with 'that which I control'."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapses the definition of Self by failing the Control Test.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 2,
+          "speaker": "THE BUDDHA",
+          "text": "Feeling is not-self. If feeling were self, it would not oppress, and one could command it. But it does not obey.",
+          "observable_teaching_actions": [
+            "applies_control_test"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Applying test to Feeling.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: Lack of command proves lack of Self.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_03",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "THE BUDDHA",
+          "text": "Perception is not-self. If it were self, it would not shift and change against your will.",
+          "observable_teaching_actions": [
+            "applies_control_test"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Applying test to Perception.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: Unwanted change proves lack of Self.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "THE BUDDHA",
+          "text": "Fabrications are not-self. They arise and pass without regard for your wishes.",
+          "observable_teaching_actions": [
+            "applies_control_test"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Applying test to Fabrications.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: Autonomy of fabrications disproves Self.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "THE BUDDHA",
+          "text": "Consciousness is not-self. If it were self, it would not alter. But it flickers and fades.",
+          "observable_teaching_actions": [
+            "applies_control_test"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Applying test to Consciousness.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: Instability disproves Self.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 6,
+          "speaker": "THE BUDDHA",
+          "text": "Seeing this with wisdom, the instructed disciple becomes disenchanted. Disenchantment leads to fading. Fading leads to release.",
+          "observable_teaching_actions": [
+            "describes_result",
+            "maps_path"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Describing the causal outcome of the insight (Disenchantment -> Release).",
+          "function_id": "RM_02",
+          "classification_evidence": "Causal chain mapping: Insight -> Disenchantment -> Fading -> Release.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_03",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "The causal sequence of liberation.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Buddha instructs that the five aggregates are not-self because they are not subject to absolute control ('Let my form be thus'). Recognizing this lack of control leads to disenchantment and release.",
+      "episode_insights": {
+        "key_pattern": "Control Test (Unmaking) → Causal Release (Remaking)",
+        "notes": [
+          "The 'Control Test' (If it were self, you could command it) is a distinct, reusable mechanism for unmaking identity.",
+          "Moves systematically through all five aggregates."
+        ]
+      }
+    },
+    {
+      "episode_id": "sn35.28_t01_t05_fire_sermon_total_disenchantment",
+      "source_text": "SN 35.28 Adittapariyaya Sutta (Fire Sermon) (public-domain Pali + CC0 translation fragments)",
+      "lineage": "Buddhist",
+      "student_turns": [],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "THE BUDDHA",
+          "text": "Monks, the eye is burning. Forms are burning. Eye-consciousness is burning. Eye-contact is burning.",
+          "observable_teaching_actions": [
+            "uses_metaphor",
+            "reframes_perception"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Destabilizing the ordinary view of the senses by framing them as 'burning'.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement (via metaphor): Reframing the sensory world as a disaster zone rather than a playground.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_02",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "realism_trap"
+          ],
+          "trap_notes": [
+            "Student takes sensory input as neutral/pleasant."
+          ],
+          "mechanism_shape": "ontological_frame_upgrade",
+          "mechanism_comment": "Shift from 'Senses as Tools' to 'Senses as Fire'.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "accepts_cleanly",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 2,
+          "speaker": "THE BUDDHA",
+          "text": "Burning with what? Burning with the fire of greed, the fire of hatred, the fire of delusion.",
+          "observable_teaching_actions": [
+            "explains_metaphor",
+            "diagnoses_root_cause"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Defining the terms of the metaphor (Fire = Defilements).",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Mapping 'Fire' to 'Three Poisons'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_03",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Fire = Greed/Hate/Delusion.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "accepts_cleanly",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "THE BUDDHA",
+          "text": "The ear is burning. Sounds are burning. The nose is burning. Smells are burning. The mind is burning. Thoughts are burning.",
+          "observable_teaching_actions": [
+            "extends_metaphor",
+            "universalizes_scope"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Expanding the 'burning' frame to all sense doors to induce total disenchantment.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: Leaving no safe haven in the senses.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_02",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapse of the 'safe world' view.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "accepts_cleanly",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "THE BUDDHA",
+          "text": "Seeing this, the instructed disciple becomes disenchanted with the sense fields. Through disenchantment comes fading. Through fading comes release.",
+          "observable_teaching_actions": [
+            "describes_result",
+            "maps_path"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Outlining the causal path from this insight to liberation.",
+          "function_id": "RM_02",
+          "classification_evidence": "Causal chain mapping: Insight -> Disenchantment -> Fading -> Release.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_03",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": "NARRATION: ...hearts of a thousand monks were liberated.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Buddha reframes all sensory experience as 'burning' with the fires of greed, hate, and delusion. This radical metaphor forces total disenchantment and leads to liberation.",
+      "episode_insights": {
+        "key_pattern": "Metaphorical Reframing (Burning) → Universal Application → Causal Release",
+        "notes": [
+          "Uses a high-intensity metaphor to break the student's attachment to the sensory world.",
+          "The repetition reinforces the total scope of the unmaking."
+        ]
+      }
+    },
+    {
+      "episode_id": "mn44_t01_t06_feeling_definition",
+      "source_text": "MN 44 — Cula-Vedalla",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Visakha",
+          "text": "Lady, what is feeling?",
+          "observable_student_behaviors": [
+            "asks_definition"
+          ],
+          "behavior_tags": [
+            "sincere_inquiry"
+          ],
+          "inferred_state": {
+            "reading": "open_curiosity",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Visakha",
+          "text": "But Lady, what is the cause and condition for feeling?",
+          "observable_student_behaviors": [
+            "asks_causality"
+          ],
+          "behavior_tags": [
+            "analytical_inquiry"
+          ],
+          "inferred_state": {
+            "reading": "deepening_inquiry",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Visakha",
+          "text": "But Lady, what is the cause and condition for contact?",
+          "observable_student_behaviors": [
+            "asks_upstream_cause"
+          ],
+          "behavior_tags": [
+            "tracing_causality"
+          ],
+          "inferred_state": {
+            "reading": "systematic_tracing",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Dhammadinna",
+          "text": "There are three feelings, friend Visakha: pleasant feeling, painful feeling, and neither-painful-nor-pleasant feeling.",
+          "observable_teaching_actions": [
+            "defines_categories"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Providing a clear, structural definition of the term 'feeling'.",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Dividing 'feeling' into three distinct types.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Standard definition.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "elaborates",
+            "evidence": "But Lady, what is the cause...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Dhammadinna",
+          "text": "Contact, friend Visakha, is the cause and condition for feeling.",
+          "observable_teaching_actions": [
+            "identifies_cause"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Establishing the causal link for feeling.",
+          "function_id": "RM_02",
+          "classification_evidence": "Causal chain mapping: Contact -> Feeling.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 5,
+            "reaction_label": "elaborates",
+            "evidence": "But Lady, what is the cause and condition for contact?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Dhammadinna",
+          "text": "Name-and-form is the condition for contact.",
+          "observable_teaching_actions": [
+            "traces_cause"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Tracing the causal chain one step further back.",
+          "function_id": "RM_02",
+          "classification_evidence": "Causal chain mapping: Name-and-form -> Contact.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Visakha asks foundational questions about feeling and its causes. Dhammadinna answers with precise definitions and causal links, building a clear conceptual model.",
+      "episode_insights": {
+        "key_pattern": "Definition → Causal Tracing",
+        "notes": [
+          "Pure Remaking episode.",
+          "Demonstrates 'Scaffold -> Detail -> Causal Anchor' pattern."
+        ]
+      }
+    },
+    {
+      "episode_id": "mn44_t07_t12_chain_of_arising",
+      "source_text": "MN 44 — Cula-Vedalla",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Visakha",
+          "text": "Lady, what is the cause and condition for craving?",
+          "observable_student_behaviors": [
+            "asks_causality"
+          ],
+          "behavior_tags": [
+            "tracing_forward"
+          ],
+          "inferred_state": {
+            "reading": "analytical_curiosity",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Visakha",
+          "text": "And what is the cause and condition for feeling?",
+          "observable_student_behaviors": [
+            "rechecks_link"
+          ],
+          "behavior_tags": [
+            "reinforcing_understanding"
+          ],
+          "inferred_state": {
+            "reading": "verification",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Visakha",
+          "text": "And for contact?",
+          "observable_student_behaviors": [
+            "rechecks_link"
+          ],
+          "behavior_tags": [
+            "reinforcing_understanding"
+          ],
+          "inferred_state": {
+            "reading": "verification",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Dhammadinna",
+          "text": "Feeling, friend Visakha, is the cause and condition for craving.",
+          "observable_teaching_actions": [
+            "identifies_cause"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Building the causal chain (Feeling -> Craving).",
+          "function_id": "RM_02",
+          "classification_evidence": "Causal chain mapping.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "elaborates",
+            "evidence": "And what is the cause... for feeling?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Dhammadinna",
+          "text": "Contact is the condition for feeling.",
+          "observable_teaching_actions": [
+            "confirms_link"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Reinforcing the previous link.",
+          "function_id": "RM_02",
+          "classification_evidence": "Causal chain mapping.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 5,
+            "reaction_label": "elaborates",
+            "evidence": "And for contact?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Dhammadinna",
+          "text": "Name-and-form is the condition for contact.",
+          "observable_teaching_actions": [
+            "confirms_link"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Reinforcing the base link.",
+          "function_id": "RM_02",
+          "classification_evidence": "Causal chain mapping.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Visakha and Dhammadinna trace the causal chain of dependent origination (Name-and-form -> Contact -> Feeling -> Craving) in a calm, stepwise manner.",
+      "episode_insights": {
+        "key_pattern": "Causal Ladder Construction",
+        "notes": [
+          "Simple, repeatable pattern building.",
+          "Reinforces the model by stepping backward and forward through the chain."
+        ]
+      }
+    }
+  ]
+}
+{
+  "episodes": [
+    {
+      "episode_id": "mn44_t13_t17_craving_cessation",
+      "source_text": "MN 44 — Cula-Vedalla",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Visakha",
+          "text": "Lady, what is the cessation of craving?",
+          "observable_student_behaviors": [
+            "asks_definition"
+          ],
+          "behavior_tags": [
+            "seeking_closure"
+          ],
+          "inferred_state": {
+            "reading": "conceptual_inquiry",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Visakha",
+          "text": "And what is the path leading to the cessation of craving?",
+          "observable_student_behaviors": [
+            "asks_for_method"
+          ],
+          "behavior_tags": [
+            "practical_application"
+          ],
+          "inferred_state": {
+            "reading": "methodological_inquiry",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Visakha",
+          "text": "And what is the Noble Eightfold Path?",
+          "observable_student_behaviors": [
+            "asks_for_elaboration"
+          ],
+          "behavior_tags": [
+            "seeking_structure"
+          ],
+          "inferred_state": {
+            "reading": "verification",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Dhammadinna",
+          "text": "The ending of craving, the abandonment of craving, the relinquishing of craving—this, friend Visakha, is the cessation of craving.",
+          "observable_teaching_actions": [
+            "defines_term",
+            "uses_synonyms"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Defining the target concept clearly.",
+          "function_id": "RM_03",
+          "classification_evidence": "Conceptual distinction/Definition: Clarifying what 'cessation' means.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Standard definition.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "elaborates",
+            "evidence": "And what is the path...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Dhammadinna",
+          "text": "The Noble Eightfold Path leads to the cessation of craving.",
+          "observable_teaching_actions": [
+            "identifies_path"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Identifying the structural means (Path) to the end (Cessation).",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Connecting the goal to the canonical path structure.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Path -> Cessation.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 5,
+            "reaction_label": "elaborates",
+            "evidence": "And what is the Noble Eightfold Path?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Visakha asks for definitions of cessation and the path. Dhammadinna provides precise, standard definitions, mapping the goal (cessation) to the means (Eightfold Path).",
+      "episode_insights": {
+        "key_pattern": "Definition → Operationalization",
+        "notes": [
+          "Pure Remaking sequence.",
+          "Moves from 'what is it' to 'how to get there'."
+        ]
+      }
+    },
+    {
+      "episode_id": "mn44_t18_t24_not_self_explanation",
+      "source_text": "MN 44 — Cula-Vedalla",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Visakha",
+          "text": "Lady, what is the self? And what is not-self?",
+          "observable_student_behaviors": [
+            "asks_metaphysical_question"
+          ],
+          "behavior_tags": [
+            "ontological_inquiry"
+          ],
+          "inferred_state": {
+            "reading": "seeking_essence",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Visakha",
+          "text": "Lady, why are these not self?",
+          "observable_student_behaviors": [
+            "asks_reasoning"
+          ],
+          "behavior_tags": [
+            "seeking_logic"
+          ],
+          "inferred_state": {
+            "reading": "analytical_verification",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Visakha",
+          "text": "Is there, then, any self?",
+          "observable_student_behaviors": [
+            "presses_for_final_answer"
+          ],
+          "behavior_tags": [
+            "metaphysical_grasping"
+          ],
+          "inferred_state": {
+            "reading": "existential_check",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Dhammadinna",
+          "text": "Form, friend Visakha, is not self. Feeling is not self. Perception is not self. Fabrications are not self. Consciousness is not self.",
+          "observable_teaching_actions": [
+            "lists_aggregates",
+            "negates_identity"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Systematically negating selfhood in the five aggregates.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: Denying 'self' status to all components.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapses identity candidates.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "seeks_instruction",
+            "evidence": "Lady, why are these not self?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Dhammadinna",
+          "text": "Because, friend Visakha, they are impermanent, changing, subject to decay.",
+          "observable_teaching_actions": [
+            "gives_reason"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Providing the logical basis for the unmaking (impermanence).",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: Implicitly 'If self, then permanent. Since impermanent, not self.'",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Impermanence -> Not Self.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 5,
+            "reaction_label": "elaborates",
+            "evidence": "Is there, then, any self?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Dhammadinna",
+          "text": "Visakha, that is a matter for the Tathāgata.",
+          "observable_teaching_actions": [
+            "declines_to_answer",
+            "sets_scope"
+          ],
+          "phase": "META",
+          "phase_reason": "Refusing to speculate on the metaphysical 'is there' question, referring to authority/scope limits.",
+          "function_id": "ME_01",
+          "classification_evidence": "Process discipline: 'That is a matter for X' limits the scope of the student-teacher inquiry.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "answer_hunting"
+          ],
+          "trap_notes": [
+            "Student wants a final metaphysical 'yes'. Teacher refuses to provide it."
+          ],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Scope boundary.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Visakha probes the nature of self. Dhammadinna deconstructs the aggregates as not-self due to impermanence, but politely declines to answer the final metaphysical question about the existence of a self.",
+      "episode_insights": {
+        "key_pattern": "Deconstruction (Aggregates) → Logic (Impermanence) → Scope Boundary",
+        "notes": [
+          "Good example of knowing when to stop.",
+          "Unmaking is performed on the parts, but the 'whole' question is deflected."
+        ]
+      }
+    },
+    {
+      "episode_id": "mn44_t25_t32_self_making_audit",
+      "source_text": "MN 44 — Cula-Vedalla",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Visakha",
+          "text": "Lady, feeling is pleasant, painful, or neither-painful-nor-pleasant.",
+          "observable_student_behaviors": [
+            "answers_correctly"
+          ],
+          "behavior_tags": [
+            "successful_recall"
+          ],
+          "inferred_state": {
+            "reading": "competent_clarity",
+            "confidence": 1.0
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Visakha",
+          "text": "Contact is the cause of feeling.",
+          "observable_student_behaviors": [
+            "answers_correctly"
+          ],
+          "behavior_tags": [
+            "successful_recall"
+          ],
+          "inferred_state": {
+            "reading": "competent_clarity",
+            "confidence": 1.0
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Dhammadinna",
+          "text": "But tell me now, friend Visakha—what is feeling?",
+          "observable_teaching_actions": [
+            "flips_roles",
+            "tests_knowledge"
+          ],
+          "phase": "SELF-MAKING",
+          "phase_reason": "The teacher asks the student to define the terms, verifying their own understanding.",
+          "function_id": "SM_03",
+          "classification_evidence": "Role reversal: Asking the student to explain.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "feedback",
+          "mechanism_comment": "Testing the loop.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Lady, feeling is...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "SELF-MAKING",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Dhammadinna",
+          "text": "And what is the cause of feeling?",
+          "observable_teaching_actions": [
+            "continues_test"
+          ],
+          "phase": "SELF-MAKING",
+          "phase_reason": "Testing the causal understanding.",
+          "function_id": "SM_03",
+          "classification_evidence": "Role reversal: 'Synthesis demand' in recap mode.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "feedback",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Contact is the cause...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "SELF-MAKING",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Dhammadinna",
+          "text": "Good, Visakha. You have understood well.",
+          "observable_teaching_actions": [
+            "validates_understanding",
+            "closes_loop"
+          ],
+          "phase": "META",
+          "phase_reason": "Confirming the success of the interaction.",
+          "function_id": "ME_01",
+          "classification_evidence": "Process normalization/validation.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "SELF-MAKING",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Dhammadinna reverses the roles and quizzes Visakha on the definitions and causes he just learned, verifying his integration of the teaching.",
+      "episode_insights": {
+        "key_pattern": "Role Reversal (Audit) → Verification",
+        "notes": [
+          "A clean 'Synthesis Demand' (SM_03) episode.",
+          "Ensures the user isn't just nodding but can reproduce the logic."
+        ]
+      }
+    },
+    {
+      "episode_id": "mn19_t01_t07_two_sorts_of_thought_binning_algorithm",
+      "source_text": "MN 19 Dvedhavitakka Sutta (public-domain Pali + CC0 translation fragments)",
+      "lineage": "Buddhist",
+      "student_turns": [],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "THE BUDDHA",
+          "text": "There are thoughts of sensuality, ill will, and cruelty. And there are thoughts of renunciation, goodwill, and harmlessness.",
+          "observable_teaching_actions": [
+            "defines_categories",
+            "sorts_mental_objects"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Establishing a classification system for thoughts (The 'Binning' model).",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Mapping thoughts into two distinct piles.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Taxonomy creation.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "accepts_cleanly",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 2,
+          "speaker": "THE BUDDHA",
+          "text": "When I directed my mind to thoughts of sensuality, I understood: 'This thought leads to my own harm, to the harm of others, and to the harm of both.'",
+          "observable_teaching_actions": [
+            "models_evaluation",
+            "links_to_harm"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Demonstrating the evaluation criteria (Harm).",
+          "function_id": "RM_02",
+          "classification_evidence": "Example instantiation: Walking through the evaluation of a sensual thought.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_04",
+            "phenomenological_depth": "PD_02",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Thought -> Harm.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "accepts_cleanly",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "THE BUDDHA",
+          "text": "Knowing this, such a thought is to be abandoned.",
+          "observable_teaching_actions": [
+            "issues_instruction"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Giving the protocol: If harm, then abandon.",
+          "function_id": "RM_04",
+          "classification_evidence": "Instruction protocol: 'is to be abandoned'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Action instruction.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "accepts_cleanly",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 6,
+          "speaker": "THE BUDDHA",
+          "text": "Thus I sorted thoughts into two classes: those to be abandoned and those to be developed.",
+          "observable_teaching_actions": [
+            "summarizes_method"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Summarizing the 'Two Sorts' method.",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Finalizing the 'two classes' model.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": "NARRATION: He systematically divided...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Buddha teaches the 'Two Sorts of Thoughts' method: binning mental events into 'skillful' or 'unskillful' based on whether they lead to harm or benefit, then cultivating or abandoning accordingly.",
+      "episode_insights": {
+        "key_pattern": "Binning Algorithm (Classification) → Causal Evaluation → Action Protocol",
+        "notes": [
+          "Transforms a messy mind into a sorted workspace.",
+          "The core move is 'check for harm' -> 'sort into bin'."
+        ]
+      }
+    },
+    {
+      "episode_id": "mn20_t01_t08_relaxation_of_thoughts_five_step_debugger",
+      "source_text": "MN 20 Vitakkasaṇṭhāna Sutta (public-domain Pali + CC0 translation fragments)",
+      "lineage": "Buddhist",
+      "student_turns": [],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "THE BUDDHA",
+          "text": "When unskillful thoughts arise, one should replace them with a skillful counterpart.",
+          "observable_teaching_actions": [
+            "gives_step_1"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Providing Step 1 of the algorithm.",
+          "function_id": "RM_04",
+          "classification_evidence": "Instruction protocol: 'replace them'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Substitution.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "accepts_cleanly",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 2,
+          "speaker": "THE BUDDHA",
+          "text": "If that does not calm the mind, one should attend to the danger in the unskillful thought.",
+          "observable_teaching_actions": [
+            "gives_step_2",
+            "escalates_intensity"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Providing Step 2.",
+          "function_id": "RM_04",
+          "classification_evidence": "Instruction protocol: 'attend to the danger'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_02",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Seeing consequences.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "accepts_cleanly",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "THE BUDDHA",
+          "text": "If that does not calm it, one should ignore and forget the thought.",
+          "observable_teaching_actions": [
+            "gives_step_3"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Providing Step 3.",
+          "function_id": "RM_04",
+          "classification_evidence": "Instruction protocol: 'ignore and forget'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Withdrawal of attention.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "accepts_cleanly",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "THE BUDDHA",
+          "text": "If that does not calm it, one should relax the formation of the thought itself.",
+          "observable_teaching_actions": [
+            "gives_step_4",
+            "subtilizes_focus"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Providing Step 4 (Somatic/Subtle).",
+          "function_id": "RM_04",
+          "classification_evidence": "Instruction protocol: 'relax the formation'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_03",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "system_dynamics",
+          "mechanism_comment": "De-energizing the thought loop.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "accepts_cleanly",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "THE BUDDHA",
+          "text": "If that does not calm it, one should crush the mind with the mind, restraining it.",
+          "observable_teaching_actions": [
+            "gives_step_5",
+            "maximizes_intensity"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Providing Step 5 (Force).",
+          "function_id": "RM_04",
+          "classification_evidence": "Instruction protocol: 'crush the mind'.",
+          "register": {
+            "intensity": "PR_04",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_02",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Sheer force.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": "NARRATION: A mind so trained...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Buddha gives a five-step escalating algorithm for dealing with unskillful thoughts, ranging from gentle substitution to forcible crushing.",
+      "episode_insights": {
+        "key_pattern": "Escalating Protocol (5 Steps)",
+        "notes": [
+          "Classic 'Remaking' protocol.",
+          "Provides a complete toolkit from subtle to coarse interventions."
+        ]
+      }
+    },
+    {
+      "episode_id": "mn61_t01_t07_mirror_loop_rahula_conduct_check",
+      "source_text": "MN 61 Ambalatthika-Rahulovāda Sutta (public-domain Pali + CC0 translation fragments)",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 7,
+          "speaker": "RAHULA",
+          "text": "Yes, sir.",
+          "observable_student_behaviors": [
+            "accepts_instruction"
+          ],
+          "behavior_tags": [
+            "submission",
+            "receptivity"
+          ],
+          "inferred_state": {
+            "reading": "committed_obedience",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "THE BUDDHA",
+          "text": "Rahula, any action you wish to do with body, speech, or mind should be examined again and again, just as one looks into a mirror.",
+          "observable_teaching_actions": [
+            "gives_analogy",
+            "sets_standard"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Setting the frame for ethical behavior (Reflection).",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Action -> Reflection (Mirror).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Mirror = Reflection.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "accepts_cleanly",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 2,
+          "speaker": "THE BUDDHA",
+          "text": "If, on reflection, you know: 'This action would lead to harm for myself or others,' then such an action should not be done.",
+          "observable_teaching_actions": [
+            "gives_pre_action_rule"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Protocol for 'Before Action'.",
+          "function_id": "RM_04",
+          "classification_evidence": "Instruction protocol: If Harm -> Don't Do.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "accepts_cleanly",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "THE BUDDHA",
+          "text": "And having done an action, you should reflect: 'Did this action lead to harm?'",
+          "observable_teaching_actions": [
+            "gives_post_action_rule"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Protocol for 'After Action'.",
+          "function_id": "RM_04",
+          "classification_evidence": "Instruction protocol: Retroactive check.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "feedback",
+          "mechanism_comment": "Closing the learning loop.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "accepts_cleanly",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Buddha instructs Rahula to use reflection like a mirror, checking actions before, during, and after performance to ensure they are harmless.",
+      "episode_insights": {
+        "key_pattern": "Recursive Evaluation (The Mirror)",
+        "notes": [
+          "Sets up a continuous feedback loop for behavior.",
+          "Turns ethics into an operational procedure."
+        ]
+      }
+    },
+    {
+      "episode_id": "an4.111_t01_t06_horse_trainer_kill_switch",
+      "source_text": "AN 4.111 Kesi Sutta (public-domain Pali + CC0 translation fragments)",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "KESI",
+          "text": "Lord, I train them first with gentleness. If that fails, with firmness. If that fails, with both. And if a horse cannot be tamed by any method, I end its life.",
+          "observable_student_behaviors": [
+            "explains_own_method"
+          ],
+          "behavior_tags": [
+            "professional_expertise"
+          ],
+          "inferred_state": {
+            "reading": "confident_explanation",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 6,
+          "speaker": "KESI",
+          "text": "It is wonderful, lord, how you train people without causing harm.",
+          "observable_student_behaviors": [
+            "praises_method"
+          ],
+          "behavior_tags": [
+            "admiration"
+          ],
+          "inferred_state": {
+            "reading": "impressed_realization",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 3,
+          "speaker": "THE BUDDHA",
+          "text": "So too, Kesi, I train by gentleness, by firmness, and by a blend of both.",
+          "observable_teaching_actions": [
+            "validates_analogy",
+            "adopts_terminology"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Adopting the student's model (Horse Training) to explain the Dhamma teaching methods.",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Mapping Dhamma teaching to Horse Training steps.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Teacher = Trainer.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "accepts_cleanly",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "THE BUDDHA",
+          "text": "But if a person cannot be tamed by any method, I do not end their life. I simply do not instruct them further.",
+          "observable_teaching_actions": [
+            "redefines_kill",
+            "sets_boundary"
+          ],
+          "phase": "META",
+          "phase_reason": "Explaining the limit of the teaching relationship (The Kill Switch).",
+          "function_id": "ME_03",
+          "classification_evidence": "Method explanation: Defining what 'killing' means in the context of the Noble Discipline (cessation of teaching).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "structural_analogy",
+          "mechanism_comment": "Social death (no instruction) = Physical death.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 6,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "It is wonderful, lord...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Buddha adopts a horse trainer's metaphor to explain his teaching methods. He redefines 'killing the horse' as 'ceasing to instruct the student', establishing a clear boundary for the pedagogical relationship.",
+      "episode_insights": {
+        "key_pattern": "Analogy Alignment → Metaphorical Redefinition (The Kill Switch)",
+        "notes": [
+          "Shows how to set boundaries without aggression.",
+          "Re-maps a violent concept (killing) to a social one (ignoring)."
+        ]
+      }
+    },
+    {
+      "episode_id": "mn74_t01_t07_universal_negation_refuted",
+      "source_text": "MN 74 — Dīghanakha Sutta",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Dighanakha",
+          "text": "Master Gotama, this is my view: ‘I take no view. Nothing is acceptable to me.’",
+          "observable_student_behaviors": [
+            "states_paradox",
+            "asserts_negation"
+          ],
+          "behavior_tags": [
+            "nihilism",
+            "intellectual_pride"
+          ],
+          "inferred_state": {
+            "reading": "defensive_superiority",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Dighanakha",
+          "text": "Yes, Master Gotama, this is truly my view.",
+          "observable_student_behaviors": [
+            "confirms_stance"
+          ],
+          "behavior_tags": [
+            "entrenchment"
+          ],
+          "inferred_state": {
+            "reading": "confident_assertion",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Dighanakha",
+          "text": "Master Gotama, it seems this view does not stand as I thought.",
+          "observable_student_behaviors": [
+            "admits_defeat"
+          ],
+          "behavior_tags": [
+            "view_collapse",
+            "humility"
+          ],
+          "inferred_state": {
+            "reading": "sudden_realization",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "The Buddha",
+          "text": "Aggivessana, do you hold that view as true?",
+          "observable_teaching_actions": [
+            "sets_logic_trap",
+            "asks_verification"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Preparing the contradiction by solidifying the student's commitment to the 'truth' of the view.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction (setup): Forcing the student to treat their 'no view' as a 'view'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Lock-in.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Yes, Master Gotama...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "The Buddha",
+          "text": "But if you take that as true, then at least this one view is acceptable to you.",
+          "observable_teaching_actions": [
+            "springs_trap",
+            "exposes_contradiction"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Revealing the self-refuting nature of 'no view is acceptable' (since that statement itself is accepted).",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: If 'nothing is acceptable' is accepted, then something IS acceptable.",
+          "register": {
+            "intensity": "PR_03",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_01"
+          },
+          "trap_ids": [
+            "false_paradox",
+            "recursion_loop"
+          ],
+          "trap_notes": [
+            "Student caught in a self-referential paradox."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "The view cancels itself out.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 5,
+            "reaction_label": "conceptual_concession",
+            "evidence": "Master Gotama, it seems this view does not stand...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Dighanakha claims to hold no views. The Buddha points out that holding the view 'I hold no views' is itself a view, instantly collapsing the position via self-refutation.",
+      "episode_insights": {
+        "key_pattern": "Recursive Logic Trap (Self-Refutation)",
+        "notes": [
+          "The classic 'Cretan Liar' paradox applied to views.",
+          "Instant unmaking of universal negation."
+        ]
+      }
+    }
+  ]
+}
+
+{
+  "episodes": [
+    {
+      "episode_id": "mn74_t08_t14_view_triad_remaking",
+      "source_text": "MN 74 — Dīghanakha Sutta",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Dighanakha",
+          "text": "Master Gotama, how does this apply to one who claims that nothing is acceptable?",
+          "observable_student_behaviors": [
+            "asks_application",
+            "references_own_view"
+          ],
+          "behavior_tags": [
+            "personal_relevance",
+            "inquiry"
+          ],
+          "inferred_state": {
+            "reading": "defensive_curiosity",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Dighanakha",
+          "text": "So even rejecting all things creates a bond?",
+          "observable_student_behaviors": [
+            "checks_understanding",
+            "expresses_surprise"
+          ],
+          "behavior_tags": [
+            "conceptual_shock",
+            "verification"
+          ],
+          "inferred_state": {
+            "reading": "dawning_realization",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "The Buddha",
+          "text": "Aggivessana, there are three kinds of views: ‘Everything is pleasing to me,’ ‘Nothing is pleasing to me,’ and ‘Some things are pleasing to me and some are not.’",
+          "observable_teaching_actions": [
+            "establishes_taxonomy",
+            "contextualizes_view"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Creating a neutral structural map of possible views.",
+          "function_id": "RM_01",
+          "classification_evidence": "Structural mapping: Defining the three categories of views.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Taxonomy.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "elaborates",
+            "evidence": "Master Gotama, how does this apply...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "The Buddha",
+          "text": "One who says that nothing is acceptable is bound by that view, and thus is not free from clinging.",
+          "observable_teaching_actions": [
+            "diagnoses_clinging",
+            "reframes_rejection"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Showing that the rejection of views is itself a form of binding/clinging.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: To reject is to cling to rejection.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "recursion_loop"
+          ],
+          "trap_notes": [
+            "Student trapped in the loop of 'holding a view about no views'."
+          ],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapses the distinction between 'holding' and 'rejecting'.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "inference_check",
+            "evidence": "So even rejecting all things creates a bond?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "The Buddha",
+          "text": "Indeed. To grasp the idea ‘nothing is acceptable’ is itself a form of clinging.",
+          "observable_teaching_actions": [
+            "confirms_mechanism",
+            "defines_grasping"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Finalizing the insight that the 'view of no view' is an object of grasping.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement / Constraint removal: Showing the 'view holder' is still active even in negation.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "subject_object_inversion",
+          "mechanism_comment": "The rejection (subjective stance) becomes an object of clinging.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Buddha places Dighanakha's nihilistic view into a taxonomy of three view types, then demonstrates that even the view 'nothing is acceptable' constitutes a form of clinging/binding.",
+      "episode_insights": {
+        "key_pattern": "Taxonomy (Remaking) → Recursive Trap Exposure (Unmaking)",
+        "notes": [
+          "Uses a neutral taxonomy to lower defenses before delivering the critique.",
+          "Exposes that negation is just as much a 'position' as affirmation."
+        ]
+      }
+    },
+    {
+      "episode_id": "mn74_t15_t22_sensation_audit",
+      "source_text": "MN 74 — Dīghanakha Sutta",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Dighanakha",
+          "text": "Impermanent, Master Gotama.",
+          "observable_student_behaviors": [
+            "concedes_premise"
+          ],
+          "behavior_tags": [
+            "logical_honesty"
+          ],
+          "inferred_state": {
+            "reading": "attentive_agreement",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Dighanakha",
+          "text": "Impermanent, Master Gotama.",
+          "observable_student_behaviors": [
+            "concedes_premise"
+          ],
+          "behavior_tags": [
+            "logical_honesty"
+          ],
+          "inferred_state": {
+            "reading": "attentive_agreement",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Dighanakha",
+          "text": "Impermanent as well.",
+          "observable_student_behaviors": [
+            "concedes_premise"
+          ],
+          "behavior_tags": [
+            "logical_honesty"
+          ],
+          "inferred_state": {
+            "reading": "attentive_agreement",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "The Buddha",
+          "text": "Aggivessana, when you experience a pleasant feeling, is it permanent or impermanent?",
+          "observable_teaching_actions": [
+            "directs_attention",
+            "tests_impermanence"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Initiating the standard investigation of impermanence to dismantle attachment to feelings.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: Setup for proving that feelings cannot be the basis of a stable self/view.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_02",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Sensation -> Impermanence.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Impermanent, Master Gotama.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "The Buddha",
+          "text": "And unpleasant feelings—permanent or impermanent?",
+          "observable_teaching_actions": [
+            "iterates_logic"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Applying logic to the next category.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: Iteration.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_02",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Impermanent, Master Gotama.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "The Buddha",
+          "text": "Neutral feelings—permanent or impermanent?",
+          "observable_teaching_actions": [
+            "iterates_logic"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Applying logic to the final category.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: Iteration.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_02",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 6,
+            "reaction_label": "accepts_cleanly",
+            "evidence": "Impermanent as well.",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Buddha guides Dighanakha through an audit of the three types of feeling (pleasant, unpleasant, neutral), forcing him to admit that all three are impermanent.",
+      "episode_insights": {
+        "key_pattern": "Experiential Scaffolding (Sensation Audit)",
+        "notes": [
+          "Grounds the philosophical debate in immediate sensation.",
+          "Systematic exhaustion of all feeling types."
+        ]
+      }
+    },
+    {
+      "episode_id": "mn74_t23_t29_witness_pivot",
+      "source_text": "MN 74 — Dīghanakha Sutta",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Dighanakha",
+          "text": "Master Gotama, how should one attend to such seeing?",
+          "observable_student_behaviors": [
+            "asks_for_method"
+          ],
+          "behavior_tags": [
+            "practical_application"
+          ],
+          "inferred_state": {
+            "reading": "eager_to_practice",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Dighanakha",
+          "text": "So one stands apart from it?",
+          "observable_student_behaviors": [
+            "proposes_interpretation",
+            "checks_understanding"
+          ],
+          "behavior_tags": [
+            "dualistic_interpretation",
+            "witness_stance"
+          ],
+          "inferred_state": {
+            "reading": "grasping_witness_perspective",
+            "confidence": 0.9
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "The Buddha",
+          "text": "Aggivessana, when one sees the arising of feeling, its passing away, and its change while it persists—then one is not bound by feeling.",
+          "observable_teaching_actions": [
+            "defines_liberation_condition",
+            "frames_impermanence"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Establishing the model: Seeing change -> Freedom from binding.",
+          "function_id": "RM_05",
+          "classification_evidence": "Frame upgrade: Replacing 'feeling' as an identity with 'feeling' as a transient process.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_03",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Insight -> Non-binding.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "seeks_instruction",
+            "evidence": "Master Gotama, how should one attend...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "The Buddha",
+          "text": "Attend simply as ‘feeling arises, feeling remains, feeling passes away.’ When one sees this, there is no ‘I’ in feeling.",
+          "observable_teaching_actions": [
+            "gives_instruction",
+            "identifies_not_self"
+          ],
+          "phase": "SELF-MAKING",
+          "phase_reason": "Directing the student to the immediate witnessing of the process.",
+          "function_id": "SM_02",
+          "classification_evidence": "Witness pivot: Moving from content ('my feeling') to process witnessing ('feeling arises').",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [
+            "identification_with_content"
+          ],
+          "trap_notes": [
+            "Student habitually puts 'I' in feeling."
+          ],
+          "mechanism_shape": "subject_object_inversion",
+          "mechanism_comment": "Turning the 'I' into a process.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "inference_check",
+            "evidence": "So one stands apart from it?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "The Buddha",
+          "text": "Just so. One stands as the watcher, not the owned.",
+          "observable_teaching_actions": [
+            "confirms_witness",
+            "defines_position"
+          ],
+          "phase": "SELF-MAKING",
+          "phase_reason": "Stabilizing the student in the witness position.",
+          "function_id": "SM_02",
+          "classification_evidence": "Witness pivot: 'Stands as the watcher'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_03",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "subject_object_inversion",
+          "mechanism_comment": "Shift from 'owned' (object) to 'watcher' (subject).",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "SELF-MAKING",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Buddha instructs Dighanakha on how to attend to feelings as merely arising and passing phenomena. This shift in attention moves Dighanakha into the position of the 'watcher' rather than the 'owned'.",
+      "episode_insights": {
+        "key_pattern": "Witness Pivot (Self-Making)",
+        "notes": [
+          "Classic shift from identification to observation.",
+          "Redefines the self-sense as 'the watcher' (provisional self) to break the identification with the object."
+        ]
+      }
+    },
+    {
+      "episode_id": "mn74_t30_t35_dighanakha_insight",
+      "source_text": "MN 74 — Dīghanakha Sutta",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Dighanakha",
+          "text": "Master Gotama, marvelous indeed are these teachings.",
+          "observable_student_behaviors": [
+            "praises_teaching",
+            "expresses_gratitude"
+          ],
+          "behavior_tags": [
+            "devotion",
+            "appreciation"
+          ],
+          "inferred_state": {
+            "reading": "liberated_joy",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 3,
+          "speaker": "The Buddha",
+          "text": "When views are abandoned, Aggivessana, one knows directly what arises and ceases.",
+          "observable_teaching_actions": [
+            "confirms_realization",
+            "links_abandonment_to_knowledge"
+          ],
+          "phase": "SELF-MAKING",
+          "phase_reason": "Pointing to the direct knowledge that remains when views are gone.",
+          "function_id": "SM_01",
+          "classification_evidence": "Direct seeing: 'Knows directly what arises and ceases'.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Views removed -> Reality seen.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "SELF-MAKING",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Dighanakha attains liberation and praises the teaching. The Buddha confirms that direct knowledge of arising and ceasing is what remains when views are abandoned.",
+      "episode_insights": {
+        "key_pattern": "View Abandonment → Direct Knowledge",
+        "notes": [
+          "The culmination of the unmaking process.",
+          "Direct knowledge is framed not as a new view, but as the result of absence of views."
+        ]
+      }
+    },
+    {
+      "episode_id": "sn12_15_t01_t06_two_extremes_unmaking",
+      "source_text": "SN 12.15 — Kaccanagotta Sutta",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Kaccanagotta",
+          "text": "Venerable sir, what is right view?",
+          "observable_student_behaviors": [
+            "asks_definition"
+          ],
+          "behavior_tags": [
+            "sincere_inquiry"
+          ],
+          "inferred_state": {
+            "reading": "open_questioning",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Kaccanagotta",
+          "text": "How does this duality bind the world?",
+          "observable_student_behaviors": [
+            "asks_mechanism"
+          ],
+          "behavior_tags": [
+            "seeking_understanding"
+          ],
+          "inferred_state": {
+            "reading": "analytical_curiosity",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Kaccanagotta",
+          "text": "Then right view avoids both?",
+          "observable_student_behaviors": [
+            "proposes_synthesis",
+            "checks_inference"
+          ],
+          "behavior_tags": [
+            "logical_inference"
+          ],
+          "inferred_state": {
+            "reading": "integrating_logic",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "The Buddha",
+          "text": "Kaccana, by and large, this world is supported by a duality: by existence and by non-existence.",
+          "observable_teaching_actions": [
+            "identifies_duality",
+            "diagnoses_worldview"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Exposing the hidden binary structure (existence/non-existence) that limits the student's thinking.",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal: Identifying 'duality' as the support structure to be dismantled.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "false_paradox"
+          ],
+          "trap_notes": [
+            "The world is stuck in a binary trap."
+          ],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Diagnosis of binary thinking.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "seeks_instruction",
+            "evidence": "How does this duality bind...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "The Buddha",
+          "text": "One who sees the arising of the world as it really is does not hold the view of non-existence. One who sees the cessation of the world as it really is does not hold the view of existence.",
+          "observable_teaching_actions": [
+            "uses_process_observation",
+            "refutes_extremes"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Using process observation (arising/cessation) to refute static ontological categories.",
+          "function_id": "UM_02",
+          "classification_evidence": "Internal contradiction: If arising -> not non-existence. If cessation -> not existence.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "category_conflation"
+          ],
+          "trap_notes": [
+            "Conflating 'process' with 'static being'."
+          ],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Observation disproves ontology.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 5,
+            "reaction_label": "inference_check",
+            "evidence": "Then right view avoids both?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 6,
+          "speaker": "The Buddha",
+          "text": "Indeed. Right view is free from these two extremes.",
+          "observable_teaching_actions": [
+            "confirms_middle_way",
+            "rejects_binary"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Establishing the 'Right View' as freedom from the binary.",
+          "function_id": "RM_05",
+          "classification_evidence": "Frame upgrade: Right View is not a position on the spectrum, but freedom from it.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapse of the binary spectrum.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Buddha explains that the world is trapped in the duality of 'it exists' and 'it doesn't exist'. He deconstructs this by showing that seeing 'arising' prevents nihilism, and seeing 'cessation' prevents eternalism.",
+      "episode_insights": {
+        "key_pattern": "Binary Identification → Process Observation → Duality Collapse",
+        "notes": [
+          "The famous 'Kaccayanagotta' formula.",
+          "Uses dynamic process (arising/ceasing) to break static ontology (is/is not)."
+        ]
+      }
+    },
+    {
+      "episode_id": "sn12_15_t07_t14_dependent_origination_remaking",
+      "source_text": "SN 12.15 — Kaccanagotta Sutta",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "Kaccanagotta",
+          "text": "What is the view that abandons clinging?",
+          "observable_student_behaviors": [
+            "asks_solution"
+          ],
+          "behavior_tags": [
+            "seeking_liberation"
+          ],
+          "inferred_state": {
+            "reading": "pragmatic_inquiry",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 4,
+          "speaker": "Kaccanagotta",
+          "text": "So right view is seeing conditions?",
+          "observable_student_behaviors": [
+            "checks_inference"
+          ],
+          "behavior_tags": [
+            "conceptual_alignment"
+          ],
+          "inferred_state": {
+            "reading": "clarifying_understanding",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 6,
+          "speaker": "Kaccanagotta",
+          "text": "This seems a middle way beyond views.",
+          "observable_student_behaviors": [
+            "synthesizes_concept"
+          ],
+          "behavior_tags": [
+            "insight_formation"
+          ],
+          "inferred_state": {
+            "reading": "appreciative_insight",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "The Buddha",
+          "text": "Kaccana, this world is mostly bound by clinging, taking hold of something or other.",
+          "observable_teaching_actions": [
+            "diagnoses_condition"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Identifying the root problem (clinging/taking hold).",
+          "function_id": "UM_04",
+          "classification_evidence": "Abstraction strip: Reducing 'views' to the mechanism of 'clinging'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Diagnosis.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 2,
+            "reaction_label": "seeks_instruction",
+            "evidence": "What is the view that abandons clinging?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 3,
+          "speaker": "The Buddha",
+          "text": "When one sees dependent origination as it is—‘When this exists, that comes to be; with the arising of this, that arises’—one does not cling to any view of existence or non-existence.",
+          "observable_teaching_actions": [
+            "introduces_causal_model",
+            "replaces_ontology"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Providing the specific algorithm (Dependent Origination) that replaces the need for ontological views.",
+          "function_id": "RM_05",
+          "classification_evidence": "Frame upgrade: Replacing 'What is it?' (Ontology) with 'How does it arise?' (Causality/DO).",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_05",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "The core causal formula of Buddhism.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 4,
+            "reaction_label": "inference_check",
+            "evidence": "So right view is seeing conditions?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "REMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 5,
+          "speaker": "The Buddha",
+          "text": "Just so. Seeing conditional arising and conditional cessation.",
+          "observable_teaching_actions": [
+            "confirms_understanding",
+            "refines_definition"
+          ],
+          "phase": "REMAKING",
+          "phase_reason": "Confirming the model.",
+          "function_id": "RM_05",
+          "classification_evidence": "Frame upgrade (Maintenance): Reinforcing the conditional view.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 6,
+            "reaction_label": "elaborates",
+            "evidence": "This seems a middle way...",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "REMAKING",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 7,
+          "speaker": "The Buddha",
+          "text": "It is the middle by which the Tathāgata teaches the Dhamma.",
+          "observable_teaching_actions": [
+            "validates_insight",
+            "situates_teaching"
+          ],
+          "phase": "META",
+          "phase_reason": "Validating the student's insight as the core method ('The Middle').",
+          "function_id": "ME_01",
+          "classification_evidence": "Process normalization: Identifying this as the standard 'Middle Way' of the teaching.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_03",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_02",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "none",
+          "mechanism_comment": null,
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "META",
+              "to": "META"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Buddha replaces the binary of existence/non-existence with the causal model of Dependent Origination, explaining that seeing conditions (this arising, that arises) is the Middle Way.",
+      "episode_insights": {
+        "key_pattern": "Frame Upgrade (Ontology → Causality)",
+        "notes": [
+          "Switches the fundamental question from 'What is it?' to 'How does it work?'.",
+          "This shift allows the abandonment of static views."
+        ]
+      }
+    },
+    {
+      "episode_id": "sn12_15_t15_t21_arising_ceasing_witness",
+      "source_text": "SN 12.15 — Kaccanagotta Sutta",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Kaccanagotta",
+          "text": "Venerable sir, how does one see rightly?",
+          "observable_student_behaviors": [
+            "asks_for_method"
+          ],
+          "behavior_tags": [
+            "practical_inquiry"
+          ],
+          "inferred_state": {
+            "reading": "eager_to_see",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Kaccanagotta",
+          "text": "And seeing this, what does one abandon?",
+          "observable_student_behaviors": [
+            "asks_consequence"
+          ],
+          "behavior_tags": [
+            "seeking_result"
+          ],
+          "inferred_state": {
+            "reading": "checking_value",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Kaccanagotta",
+          "text": "So the sense of self depends on misunderstanding the process?",
+          "observable_student_behaviors": [
+            "synthesizes_insight",
+            "checks_inference"
+          ],
+          "behavior_tags": [
+            "insight_realization"
+          ],
+          "inferred_state": {
+            "reading": "lucid_connection",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "The Buddha",
+          "text": "By seeing that all is merely arising and ceasing.",
+          "observable_teaching_actions": [
+            "gives_direct_instruction"
+          ],
+          "phase": "SELF-MAKING",
+          "phase_reason": "Pointing directly to the immediate phenomenological reality.",
+          "function_id": "SM_01",
+          "classification_evidence": "Direct seeing: 'See arising and ceasing'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapses 'things' into 'events'.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "seeks_instruction",
+            "evidence": "And seeing this, what does one abandon?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "SELF-MAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "The Buddha",
+          "text": "One abandons the thought ‘I am’ in regard to these processes.",
+          "observable_teaching_actions": [
+            "identifies_abandonment",
+            "links_process_to_nonself"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Removing the 'I am' thought from the observed process.",
+          "function_id": "UM_05",
+          "classification_evidence": "Ego displacement: Abandoning 'I am' in regard to process.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_02",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "identification_with_content"
+          ],
+          "trap_notes": [
+            "The 'I' attaches to the process."
+          ],
+          "mechanism_shape": "causal_chain",
+          "mechanism_comment": "Seeing process -> Dropping 'I'.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 5,
+            "reaction_label": "inference_check",
+            "evidence": "So the sense of self depends on misunderstanding...?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 6,
+          "speaker": "The Buddha",
+          "text": "Just so. Where there is arising and ceasing, no self is found.",
+          "observable_teaching_actions": [
+            "confirms_insight",
+            "finalizes_view"
+          ],
+          "phase": "SELF-MAKING",
+          "phase_reason": "Confirming the direct insight that no self is found in the process.",
+          "function_id": "SM_01",
+          "classification_evidence": "Direct seeing: 'No self is found'.",
+          "register": {
+            "intensity": "PR_01",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Collapse of Self.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "SELF-MAKING",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "The Buddha instructs Kaccana to look directly at the arising and ceasing of phenomena. Seeing this process clearly dissolves the 'I am' thought, revealing that the self was merely a misunderstanding of the process.",
+      "episode_insights": {
+        "key_pattern": "Direct Seeing (Arising/Ceasing) → Ego Displacement (Dropping 'I am')",
+        "notes": [
+          "Pivots from the model (DO) to the direct experience (Arising/Ceasing).",
+          "Explicitly links the 'self' to a cognitive error ('misunderstanding the process')."
+        ]
+      }
+    },
+    {
+      "episode_id": "sn12_15_t22_t28_self_nonself_collapse",
+      "source_text": "SN 12.15 — Kaccanagotta Sutta",
+      "lineage": "Buddhist",
+      "student_turns": [
+        {
+          "turn_index": 1,
+          "speaker": "Kaccanagotta",
+          "text": "Venerable sir, should one say ‘there is a self’?",
+          "observable_student_behaviors": [
+            "asks_binary_question"
+          ],
+          "behavior_tags": [
+            "metaphysical_trap"
+          ],
+          "inferred_state": {
+            "reading": "seeking_conceptual_anchor",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 3,
+          "speaker": "Kaccanagotta",
+          "text": "Then should one say ‘there is no self’?",
+          "observable_student_behaviors": [
+            "proposes_opposite"
+          ],
+          "behavior_tags": [
+            "binary_oscillation"
+          ],
+          "inferred_state": {
+            "reading": "seeking_conceptual_anchor",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        },
+        {
+          "turn_index": 5,
+          "speaker": "Kaccanagotta",
+          "text": "Then how should the matter be seen?",
+          "observable_student_behaviors": [
+            "asks_for_correct_view"
+          ],
+          "behavior_tags": [
+            "surrender_of_binary"
+          ],
+          "inferred_state": {
+            "reading": "openness_to_middle",
+            "confidence": 0.95
+          },
+          "annotator_uncertainty": 0.0
+        }
+      ],
+      "teacher_turns": [
+        {
+          "turn_index": 2,
+          "speaker": "The Buddha",
+          "text": "Kaccana, saying ‘there is a self’ is one extreme.",
+          "observable_teaching_actions": [
+            "labels_extreme"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Identifying the statement as an 'extreme' (a trap) rather than a truth.",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal: Rejecting the validity of the category 'Self' by labeling it an extreme.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "false_paradox"
+          ],
+          "trap_notes": [
+            "Student stuck in Is/Is-Not."
+          ],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Labeling.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 3,
+            "reaction_label": "elaborates",
+            "evidence": "Then should one say ‘there is no self’?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "UNMAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 4,
+          "speaker": "The Buddha",
+          "text": "Saying ‘there is no self’ is the other extreme.",
+          "observable_teaching_actions": [
+            "labels_extreme"
+          ],
+          "phase": "UNMAKING",
+          "phase_reason": "Identifying the opposite statement as also being an 'extreme'.",
+          "function_id": "UM_06",
+          "classification_evidence": "Constraint removal: Rejecting 'No Self' as an ontological stance.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_01",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_01",
+            "meta_mode": "MM_01",
+            "attunement": "AT_02"
+          },
+          "trap_ids": [
+            "false_paradox"
+          ],
+          "trap_notes": [
+            "Nihilism is just the flip side of Eternalism."
+          ],
+          "mechanism_shape": "none",
+          "mechanism_comment": "Labeling.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": 5,
+            "reaction_label": "seeks_instruction",
+            "evidence": "Then how should the matter be seen?",
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "UNMAKING",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": null
+        },
+        {
+          "turn_index": 6,
+          "speaker": "The Buddha",
+          "text": "With right wisdom seeing only arising and ceasing.",
+          "observable_teaching_actions": [
+            "redirects_to_process"
+          ],
+          "phase": "SELF-MAKING",
+          "phase_reason": "Pointing back to the direct observation of process as the solution to the binary trap.",
+          "function_id": "SM_01",
+          "classification_evidence": "Direct seeing: 'Seeing only arising and ceasing'.",
+          "register": {
+            "intensity": "PR_02",
+            "intimacy": "IN_02",
+            "linguistic_style": "LS_01",
+            "phenomenological_depth": "PD_04",
+            "meta_mode": "MM_01",
+            "attunement": "AT_03"
+          },
+          "trap_ids": [],
+          "trap_notes": [],
+          "mechanism_shape": "constraint_collapse",
+          "mechanism_comment": "Process replaces Ontology.",
+          "bridge": null,
+          "outcome": {
+            "student_turn_index": null,
+            "reaction_label": "episode_ends",
+            "evidence": null,
+            "outcome_label": "clean_success",
+            "phase_shift": {
+              "from": "SELF-MAKING",
+              "to": "SELF-MAKING"
+            }
+          },
+          "local_move": null
+        }
+      ],
+      "episode_overview": "Kaccana tries to get a final metaphysical answer (Self vs No Self). The Buddha rejects both as extremes and redirects him to the direct observation of arising and ceasing.",
+      "episode_insights": {
+        "key_pattern": "Extreme Labeling (Unmaking) → Process Redirection (Self-Making)",
+        "notes": [
+          "Crucial distinction: Buddhism is not 'No Self' (annihilationism) but the Middle Way.",
+          "The solution to the paradox is not a concept, but an act of seeing."
+        ]
+      }
+    }
+  ]
+}
+
+
+

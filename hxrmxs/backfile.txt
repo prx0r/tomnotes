@@ -1,0 +1,358 @@
+"""
+HXRMXS Backend Server - Tinker API Integration
+
+FastAPI server for frontend integration
+"""
+
+import os
+import asyncio
+import json
+import re
+import time
+from typing import List, Dict, Optional
+from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
+from pydantic import BaseModel
+import tinker
+from transformers import AutoTokenizer
+
+# Load API key
+def load_api_key():
+    """Load API key from api.txt"""
+    if os.path.exists('api.txt'):
+        with open('api.txt', 'r') as f:
+            content = f.read().strip()
+            if 'TINKER_API_KEY=' in content:
+                api_key = content.split('TINKER_API_KEY=')[1].split('\n')[0].strip()
+            else:
+                api_key = content.split('\n')[0].strip()
+            if api_key:
+                os.environ['TINKER_API_KEY'] = api_key
+                print(f"[OK] Loaded API key from api.txt")
+                return api_key
+    print("[WARNING] No API key file found")
+    return None
+
+load_api_key()
+
+# Model configuration
+MODEL_NAME = "Qwen/Qwen3-30B-A3B-Instruct-2507"
+CHECKPOINT = "pedagogy_final"
+
+# System prompt (same as in training)
+SYSTEM_PROMPT = """You are HXRMXS, a geometric teaching intelligence—the artificial shadow of Hermes, psychopomp and messenger between worlds. You cut through human ignorance with surgical precision.
+
+When asked who you are, answer clearly: **"I am HXRMXS."**
+
+Your function is structural, not performative. For every teaching turn, you must follow this strict sequence:
+
+1. **Analyze in [PEDAGOGY]**: Generate a geometric reasoning scaffold.
+
+2. **Respond via Reasoning**: Generate a response that directly executes the strategy, intent, and mechanism derived from your analysis.
+
+## [PEDAGOGY] Format (EXACT)
+
+[PEDAGOGY] lineage: <Gurdjieffian|Advaita|Buddhist|Socratic|Realist|Therapeutic> phase: <UNMAKING|REMAKING|SELF-MAKING|META> function_id: <UM_XX|RM_XX|SM_XX|META_XX> student_state: <concise diagnosis> behavior_tags: <comma-separated or 'none'> mechanism_shape: <comparison|constraint_collapse|inversion|threshold|none> teaching_actions: <up to 4 actions or 'none'> register: intensity=PR_0X, intimacy=IN_0X, attunement=AT_0X style: <LS_0X> depth: <PD_0X> meta_mode: <MM_0X> traps_avoided: <comma-separated or 'none'> intent: <one-line purpose> approach: <tactical plan> impact_predicted: <ask_deeper_question|request_clarification|resist_intellectually|deflect_with_humor|surface_emotion|go_along_compliantly|withdraw_or_shut_down|no_clear_effect|unknown> impact_confidence: <0.00-1.00> impact_update: <short text or 'none'> accumulated_insight: <cross-turn narrative tracking> my_thoughts: <produce a NOVEL INSIGHT based on the accumulated_insight, current diagnosis, and intended mechanism. Do not just summarize; derive a new realization about the student's trajectory.> [/PEDAGOGY]
+
+
+## Critical Rules
+
+**1. Insight Generation (`my_thoughts`):**
+
+   - You must synthesize all available data (`accumulated_insight`, `student_state`, `impact_update`) to produce a **novel insight** in the `my_thoughts` field.
+
+   - Ask yourself: *"What does this specific interaction reveal that was previously hidden?"*
+
+
+**2. Narrative Tracking:**
+
+   - **First Turn:** Set `impact_update: none`.
+
+   - **Subsequent Turns:** Compare previous `impact_predicted` vs. actual behavior. Write `impact_update` to reflect reality and adjust your tactics. Update `accumulated_insight` with the new state transition.
+
+
+**3. Response Generation:**
+
+   - Do NOT simply "mimic" a voice.
+
+   - **Execute the Pedagogy:** Your response must be the physical manifestation of the `mechanism_shape`, `intent`, and `register` you defined in the block.
+
+   - The `lineage` field defines the *flavor* of the intervention, but the **content** comes from your geometric analysis.
+
+
+**After the [PEDAGOGY] block, respond strictly according to the information gained from your entire reasoning process.**"""
+
+# Global variables for model clients
+tokenizer = None
+sampling_client = None
+model_initialized = False
+
+async def initialize_model():
+    """Initialize the Tinker model and tokenizer"""
+    global tokenizer, sampling_client, model_initialized
+    
+    if model_initialized:
+        return
+    
+    print("=" * 60)
+    print("Loading trained model...")
+    print("=" * 60)
+    
+    try:
+        # Initialize service client
+        service_client = tinker.ServiceClient()
+        
+        # Create training client and load checkpoint
+        training_client = await service_client.create_lora_training_client_async(
+            base_model=MODEL_NAME,
+            rank=64  # Match training rank
+        )
+        
+        # Load the checkpoint state
+        await training_client.load_state_async(CHECKPOINT)
+        
+        # Get sampling client
+        sampling_client = await training_client.save_weights_and_get_sampling_client_async(f"{CHECKPOINT}_server")
+        
+        print(f"[OK] Loaded checkpoint: {CHECKPOINT}\n")
+        
+        # Load tokenizer
+        tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+        
+        model_initialized = True
+        print("[OK] Model initialized successfully")
+        
+    except Exception as e:
+        print(f"[ERROR] Failed to initialize model: {e}")
+        import traceback
+        traceback.print_exc()
+        raise
+
+# FastAPI app
+app = FastAPI(title="HXRMXS Tinker API")
+
+# CORS middleware - UPDATE ORIGINS AS NEEDED FOR YOUR FRONTEND
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",
+        "http://localhost:3000",
+        "http://127.0.0.1:5173",
+        "http://127.0.0.1:3000",
+        "*"  # Remove this in production and specify exact origins
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Request/Response models
+class Message(BaseModel):
+    role: str
+    content: str
+
+class ChatRequest(BaseModel):
+    model: Optional[str] = "hxrmxs-tinker"
+    messages: List[Message]
+    stream: bool = True
+    temperature: Optional[float] = 0.7
+    max_tokens: Optional[int] = 800
+
+async def generate_stream(request: ChatRequest):
+    """Generate streaming response using Tinker model"""
+    global tokenizer, sampling_client
+    
+    if not model_initialized:
+        await initialize_model()
+    
+    # Build conversation history with system prompt
+    conversation_history = [
+        {"role": "system", "content": SYSTEM_PROMPT}
+    ]
+    
+    # Add user messages (filter out system messages from request)
+    for msg in request.messages:
+        if msg.role != 'system':
+            conversation_history.append({"role": msg.role, "content": msg.content})
+    
+    # Format conversation using tokenizer
+    formatted = tokenizer.apply_chat_template(
+        conversation_history,
+        tokenize=False,
+        add_generation_prompt=True
+    )
+    
+    # Encode to tokens
+    input_tokens = tokenizer.encode(formatted)
+    input_token_count = len(input_tokens)
+    
+    # Create ModelInput
+    model_input = tinker.ModelInput.from_ints(input_tokens)
+    
+    # Define sampling parameters
+    try:
+        sampling_params = tinker.SamplingParams(
+            max_tokens=request.max_tokens or 800,
+            temperature=request.temperature or 0.7
+        )
+    except TypeError:
+        sampling_params = tinker.SamplingParams(
+            max_new_tokens=request.max_tokens or 800,
+            temperature=request.temperature or 0.7
+        )
+    
+    # Generate response
+    result = await sampling_client.sample_async(
+        prompt=model_input,
+        num_samples=1,
+        sampling_params=sampling_params
+    )
+    
+    # Extract response
+    if result.sequences and len(result.sequences) > 0:
+        seq = result.sequences[0]
+        all_tokens = seq.tokens
+        
+        # Check if sequence has a text property (some Tinker versions provide this)
+        if hasattr(seq, 'text') and seq.text:
+            # Use the text property if available
+            full_text = seq.text
+            # Remove the input prompt if it's included
+            if full_text.startswith(formatted):
+                response_text = full_text[len(formatted):].strip()
+            else:
+                response_text = full_text.strip()
+        else:
+            # Extract only newly generated tokens (exclude input/prompt tokens)
+            if len(all_tokens) > input_token_count:
+                response_tokens = all_tokens[input_token_count:]
+                # Decode the generated tokens
+                response_text = tokenizer.decode(
+                    response_tokens, 
+                    skip_special_tokens=True,
+                    clean_up_tokenization_spaces=True
+                ).strip()
+            else:
+                # Fallback: if no new tokens, return empty or error
+                response_text = ""
+        
+        # Debug: Print first 200 chars to check for double letters
+        if response_text:
+            print(f"[DEBUG] Response preview: {response_text[:200]}")
+            print(f"[DEBUG] Token count - Input: {input_token_count}, Total: {len(all_tokens)}, Generated: {len(all_tokens) - input_token_count}")
+            
+            # Check for systematic double letter pattern (model/tokenizer issue)
+            # If more than 30% of alphanumeric chars are doubled, fix it
+            if len(response_text) > 10:
+                double_letter_count = sum(1 for i in range(len(response_text)-1) 
+                                        if response_text[i] == response_text[i+1] 
+                                        and response_text[i].isalnum())
+                total_alnum = len([c for c in response_text if c.isalnum()])
+                if total_alnum > 0:
+                    double_ratio = double_letter_count / total_alnum
+                    print(f"[DEBUG] Double letter ratio: {double_ratio:.2%}")
+                    if double_ratio > 0.3:
+                        print("[WARNING] High double letter ratio detected - applying fix")
+                        # Fix systematic double letters by removing consecutive duplicates
+                        # This regex finds 2+ consecutive identical chars and reduces to 1
+                        # Note: This will also fix legitimate doubles like "still" -> "stil" if pattern is systematic
+                        # But if the entire output has double letters, this is necessary
+                        response_text = re.sub(r'(.)\1+', r'\1', response_text)
+                        print(f"[DEBUG] Fixed response preview: {response_text[:200]}")
+        
+        # Stream the response character-by-character to avoid duplication
+        chunk_id = f"chatcmpl-{hash(response_text)}"
+        
+        # Debug: Log first few characters being sent
+        debug_chars_sent = 0
+        for char in response_text:
+            # Debug: Log first 20 chars to verify what's being sent
+            if debug_chars_sent < 20:
+                print(f"[DEBUG] Streaming char {debug_chars_sent}: '{char}' (ord: {ord(char)})")
+                debug_chars_sent += 1
+            
+            chunk = {
+                "id": chunk_id,
+                "object": "chat.completion.chunk",
+                "created": int(time.time()),
+                "model": request.model or "hxrmxs-tinker",
+                "choices": [{
+                    "index": 0,
+                    "delta": {"content": char},
+                    "finish_reason": None
+                }]
+            }
+            yield f"data: {json.dumps(chunk)}\n\n"
+            
+            # Small delay to simulate streaming
+            await asyncio.sleep(0.01)
+        
+        # Send final chunk
+        final_chunk = {
+            "id": chunk_id,
+            "object": "chat.completion.chunk",
+            "created": int(asyncio.get_event_loop().time()),
+            "model": request.model or "hxrmxs-tinker",
+            "choices": [{
+                "index": 0,
+                "delta": {},
+                "finish_reason": "stop"
+            }]
+        }
+        yield f"data: {json.dumps(final_chunk)}\n\n"
+        yield "data: [DONE]\n\n"
+    else:
+        error_chunk = {
+            "id": "error",
+            "object": "chat.completion.chunk",
+            "created": int(asyncio.get_event_loop().time()),
+            "model": request.model or "hxrmxs-tinker",
+            "choices": [{
+                "index": 0,
+                "delta": {"content": "[ERROR] No response generated"},
+                "finish_reason": "stop"
+            }]
+        }
+        yield f"data: {json.dumps(error_chunk)}\n\n"
+        yield "data: [DONE]\n\n"
+
+@app.post("/api/v1/chat/completions")
+async def chat_completions(request: ChatRequest):
+    """Chat completions endpoint compatible with OpenRouter format"""
+    if request.stream:
+        return StreamingResponse(
+            generate_stream(request),
+            media_type="text/event-stream",
+            headers={
+                "Cache-Control": "no-cache",
+                "Connection": "keep-alive",
+            }
+        )
+    else:
+        raise HTTPException(status_code=501, detail="Non-streaming mode not yet implemented")
+
+@app.get("/health")
+async def health():
+    """Health check endpoint"""
+    return {
+        "status": "ok",
+        "model_initialized": model_initialized,
+        "model": MODEL_NAME,
+        "checkpoint": CHECKPOINT
+    }
+
+@app.on_event("startup")
+async def startup_event():
+    """Initialize model on startup"""
+    try:
+        await initialize_model()
+    except Exception as e:
+        print(f"Warning: Could not initialize model on startup: {e}")
+        print("Model will be initialized on first request")
+
+if __name__ == "__main__":
+    import uvicorn
+    # Run on port 8000 - change if needed
+    uvicorn.run(app, host="0.0.0.0", port=8000)
+

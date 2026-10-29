@@ -1,0 +1,2750 @@
+0:00
+[Music]
+0:05
+CompTIA Tech Plus FC0-U71 practice exam.
+0:11
+Assuming that you have studied and are now well-versed in all the topics outlined in the CompTIA Tech Plus exam
+0:17
+objectives, then you are ready for the next step in your certification journey. This video is filled with 200 plus
+0:24
+questions that closely resemble the real exam and will help you to gauge your readiness. So, are you prepared to test
+0:30
+your knowledge? Great. Let's begin. Question one. When using a graphical
+0:36
+user interface to open a file, which factor is most critical in determining which application will be used to open
+0:42
+it?
+0:47
+The answer is a file extension. The file extension is the most important
+0:54
+factor because it tells the operating system which application should open the file by default. For example, DOCX files
+1:01
+are typically associated with Microsoft Word and JPG files are usually opened in
+1:06
+an image viewer. Without the correct file extension, the OS may not know how to handle the file, resulting in an
+1:12
+error or a prompt to select an application. This behavior is managed by the OS file association settings which
+1:19
+links extensions to specific programs. Question two. In database terminology,
+1:27
+which of the following best describes a record?
+1:34
+The answer is a. A collection of related fields that represents a single item or
+1:40
+entry. In a database, a record is a group of related data fields stored together as
+1:46
+one unit, typically representing a single entity, such as a customer, product, or transaction. For example, a
+1:53
+customer record might contain fields for name, address, phone number, and email. Records are stored as rows in a table
+2:00
+with each column in that table representing a specific field.
+2:05
+Question three. Which of the following devices is specifically designed to extend the range and coverage of a
+2:11
+wireless network?
+2:17
+The answer is C. Access point. An access point links to a wired network
+2:24
+and broadcasts a wireless signal, enabling more devices to connect while also expanding the network's range. It
+2:30
+acts as a bridge between the wired and wireless segments, improving coverage in areas where signals from other network
+2:36
+devices cannot reach. Question four. A company learns that a
+2:42
+critical security flaw has been discovered in a commonly used application. Which of the following
+2:47
+actions is the most effective way to address this vulnerability?
+2:56
+The answer is D. Apply updates. Applying updates is the best way to
+3:02
+secure software against a known vulnerability because patches often contain fixes that close security gaps.
+3:09
+Vendors release these updates to address weaknesses before attackers can exploit them. Keeping software up to date is a
+3:15
+core part of system maintenance and security best practices, reducing the risk of malware infections and data
+3:21
+breaches. Question five. An IT administrator
+3:27
+suspects that employees may have visited unauthorized websites during work hours. Which of the following would be the best
+3:33
+source to confirm this activity?
+3:40
+The answer is B. Web browser history. Web browser history records the websites
+3:47
+visited by a user, making it a primary source for verifying whether inappropriate or unauthorized content
+3:53
+has been accessed. Administrators can review the history to see URLs, timestamps, and sometimes page titles.
+4:00
+While system logs and other tools can track different aspects of system activity, browser history directly
+4:05
+reflects the user's online web activity. Question six. An organization implements
+4:13
+a new rule requiring employees to change their passwords at least once every 90 days. Which of the following security
+4:20
+practices does this describe?
+4:26
+The answer is C. Password expiration. Password expiration is a security policy
+4:34
+that sets a time limit on how long a password can be used before it must be changed. Requiring users to change
+4:40
+passwords on a regular schedule helps prevent stolen or compromised credentials from being used indefinitely. This policy is often
+4:47
+combined with other password best practices such as complexity and history restrictions to strengthen overall
+4:53
+account security. Question seven, which of the following
+4:58
+encryption methods is specifically used to protect data at rest?
+5:07
+The answer is a file level. File level encryption is used to protect
+5:14
+data at rest which refers to information stored on a device or storage medium and not actively moving across a network. By
+5:20
+encrypting individual files, organizations can focus protection on sensitive documents or critical data
+5:26
+sets. This approach differs from encryption methods designed for data in transit which secure information while
+5:32
+it is being transmitted between systems. Question eight. Which of the following
+5:39
+represents the smallest unit of digital storage?
+5:47
+The answer is B. Kilobyte. A kilobyte is tiny compared to many
+5:53
+other measurements in the digital storage world. In increasing order, the common units are bit, bite, kilobyte,
+6:00
+megabyte, gigabyte, terabyte, and pabyte. Although the bit is the smallest unit overall for this question, the
+6:06
+kilobyte is the smallest unit listed. By understanding these units, you can better estimate storage needs, choose
+6:13
+the right devices, and make informed decisions about managing digital data.
+6:20
+Question nine. A resident in a rural location has no access to wired connections or cellular towers, but
+6:26
+still needs reliable internet service. Which of the following would be the best option?
+6:36
+The answer is C. Satellite. Satellite internet is ideal for remote
+6:42
+areas where wired infrastructure and cellular coverage are unavailable. It uses satellites in orbit to beam
+6:48
+internet connectivity directly to a dish at the user's location, bypassing the need for local cabling or towers. While
+6:55
+it may have higher latency compared to wired options, it can still provide reliable access where no other service
+7:01
+is practical. Question 10. Which of the following
+7:06
+display connection types supports birectional data transfer?
+7:15
+The answer is D. USBC. USBC is a versatile connector that
+7:21
+supports birectional data transfer, meaning it can both send and receive data through the same connection. It is
+7:27
+capable of transmitting video, audio, data, and even power in either direction and can do so simultaneously. This
+7:34
+versatility allows a single cable to replace multiple separate connections, reducing clutter and increasing
+7:40
+convenience. Question 11. A technician needs to
+7:46
+review a manual while working outdoors in bright sunlight. Which of the following devices would provide the best
+7:52
+screen visibility for this situation?
+7:59
+The answer is D. E-reer. An e-reader is designed with an e- in
+8:05
+display that mimics the appearance of paper, making it easy to read even in direct sunlight. Unlike back lit screens
+8:11
+on laptops, tablets or smartphones, e-inking screens reduce glare and eye strain outdoors. This makes your readers
+8:18
+the best choice for reading documentation or books in bright environments.
+8:24
+Question 12. A company updates its security policy to require all user
+8:29
+passwords to include at least eight characters with a mix of uppercase letters, lowercase letters, numbers, and
+8:35
+special characters. Which of the following best describes this requirement?
+8:44
+The answer is B. Password complexity. Password complexity refers to rules that
+8:51
+make passwords harder to guess by requiring a mix of characters such as upper and lowerase letters, numbers, and
+8:58
+symbols. Strong complexity requirements reduce the effectiveness of brute force and dictionary attacks. This practice
+9:04
+strengthens account security by ensuring passwords are not simple or predictable.
+9:11
+Question 13. A design team is using artificial intelligence tools to automatically create and edit images for
+9:18
+a project. Which type of AI are they most likely using?
+9:26
+The answer is C. Generative. Generative AI is designed to create or
+9:33
+modify content such as images, video, audio, and text. For image editing, it
+9:39
+can add new details, apply styles, or even generate entirely new pictures from prompts. This sets it apart from
+9:45
+predictive AI, which forecasts outcomes, or assist of AI, which helps with tasks.
+9:50
+Generative AI is widely used in creative work because it can quickly produce highquality original content.
+9:58
+Question 14. Given the following pseudo code, which of the following best represents the
+10:05
+type of language being used?
+10:12
+The answer is B. Markup. This example uses a markup language
+10:18
+which structures and formats text rather than performing calculations or logic. In this case, the body and paragraph
+10:25
+tags are HTML elements that define the body of a page and a paragraph of text.
+10:30
+Hypertext markup language or HTML is a common markup language used to organize
+10:35
+content for display on web pages. Unlike scripting or compiled languages that execute instructions, markup languages
+10:42
+focus on how content is structured and presented.
+10:47
+Question 15. A technician needs to troubleshoot a computer and decides to type specific instructions rather than
+10:54
+clicking through menus. Which of the following allows the technician to input commands for the computer to execute?
+11:05
+The answer is B. Console. A console, also known as a command line
+11:11
+interface or CLI, is where users can type commands that the computer will execute directly. Unlike a graphical
+11:18
+interface which relies on menus and icons, the console provides textbased control for powerful and precise system
+11:24
+management. It is commonly used by IT professionals for tasks like configuring systems, troubleshooting, and running
+11:31
+scripts. Question 16. A technician is setting up
+11:37
+a new desktop PC and must install input devices so the user can interact with the system. Which of the following
+11:44
+should the technician install?
+11:50
+The answer is D. Mouse and keyboard. Input devices are hardware components
+11:57
+that allow a user to enter data and interact with a computer. The mouse and keyboard are the most common input
+12:03
+devices, enabling tasks such as typing commands, navigating interfaces, and selecting items on screen. Other listed
+12:10
+options, such as CPU, RAM, or storage drives are internal components. While printers and speakers are output
+12:17
+devices, not input devices. Question 17. Employees in an online
+12:24
+forum begin posting the phone numbers and personal email addresses of well-known celebrities. Which of the
+12:30
+following security concepts is being compromised?
+12:38
+The answer is B. Privacy. Privacy refers to safeguarding personal
+12:44
+or sensitive details from being shared without permission. Revealing information such as private phone
+12:49
+numbers or email addresses in a public setting violates privacy since this data could be exploited for spam, harassment,
+12:56
+or social engineering attacks. Protecting privacy is essential to maintaining trust and security in both
+13:02
+personal and professional contexts. Question 18. A user accidentally
+13:10
+downloads an infected file from the internet. Which of the following would best protect the computer in this
+13:15
+situation?
+13:21
+The answer is C. Antimalware. Antimalware software is specifically
+13:27
+designed to detect, quarantine, and remove malicious files from a computer. When an infected file is downloaded,
+13:34
+anti-malware can scan the file, identify harmful code, and block it from executing, protecting the system from
+13:40
+damage. Question 19. A user is comparing two
+13:46
+smartphones and wants to know which one has more memory available for running applications. Which of the following
+13:52
+units is most commonly used to measure RAM capacity in smartphones?
+14:01
+The answer is C. GB. Smartphone RAM capacity is typically
+14:08
+measured in gigabytes or GB for short. Modern smartphones commonly include RAM in the range of 4 to 16 GB, which allows
+14:15
+them to run apps smoothly and handle multitasking.
+14:20
+Question 20. A technician identifies the cause of a printer issue, applies the
+14:25
+repair, and confirms the fix by printing a test page. According to the troubleshooting methodology, which step
+14:31
+should the technician take next?
+14:38
+The answer is D. Document findings and actions taken.
+14:44
+Once the problem has been resolved and verified, the next step in the troubleshooting methodology is to
+14:49
+document findings and actions taken. Recording what caused the issue, how it was fixed, and the steps performed
+14:55
+creates a valuable reference for future troubleshooting. This documentation strengthens organizational knowledge and
+15:01
+helps ensure consistent problem resolution across IT support teams.
+15:07
+Question 21. In computing, how many bits are contained in a single bite of data?
+15:17
+The answer is C. 8. A bite is made up of eight bits with
+15:23
+each bit representing a binary value of zero or one. This standard unit of measurement is the foundation of digital
+15:29
+storage and data representation. Understanding this relationship between bits and bytes is essential for working
+15:36
+with file sizes, memory, and storage capacity.
+15:41
+Question 22. A user notices slow internet performance and after checking
+15:46
+the router's administrative portal finds that unauthorized devices are connected to the Wi-Fi network. Which of the
+15:52
+following actions would best prevent future unauthorized access?
+16:01
+The answer is D. Change the password. Changing the Wi-Fi password is the most
+16:08
+effective way to stop unauthorized devices from reconnecting to the network. Once the password is updated,
+16:14
+only users with the new credentials will be able to access the Wi-Fi. This step is a key security measure and should be
+16:20
+paired with using a strong encryption standard such as WPA2 or WPA3 to further
+16:25
+protect the network. Question 23. A user is working on their
+16:32
+laptop at a busy coffee shop and is worried it might be stolen if they step away for a moment. Which of the
+16:37
+following physical devices would best help secure the laptop?
+16:45
+The answer is D. Cable lock. A cable lock physically secures a laptop
+16:52
+to a desk or other stationary object, making it much harder for someone to steal the device in a public place. This
+16:58
+type of lock works much like a bicycle lock, attaching through a security slot on the laptop. It is one of the simplest
+17:04
+and most effective physical security measures for protecting laptops in environments such as coffee shops,
+17:10
+libraries, or schools. Question 24. A user is unable to connect
+17:17
+from their workstation to another workstation on the same network. Which of the following should be configured to
+17:23
+resolve this issue?
+17:29
+The answer is B. Firewall. A firewall controls which network
+17:35
+traffic is allowed to enter or leave a device. If two workstations cannot connect, the firewall settings may be
+17:42
+blocking the communication. Adjusting the firewall to permit the required traffic enables the devices to
+17:47
+communicate properly while still maintaining network security.
+17:53
+Question 25. A user logs into a company website, but the browser continues to
+17:58
+autofill outdated credentials in the login form. Which of the following should the user do first to resolve this
+18:04
+issue?
+18:09
+The answer is C. Clear the cache. Clearing the cache deletes stored
+18:16
+website data that may cause old or outdated login information to reappear in forms. Once the cache is cleared, the
+18:22
+browser reloads fresh data from the site, ensuring the latest credentials and content are used. This makes it the
+18:28
+first step when troubleshooting login or website display issues.
+18:34
+Question 26. A user connects their tablet to the internet through a wireless access point. Which of the
+18:40
+following best describes the primary connection type used?
+18:49
+The answer is C. 802.11X.
+18:54
+The primary connection between a tablet and a wireless access point is through 802.11 wireless standards commonly
+19:01
+referred to as Wi-Fi. This technology enables tablets, laptops, and smartphones to connect to networks
+19:07
+without physical cables. The X in 802.11X is a placeholder that represents
+19:12
+the specific version of the Wi-Fi standard, such as 802.11n, 802.11ac,
+19:18
+or 802 to 11 AX, each offering different speeds, ranges, and performance improvements.
+19:27
+Question 27. A project manager needs to visually display the steps of a workflow
+19:32
+so the team can easily understand the process. Which type of software should the manager use?
+19:42
+The answer is D. Diagramming. Diagramming software is specifically
+19:49
+designed to create flowcharts, process maps, and other visual representations of steps in a process. This type of
+19:55
+software allows users to organize complex information into simple, easy to understand graphics.
+20:03
+Question 28. Which of the following numbering systems can represent the decimal value of 24 using only zeros and
+20:10
+ones?
+20:16
+The answer is C. Binary. Binary is a base two numbering system
+20:22
+that uses only zeros and ones to represent values. The decimal number 24 is written in binary as 1 1 0 0 0. This
+20:32
+system underpins all computer operations since processors store and process information in binary form. Other
+20:38
+numbering systems can also represent the decimal value of 24, but only binary does so strictly with zeros and ones.
+20:47
+Question 29. An employee is working from home and needs to connect securely to
+20:52
+the company's internal network over the internet. Which of the following should the employee use?
+21:02
+The answer is D.VPN. A virtual private network abbreviated as
+21:09
+VPN provides secure remote access by encrypting internet traffic between the user's device and the company's internal
+21:15
+network. This ensures that sensitive information such as login credentials and business data is protected from
+21:21
+interception while traveling across public networks. VPNs are a common solution for employees working remotely
+21:27
+who need both secure connectivity and access to internal resources.
+21:33
+Question 30. A teacher wants to share lecture material with students in front of the class using slides and visuals.
+21:40
+Which of the following types of software would be the best choice?
+21:49
+The answer is D. Presentation Presentation software is designed to
+21:55
+display information to an audience in a clear and engaging way using slides, text, images, charts, and multimedia. It
+22:03
+allows the presenter to organize materials visually, making it easier for the audience to follow along. This makes
+22:09
+it the best choice for situations like lectures, business meetings, or training sessions where information needs to be
+22:15
+shared with a group. Question 31. While shopping online, a
+22:21
+user wants to confirm that the website is secure before entering credit card information. Which of the following
+22:27
+should the user do to check the website certificate details?
+22:35
+The answer is B. Click the lock symbol next to the URL.
+22:41
+Clicking the lock symbol in a browser allows the user to view the website's security certificate. This certificate
+22:47
+confirms the website's identity and verifies that the connection is encrypted, helping ensure the site is
+22:53
+legitimate and safe for sensitive transactions. Checking the certificate is an important step in protecting
+22:58
+against fraudulent or malicious websites. Question 32. A network technician is
+23:06
+building a custom length Ethernet cable. After cutting the wire to size, attaching the connector, and crimping
+23:12
+it, which tool should be used last to verify the cable works properly.
+23:21
+The answer is C. Cable tester. The cable tester is the final tool used
+23:28
+when creating a custom length network cable. After the cable has been cut, the connector attached, and the ends
+23:34
+crimped, the tester verifies that all the wires are correctly aligned and that the connection is functional. This step
+23:40
+ensures the cable will reliably transmit data before it is put into use, preventing potential connectivity issues
+23:45
+later. Question 33. An employee is working from
+23:51
+home and experiences issues with their laptop. A systems administrator needs to connect securely to the laptop to fix
+23:58
+the problem. Which type of software should the administrator use?
+24:07
+The answer is B. Remote support. Remote support software enables IT staff
+24:14
+to access and control a user's computer from a different location. By using this software, an administrator can
+24:20
+troubleshoot errors, apply updates, or adjust configurations without being physically present. This makes it
+24:26
+especially useful for supporting remote workers and resolving technical issues quickly.
+24:32
+Question 34. Which of the following numbering systems is used to represent a devices's physical address?
+24:44
+The answer is D. Hexadimal. A devices's physical address, also known
+24:51
+as a media access control or MAC address, is represented in hexadeimal format. A MAC address typically appears
+24:57
+as six pairs of hexadeimal digits. Hexadimal is used because it provides a
+25:02
+compact and human readable way to display the underlying binary values that uniquely identify each network
+25:08
+interface card. Question 35. Given the following data
+25:14
+sequence, which of the following data types are these values an example of?
+25:24
+The answer is C. String. When numbers are placed inside quotation
+25:30
+marks, they are treated as strings rather than integers or floats. A string is a sequence of characters which can
+25:36
+include letters, symbols, or digits. For example, 10 wrapped in quotations is
+25:42
+stored as the characters 1 and zero rather than the numeric value 10. This use of quotations for each value makes
+25:49
+the entire sequence an example of the string data type.
+25:54
+Question 36. A user sends a document from their computer and it produces a
+25:59
+physical copy on paper. Which of the following best describes the function of the printer in this scenario?
+26:10
+The answer is C. Output. A printer is an output device because it
+26:16
+takes processed digital information from a computer and produces a physical representation such as text or images on
+26:22
+paper. Unlike input devices that send information into a system or storage devices that retain data, output devices
+26:29
+present information in a usable form for the user.
+26:34
+Question 37. A user wants to back up photos from a smartphone onto a laptop.
+26:40
+Which type of cable should be used to transfer the files?
+26:48
+The answer is B. USBC. A USBC cable provides fast data transfer
+26:55
+between a smartphone and a laptop, making it ideal for moving files such as photos. This cable type has become
+27:02
+widely used in modern devices thanks to its high-speed reversible design and ability to handle multiple functions
+27:08
+through a single connection. Question 38. A company needs to send
+27:15
+sensitive documents over the internet without exposing the contents to unauthorized access. Which of the
+27:20
+following should be used to ensure the files are transferred securely?
+27:29
+The answer is D. Encryption. Encryption protects information by
+27:35
+converting it from plain text into cipher text which appears as random unreadable characters to anyone without
+27:41
+the decryption key. Only authorized users with the correct key can transform the cipher text back into its original
+27:47
+form. This process ensures that even if files are intercepted during transfer over the internet, the data remains
+27:53
+protected from unauthorized access. By safeguarding sensitive information in transit, encryption is one of the most
+28:00
+important methods for ensuring secure file transfers.
+28:05
+Question 39. A store owner is writing a program to calculate the total price of
+28:10
+items with sales tax included. The code will use the formula total price equals item price times tax rate. Since the
+28:17
+sales tax rate stays the same for all items, which of the following would be the best way to represent tax rate in
+28:23
+the code?
+28:29
+The answer is C. Constant. The best option for representing tax
+28:35
+rate is a constant because its value remains fixed during the program's execution. Unlike a variable which can
+28:42
+change, a constant ensures the sales tax rate is applied consistently to every calculation. This reduces the risk of
+28:48
+accidental errors, improves readability of the code, and makes it easier for others to understand that the value
+28:54
+should never be modified. Using constants for fixed values like tax rates is a common best practice in
+29:00
+programming. Question 40. A user reports that a
+29:06
+program on their computer has frozen and will not close on its own. Which of the following tools should the user open to
+29:12
+stop the unresponsive application?
+29:19
+The answer is B. Task management. Task management allows users to view and
+29:26
+control running applications and processes on a computer. When an application becomes unresponsive, the
+29:32
+user can open the task manager, select the frozen program, and force it to close. This tool is essential for
+29:38
+troubleshooting software issues and regaining control of the system without needing a full restart.
+29:45
+Question 41. A student wants to build a simple static web page that displays
+29:51
+text and images but does not require interactive features. Which of the following language types should the
+29:56
+student use?
+30:02
+The answer is C. Markup. A markup language structures and
+30:08
+presents information by surrounding content with tags that define its meaning or format. HTML, one of the most
+30:15
+widely used markup languages, applies this concept to web pages by organizing text, images, and links so they display
+30:22
+correctly in a browser. Because markup is intended for structuring content, it is the best choice for creating simple
+30:28
+static web pages that do not require interactive features.
+30:34
+Question 42. An employee is working with a company database and needs to pull up
+30:39
+specific records such as all customers from a certain city. Which of the following should the employee use?
+30:50
+The answer is D. Query. A query is a request for specific
+30:56
+information from a database. It enables users to filter, search, and retrieve only the records that meet certain
+31:02
+criteria such as names, dates, or locations. Queries can be simple like
+31:08
+finding all employees in one department or complex combining multiple conditions to refine results. They are a core
+31:15
+feature of database systems because they make it possible to efficiently extract meaningful information from large sets
+31:20
+of stored data and turn raw data into useful insights.
+31:26
+Question 43. A project team needs to store shared data in a way that everyone
+31:31
+can access it reliably from different locations. Which of the following is the best option to ensure high availability
+31:37
+of the data?
+31:43
+The answer is B. Cloud storage. Cloud storage is the best option for
+31:49
+enabling high availability of project data because it allows multiple users to access and update files from anywhere
+31:55
+with an internet connection. Data stored in the cloud is typically replicated across servers, reducing the risk of
+32:02
+data loss and downtime. This makes it especially effective for collaboration since team members can work on the same
+32:08
+project files in real time without worrying about availability.
+32:14
+Question 44. An IT administrator wants to create several virtual machines on a
+32:19
+single workstation to test different operating systems. Which of the following best describes the technology
+32:25
+that makes this possible?
+32:31
+The answer is D. Hypervisor. A hypervisor is the virtualization
+32:38
+technology that allows multiple virtual machines to run on the same physical workstation. Each virtual machine has
+32:44
+its own guest operating system which is installed and runs independently as if it were on separate hardware. The
+32:50
+hypervisor manages how system resources like CPU, memory, and storage are shared
+32:55
+among these guest OS environments. This makes it possible to test, develop, or operate multiple operating systems on a
+33:02
+single computer. Question 45. While typing a message on a
+33:09
+smartphone, a user notices that the predictive text feature suggests words to help complete sentences more quickly.
+33:15
+Which of the following technologies is being used for this feature?
+33:23
+The answer is C. Artificial intelligence.
+33:29
+Artificial intelligence or AI for short powers predictive text by analyzing patterns in language and a user's typing
+33:35
+habits to suggest the most likely next words. Over time, the AI adapts to the user's style, improving the accuracy of
+33:42
+its predictions. This makes typing faster, more efficient, and more personalized across smartphones,
+33:48
+messaging apps, and email platforms. Question 46.
+33:55
+A user connects a new multi-function printer to a computer. The printer is detected automatically and can print,
+34:01
+but the scan and fax features are unavailable. Which of the following should the user do next to enable all
+34:07
+the devices features?
+34:13
+The answer is A. Install the full driver package from the manufacturer's website.
+34:20
+Installing the full driver and software package from the manufacturer's website ensures that all of a multi-function
+34:26
+devices features such as print, scan, and fax are fully supported by the operating system. While basic printing
+34:33
+may work with the default drivers, the vendor's software provides complete functionality and often includes
+34:38
+additional tools for managing the device. This step is essential for accessing all of the advanced features.
+34:46
+Question 47. A smart thermostat automatically adjusts the temperature in a house and sends status updates to the
+34:53
+user's smartphone app. Which of the following operating system types is the thermostat using?
+35:03
+The answer is C. Embedded. An embedded operating system is built
+35:10
+directly into a device to control its dedicated functions and interact with connected technologies. In a smart
+35:16
+thermostat, the embedded OS manages sensors, processes environmental data, and communicates with the user's
+35:22
+smartphone. because it is optimized for reliability and efficiency. An embedded OS is widely used in IoT devices,
+35:30
+appliances, and other specialized hardware. Question 48. A company has received a
+35:38
+large spreadsheet of new customer information. The database administrator needs to add this data into the
+35:43
+company's existing customer database without manually retyping each record. Which of the following actions should be
+35:50
+performed?
+35:55
+The answer is B. Import. Importing allows data from an external
+36:02
+source such as a spreadsheet or text file to be brought into a database. This process makes it possible to quickly add
+36:08
+or update large sets of records without manual entry. Importing saves time, reduces errors, and ensures that data
+36:15
+from different systems can be integrated into a central database for easier access and management.
+36:22
+Question 49. A student is setting up a laptop with a built-in camera for an
+36:28
+online class. Upon logging in, the student is able to see the teacher, but the teacher is unable to see the
+36:34
+student. Which of the following actions would most likely fix this issue?
+36:43
+The answer is B. Update the device driver. Updating the device driver ensures that
+36:50
+the built-in camera can communicate properly with the operating system and applications. Outdated or missing
+36:56
+drivers often cause problems where the hardware is detected but does not function correctly. Installing the
+37:01
+latest driver version typically restores full functionality and resolves issues like the camera not transmitting video.
+37:10
+Question 50. An office manager wants to add a shared printer to the company's network so multiple employees can use
+37:17
+it. Which of the following must be configured on the printer to complete the installation?
+37:26
+The answer is C. IP address. An IP address must be configured on a
+37:33
+network printer so it can be uniquely identified and accessed by other devices. The IP address acts like the
+37:39
+printer's digital location on the network, allowing computers to reliably send print jobs to it. Once configured,
+37:45
+the printer can communicate with other network resources, making it available for multiple users. Without an IP
+37:51
+address, the printer would not be able to function as a network device.
+37:57
+Question 51. A user is signing into several different websites using the exact same username and password. Which
+38:04
+of the following password policies would most likely prevent this practice?
+38:13
+The answer is a reuse. A password reuse policy prevents users
+38:19
+from using the same password across multiple accounts or systems by requiring unique credentials for each
+38:25
+login. This policy reduces the risk that one compromised password could be used to gain access to other websites or
+38:32
+applications. Preventing reuse strengthens overall security and limits the damage of credential theft.
+38:40
+Question 52. An internet provider offers service that delivers data over the same
+38:45
+coaxial lines used for television. Which of the following types of internet service is this?
+38:55
+The answer is D. Cable. Cable internet delivers data using
+39:01
+coaxial cables, the same lines that carry cable television signals. This allows providers to offer high-speed
+39:08
+internet without installing separate infrastructure, often bundling TV and internet over a single line. While cable
+39:14
+offers strong performance, its speeds can fluctuate with network traffic, and it is generally not as fast or
+39:19
+consistent as fiber internet, which uses dedicated fiber optic connections.
+39:26
+Question 53. A user runs several programs at the same time on a computer.
+39:32
+Which of the following OS features is responsible for prioritizing a program's use of system resources?
+39:42
+The answer is B. Process management. Process management is the OS feature
+39:49
+that controls how programs use system resources like the CPU and RAM. It prioritizes tasks, schedules their
+39:56
+execution, and ensures that all running processes get the resources they need while keeping the system stable. By
+40:02
+managing processes efficiently, the OS allows multiple programs to run smoothly at the same time.
+40:09
+Question 54. A computer uses a GPU to handle complex graphics tasks such as
+40:15
+rendering images and videos. Which of the following is the GPU an example of?
+40:25
+The answer is D. Processing. A GPU or graphics processing unit is an
+40:33
+example of a processing component. It is designed to perform rapid calculations required for rendering graphics, video,
+40:40
+and increasingly for other parallel processing tasks like AI and data analysis. By handling these operations,
+40:46
+the GPU reduces the workload on the CPU and improves overall system performance.
+40:54
+Question 55. A developer downloads an application from the internet and plans to change parts of its source code to
+41:00
+fit their project needs. Which of the following license types would most likely allow this?
+41:10
+The answer is B. Open source. An open- source license allows users to
+41:17
+view, modify, and redistribute an application's source code. This type of license encourages collaboration and
+41:23
+customization, giving developers the freedom to adapt software for their own needs. Unlike proprietary software,
+41:30
+where the code is closed and cannot be changed, open-source licensing provides the flexibility required for modifying
+41:36
+applications. Question 56. An HR intern is learning
+41:43
+about how to properly protect sensitive employee records. Which of the following is an example of PII?
+41:54
+The answer is A. Full name and date of birth.
+41:59
+Personally identifiable information or PII refers to any data that can be used to identify an individual either
+42:05
+directly or indirectly because this type of information uniquely ties back to a person. Protecting it is critical for
+42:12
+maintaining privacy and security. If PII is exposed or stolen, it can be
+42:17
+exploited for identity theft, financial fraud, or other malicious activities that can cause serious harm to
+42:23
+individuals? Question 57. Given the following pseudo
+42:29
+code, which logic concept is being demonstrated?
+42:37
+The answer is D. Branching. Branching is a programming concept that
+42:44
+allows code to make decisions and follow different paths depending on conditions. It works by evaluating a statement and
+42:50
+then choosing which set of instructions to execute based on the outcome of that evaluation. This enables programs to
+42:56
+react differently to various inputs or situations instead of always running the same sequence of steps. Branching is
+43:03
+essential for building logic, handling exceptions, and creating decision-making capabilities in software.
+43:11
+Question 58. A user visits a website and notices that new browser windows keep
+43:16
+opening automatically with advertisements. Which of the following browser features should the user enable
+43:22
+to prevent this behavior?
+43:28
+The answer is a pop-up blocker. A pop-up blocker is a browser feature
+43:35
+that prevents unwanted windows or tabs from opening automatically while browsing. Enabling it helps reduce
+43:40
+intrusive advertisements and enhances security by blocking potential malicious pop-ups. This feature provides a
+43:47
+smoother, safer browsing experience without constant interruptions from external content.
+43:54
+Question 59. A gaming company is demonstrating a headset that immerses players in a 3D environment where they
+44:00
+can look around and interact with objects as if they were physically inside the game. Which of the following
+44:05
+devices is being used?
+44:12
+The answer is C. VR system. A virtual reality or VR system uses a
+44:19
+headset and sensors to immerse users in a simulated 3D environment. By tracking head and sometimes hand movements, VR
+44:27
+systems make it possible to interact with digital objects in a way that feels lielike. VR is commonly used in gaming,
+44:33
+training simulations, and design applications where immersive experiences are beneficial.
+44:41
+Question 60. A student is storing a small contact list in a spreadsheet file. Which of the following is an
+44:48
+advantage of using a flat file for this type of small data set?
+44:56
+The answer is a speed. For small data sets such as a contact
+45:02
+list stored in a spreadsheet, a flat file offers the advantage of speed. Data can be quickly entered, saved, and
+45:09
+retrieved without the complexity of a full database system. The simplicity of flat files makes them efficient for
+45:15
+lightweight tasks where advanced features like scalability, concurrent access, or relational integrity are
+45:21
+unnecessary. Question 61. An employee needs to
+45:27
+partition a hard drive and format a volume on their computer. Which of the following OS tools should be used to
+45:33
+perform this task?
+45:39
+The answer is D. Disk management. Disk management is the operating system
+45:45
+tool used to configure and manage local storage. It allows users to perform tasks such as creating or deleting
+45:52
+partitions, formatting drives, resizing volumes, and assigning drive letters. This tool provides control over how
+45:59
+storage devices are organized and prepared for use, making it essential for setting up hard drives, SSDs, or
+46:05
+external storage. Disk management is especially useful when installing a new drive or reconfiguring existing storage
+46:12
+to meet system or user needs. Question 62. A technician is comparing
+46:20
+two computers to determine which one can process instructions faster. Which of the following units is used to measure
+46:26
+the speed of a CPU?
+46:32
+The answer is D. Gigahertz. Gigahertz is used to measure the speed
+46:38
+of modern CPUs, showing how many billions of cycles a processor can complete per second. A higher gigahertz
+46:44
+rating usually means the CPU can process instructions more quickly, improving overall performance. In older
+46:51
+processors, megahertz was commonly used, which measured speed in millions of cycles per second. But today, gigahertz
+46:57
+has replaced it as the standard measurement. Question 63. A technician is reviewing
+47:05
+log files to see how many times a particular user has logged into the network. Which of the following security
+47:11
+concepts does this represent?
+47:18
+The answer is C. Accounting. Accounting is the security concept that
+47:24
+involves tracking and logging user activity such as login attempts, resource usage, or time spent on the
+47:30
+network. By keeping detailed records, administrators can review actions taken by users, monitor for unusual behavior,
+47:37
+and support auditing requirements. This process helps maintain accountability and ensures that user activity can be
+47:43
+traced when needed. Question 64. An online retailer sells
+47:50
+customer purchasing history to advertising companies for profit. Which of the following concepts does this best
+47:56
+represent?
+48:02
+The answer is a data monetization. Data monetization is the process of
+48:09
+turning data into revenue either by selling it directly or using it to create new value for the business. In
+48:15
+this scenario, customer purchasing history is treated as a financial asset that can be sold to advertising
+48:20
+companies. This demonstrates how organizations can profit from data while also raising concerns about customer
+48:26
+privacy and responsible data handling. Question 65. A company compiles and
+48:34
+organizes its data into reports that executives use to guide business strategies and make informed decisions.
+48:40
+Which of the following best describes this process?
+48:48
+The answer is D. Meaningful reporting. Meaningful reporting is the process of
+48:55
+turning raw data into organized, useful information that decision makers can understand and act upon. By presenting
+49:01
+data in a clear format, such as charts or summaries, companies provide leadership with insights that directly
+49:07
+influence strategy and planning. This process helps transform large amounts of data into actionable knowledge that
+49:13
+drives effective decision-making. Question 66.
+49:19
+An employee plugs a USB flash drive into their work computer, but the system does not detect the device. Which of the
+49:26
+following is the most likely cause of this issue?
+49:33
+The answer is a disabled port. A disabled USB port prevents the system
+49:40
+from recognizing a USB device when it is plugged in. In corporate environments, IT administrators often disable USB
+49:47
+ports through system settings or security policies to protect against unauthorized data transfers and malware.
+49:53
+If the port has been disabled, the USB flash drive will not appear or be usable on the computer. Additionally, USB locks
+50:01
+may be used as a physical security measure to block access to the ports entirely.
+50:07
+Question 67. A security administrator wants to confirm that a user has
+50:12
+successfully signed into a company's web application. Which of the following should be checked to verify the user was
+50:18
+authenticated by the web server?
+50:25
+The answer is B. Account logs. Account logs record authentication
+50:31
+events such as successful and failed login attempts. By checking these logs, administrators can verify that a user
+50:38
+was authenticated by the web server and see details of when and how access occurred. These records are also
+50:44
+critical for auditing, detecting suspicious behavior, and troubleshooting login problems.
+50:51
+Question 68. A technician is upgrading a laptop storage and installs a component
+50:56
+that uses the M.2 form factor. Which of the following devices is being installed?
+51:06
+The answer is D. NVMe. NVME drives often use the M.2 form
+51:14
+factor, which is a compact, high-speed interface designed for solidstate storage. M.2 NVME drives connect
+51:21
+directly to the motherboard, offering much faster performance than traditional SATA based SSDs or HDDs. The small size
+51:29
+of M.2 2 makes it especially useful in laptops and modern desktops where space and speed are both important.
+51:37
+Question 69. A project manager is reviewing a flowchart that maps out the
+51:42
+steps of a business process. One of the shapes in the diagram is a diamond. Which of the following does the diamond
+51:49
+represent in a flowchart?
+51:55
+The answer is D. decision. In a flowchart, a diamond represents a
+52:01
+decision point where the process may continue in different directions depending on the outcome of a condition.
+52:07
+It is used to show where choices or evaluations occur within a workflow. This helps clearly illustrate how
+52:13
+processes branch based on specific factors. Question 70. A technician is preparing
+52:20
+to back up a workstation to ensure important information can be restored if the system fails. Which of the following
+52:27
+would be the most important to include in the backup?
+52:34
+The answer is C. Application data. Application data must be included in a
+52:41
+workstation backup because it contains the user's files, settings, and information created by programs. Even if
+52:48
+the software can be reinstalled, the unique data generated by applications would be lost without a backup. Ensuring
+52:54
+this data is preserved allows the user to return to normal operation quickly after a system failure.
+53:02
+Question 71. Given the following pseudo code, which of the following best
+53:08
+describes the data type used?
+53:15
+The answer is B. Array. An array is a collection of values
+53:20
+stored together that can be accessed or read as needed. In the pseudo code, the data line provides a series of numbers
+53:27
+grouped together which the program reads into variables during execution. This sequence of stored values represents an
+53:34
+array, making it the best description of the data type being used.
+53:39
+Question 72. A developer is writing low-level code to directly control
+53:44
+hardware functions while creating a device driver. Which of the following programming languages would most likely
+53:50
+be used for this task?
+53:56
+The answer is C. Assembly. Assembly language is a low-level
+54:02
+programming language that gives programmers precise control over CPU instructions and memory. Because of
+54:08
+this, it is often used to write device drivers, firmware, and other hardware level applications. Unlike higher level
+54:15
+languages, assembly is closely tied to machine code, making it uniquely suited for hardware control.
+54:22
+Question 73. A programmer wants to ensure their application runs as efficiently as possible during runtime.
+54:29
+Which of the following language types should the programmer use?
+54:38
+The answer is B. Compiled. A compiled language is converted into
+54:44
+machine code before execution, which allows the program to run more efficiently at runtime. Since the code
+54:50
+is already translated into instructions the CPU can understand, it avoids the overhead of interpretation. This makes
+54:56
+compiled languages faster and better suited for performance critical applications.
+55:03
+Question 74. An employee connects a wireless router in the front office, but
+55:08
+notices that the Wi-Fi signal is very weak when trying to connect from the storage room in the back. Which of the
+55:14
+following is the most likely cause of the issue?
+55:21
+The answer is a interference. Interference happens when physical
+55:28
+barriers or objects such as walls, shelving, or equipment block or weaken a Wi-Fi signal. In a small office, signals
+55:35
+may struggle to pass through multiple walls or large storage areas, resulting in poor connectivity. Other electronic
+55:41
+devices, such as microwaves, cordless phones, or neighboring Wi-Fi networks, can also interfere by operating on the
+55:48
+same frequency band. This often causes slower speeds, dropped connections, or dead zones where the signal cannot
+55:55
+reliably reach. Question 75. An IT administrator
+56:02
+disables access for employees who no longer require entry to a shared project folder. Which of the following security
+56:08
+principles is being applied?
+56:15
+The answer is C. Least privilege. The least privilege model means giving
+56:21
+users only the minimum access necessary to perform their work and removing access when it is no longer required. By
+56:28
+restricting file share access to only those who need it, the administrator reduces the risk of unauthorized use or
+56:34
+data breaches. This principle is a cornerstone of security best practices and helps maintain confidentiality and
+56:40
+proper control of resources. Question 76.
+56:46
+A developer is writing code and needs to store a value that can change as the program runs. Which of the following
+56:53
+programming concepts should be used?
+57:00
+The answer is a variable. A variable is a named space in memory
+57:06
+used to hold a value that can change during program execution. This allows the program to update, reuse, and
+57:13
+manipulate data as needed. Variables are essential to programming because they provide flexibility, making it possible
+57:19
+to create dynamic applications that respond to changing inputs or conditions.
+57:26
+Question 77. A software developer wants a section of code to repeat until a
+57:31
+specific condition is met. Which of the following programming concepts should be used?
+57:41
+The answer is a loop. A loop is a programming construct that
+57:47
+allows a set of instructions to be executed repeatedly until a condition is met or no longer true. This is useful
+57:53
+for tasks such as processing items in a list, checking input until valid data is entered, or running calculations
+58:00
+multiple times. Loops reduce redundancy by avoiding the need to manually write the same code over and over.
+58:08
+Question 78. An organization wants employees to collaborate in real time by
+58:13
+hosting online meetings with video and audio. Which of the following applications would best meet this need?
+58:24
+The answer is D. Conferencing. Conferencing software allows multiple
+58:31
+users to connect over the internet for live meetings, typically including video, audio, and screen sharing. This
+58:37
+enables real-time collaboration regardless of the participants physical location. Tools like Zoom, Microsoft
+58:43
+Teams, or Google Meet are common examples of conferencing software.
+58:49
+Question 79. An office has several computers connected within the same building, allowing users to share files
+58:57
+and printers. Which of the following best describes this type of network?
+59:06
+The answer is C. LAN. A local area network or LAN connects
+59:12
+computers and devices in a limited area such as a single building or office. Lands allow for fast communication,
+59:19
+resource sharing, and centralized management. This setup is commonly used in homes, schools, and businesses where
+59:26
+users need to share files, printers, or applications. Unlike WANs, which cover
+59:31
+larger geographic areas, LANs are designed for high speed and reliability within a smaller space.
+59:39
+Question 80. In programming, which of the following data types is used to represent a single character such as a
+59:45
+letter, number or symbol?
+59:52
+The answer is C. Char. A char, short for character, is a data
+59:58
+type used to store a single symbol such as a letter, digit, or punctuation mark.
+1:00:04
+It is distinct from a string, which is made up of multiple characters grouped together. Using char allows a program to
+1:00:10
+efficiently handle individual symbols when processing text or data.
+1:00:16
+Question 81. A developer needs to store phone numbers in a database. Which of
+1:00:22
+the following data types would be most appropriate to use?
+1:00:30
+The answer is a string. A string is the best data type for
+1:00:36
+storing a phone number because it treats the value as a sequence of characters rather than a numeric calculation. Phone
+1:00:42
+numbers often include leading zeros, spaces, dashes, or parentheses that must be preserved. While you might consider
+1:00:49
+using the integer data type, this can cause problems since this data type removes leading zeros and does not
+1:00:55
+handle special characters well. By storing phone numbers as strings, the format remains accurate and consistent
+1:01:01
+across systems. Question 82. Which of the following
+1:01:07
+peripherals can function as both an input and an output device?
+1:01:15
+The answer is B. Touchscreen. A touchscreen is considered both an
+1:01:21
+input and output device because it displays information to the user while also registering touch commands.
+1:01:27
+Touchscreens are commonly used in smartphones, tablets, kiosks, and point of sales systems. Their ability to
+1:01:34
+handle both input and output simplifies device design and improves interactivity.
+1:01:41
+Question 83. Which of the following methods ensures that only authorized users with the correct key can access
+1:01:48
+the contents of a file?
+1:01:54
+The answer is D. Encryption. Encryption secures a file by converting
+1:02:01
+its data into unreadable code that can only be unlocked with the correct decryption key. This ensures that only
+1:02:06
+authorized users can view the information even if the file is intercepted or copied. Because of this
+1:02:12
+strong protection, encryption is widely used for safeguarding sensitive documents, emails, and financial
+1:02:18
+transactions. Question 84. A database administrator
+1:02:25
+designs a new database that organizes information into tables with rows and columns and sets a primary key to
+1:02:31
+uniquely identify each record. Which type of database has been created?
+1:02:40
+The answer is C. Relational. A relational database organizes data
+1:02:47
+into structured tables that use rows and columns with a primary key uniquely identifying each record. This structure
+1:02:53
+allows efficient querying, updates, and relationships between different tables. Relational databases are widely used in
+1:03:01
+business systems such as customer records or inventory management because they provide accuracy and scalability.
+1:03:09
+Question 85. Given the following pseudo code, which of the following best
+1:03:14
+represents line 10?
+1:03:21
+The answer is D. Loop. Line 10 is a for loop because it
+1:03:27
+repeatedly executes the block of code between the four and next statements. In this example, the loop prints the value
+1:03:33
+of X as it counts down from 10 to one. for loops are commonly used when the number of repetitions is known in
+1:03:39
+advance, making them one of the most basic and essential programming structures.
+1:03:46
+Question 86. A homeowner is frustrated with slow internet speeds when streaming
+1:03:51
+movies and decides to upgrade to the fastest residential option available in their area. Which of the following
+1:03:57
+services would best meet this need?
+1:04:04
+The answer is D. Fiber optic. Fiber optic internet is the fastest
+1:04:10
+residential option because it uses light signals sent through glass fibers to transmit data at extremely high speeds.
+1:04:17
+It can easily exceed gigabit speeds, making it ideal for demanding tasks such as 4K streaming, competitive online
+1:04:24
+gaming, and large file transfers. Fiber also offers low latency and consistent
+1:04:29
+performance, giving it a clear advantage over cable, DSL, or satellite connections.
+1:04:36
+Question 87. A user is working on a large spreadsheet, but the computer suddenly loses power before the file is
+1:04:43
+saved. When the workstation is restarted, the unsaved data is gone. Which of the following components was
+1:04:49
+reset when the computer was turned off?
+1:04:56
+The answer is C. RAM. Random access memory or RAM is a type of
+1:05:03
+volatile memory, meaning its contents are cleared when the computer loses power or is shut down. This is why
+1:05:09
+unsaved work disappears if it has not been written to a storage device like an SSD or hard drive. RAM provides fast
+1:05:15
+temporary storage for active programs and data, but it cannot retain information without power.
+1:05:23
+Question 88. A user is deciding between several hard drives for storing large
+1:05:28
+media files. Which of the following options would provide the greatest storage capacity?
+1:05:38
+The answer is a 3 terb. A 3 terbte hard drive has the largest
+1:05:45
+capacity among the listed options. 1 terabte equals roughly 3,000 GB, which
+1:05:50
+is far greater than megabytes or kilob. Question 89. A developer designs a
+1:05:58
+program where an object needs to fetch order details from a sales database. Which part of the object is responsible
+1:06:04
+for performing this action?
+1:06:11
+The answer is B. Method. A method is the part of an object that
+1:06:17
+performs an action such as retrieving order details from a database. In object-oriented programming, methods
+1:06:23
+define the behavior of an object. By using methods, developers can organize code into reusable actions tied directly
+1:06:30
+to objects. This makes programs easier to manage, update, and scale.
+1:06:37
+Question 90. A help desk technician suspects that a faulty driver is causing frequent application crashes. According
+1:06:45
+to the troubleshooting methodology, what should the technician do immediately after identifying this possible cause?
+1:06:55
+The answer is a test the theory. The next step after identifying a
+1:07:02
+potential cause is to test the theory to confirm whether it is correct. Troubleshooting methodology follows a
+1:07:08
+structured sequence. Identify the problem, establish a theory, test that theory, and only then create a plan of
+1:07:14
+action. Testing ensures that time and resources are not wasted on a solution that doesn't address the real issue.
+1:07:20
+This systematic approach improves accuracy and efficiency in resolving technical problems.
+1:07:28
+Question 91. A student logs into an online learning portal and clicks a link to open a practice quiz. Instead of the
+1:07:35
+quiz appearing in a new window, nothing happens. Which of the following browser settings should the student adjust to
+1:07:41
+access the quiz?
+1:07:47
+The answer is C. Pop-up blocker. A pop-up blocker prevents websites from
+1:07:54
+automatically opening new windows or tabs. While this protects users from intrusive ads, it can also block
+1:08:00
+legitimate content such as quizzes, reports, or login prompts. To fix the issue, the student must change the
+1:08:06
+pop-up blocker settings to allow the site's pop-ups.
+1:08:12
+Question 92. A user notices their computer slows down significantly when they open several applications at once,
+1:08:18
+such as a web browser, email client, and spreadsheet program. Which of the following components is most likely
+1:08:25
+responsible for this performance issue?
+1:08:32
+The answer is D. RAM. Random access memory or RAM is
+1:08:38
+responsible for holding active applications and data that the CPU needs quick access to. If there is not enough
+1:08:44
+RAM available, the system slows down because it must rely on slower storage as overflow space. This is why
+1:08:50
+performance issues are common when multiple programs are running on a device with limited RAM. Adding more RAM
+1:08:56
+can improve multitasking and overall system responsiveness.
+1:09:01
+Question 93. A technician asks a student to provide the MAC address of their laptop's network interface card. Which
+1:09:08
+of the following is a valid MAC address?
+1:09:16
+The answer is A. A 47 C DB 921F36.
+1:09:24
+A valid media access control or MAC address is commonly written as six pairs of hexadeimal characters separated by
+1:09:30
+colons or dashes such as a 4 7 C dB 92 1F 36. Each hexadimal character
+1:09:38
+represents four bits giving the address a total length of 48 bits. This standardized format uniquely identifies
+1:09:45
+a devices network interface card on a local network.
+1:09:50
+Question 94. An employee needs to deliver a 50 gigabyte presentation file
+1:09:56
+to a teammate across the building, but the office network is temporarily unavailable. Which of the following is
+1:10:02
+the most practical way to transfer the file?
+1:10:09
+The answer is B. Flash drive. A flash drive is the most practical
+1:10:15
+option for transferring a large file when the network is unavailable. Flash drives can store large amounts of data,
+1:10:22
+are portable, and do not rely on internet or network connectivity. This makes them ideal for quickly moving
+1:10:28
+files between devices in the same physical location.
+1:10:33
+Question 95. A computer science instructor explains that programmers often use simplified human readable
+1:10:40
+steps to outline how a program should work before writing the actual code. Which of the following terms best
+1:10:46
+describes this practice?
+1:10:52
+The answer is D. Pseudo code. Pseudo code is a way of writing out
+1:10:58
+program logic in plain human readable language without worrying about syntax rules. It helps programmers plan and
+1:11:05
+communicate their ideas before converting them into actual code. By using pseudo code, developers can focus
+1:11:11
+on problem solving and structure rather than specific programming commands.
+1:11:17
+Question 96. An office worker tries to update a device driver on their Windows PC. A
+1:11:23
+prompt appears requesting a username and password. After entering their own credentials, the employee receives an
+1:11:30
+access denied message and cannot proceed. Which type of account access is most likely required to complete the
+1:11:36
+update?
+1:11:41
+The answer is B. Administrator. Administrator access is required to make
+1:11:48
+system level changes such as installing software, updating drivers, or modifying key settings. Standard user accounts are
+1:11:55
+restricted to protect the system from unauthorized or accidental changes. By requiring elevated permissions, the
+1:12:02
+operating system ensures only trusted users can perform actions that affect overall system stability and security.
+1:12:10
+Question 97. An employee is tasked with creating a formal company letter that
+1:12:16
+includes paragraphs of text, a company logo, and formatted headers. Which type of application is best suited for this
+1:12:23
+task?
+1:12:28
+The answer is C. Word processing software.
+1:12:33
+Word processing software is designed for creating, editing, and formatting textbased documents. It allows users to
+1:12:40
+add elements like fonts, headers, tables, and images to produce professional documents such as letters,
+1:12:46
+reports, and résumés. This makes it the most appropriate tool for handling tasks that involve writing and formatting
+1:12:52
+text. Question 98. A computer science teacher
+1:12:58
+asks students to compare how the decimal value 12 is represented in different notational systems. Which of the
+1:13:05
+following systems would represent this value using the fewest characters?
+1:13:13
+The answer is C. Hexadesimal. Hexadeimal uses base 16 which allows
+1:13:21
+larger values to be represented with fewer characters. The number 12 in decimal is written as C in hexadeimal
+1:13:28
+requiring only one character. In comparison, 12 is 1 1 0 0 in binary, 1 4
+1:13:35
+in octal, and x i I in Roman numerals. Because each digit in hexadeimal can
+1:13:41
+represent up to 16 distinct values, it often provides the most compact representation.
+1:13:48
+Question 99. A user is shopping for a new gaming monitor and compares specifications that includes refresh
+1:13:55
+rate. Which of the following units of measurement would the refresh rate be listed in?
+1:14:05
+The answer is D. Hertz. Hertz is the unit of measurement used to
+1:14:11
+describe a monitor's refresh rate, meaning how many times per second the screen refreshes the displayed image. A
+1:14:17
+higher refresh rate, such as 120 Hz or 144 hertz, produces smoother and more
+1:14:23
+fluid motion compared to standard 60 Hz displays. This is especially valuable in gaming, where fast-moving graphics
+1:14:30
+benefit from reduced blur and improved responsiveness. Because of this, Hertz is one of the key specifications gamers
+1:14:36
+look at when selecting a monitor. Question 100. Which of the following is
+1:14:43
+a valid IPv4 address?
+1:14:50
+The answer is D. 1 192.168.1
+1:14:56
+1 0. A valid IPv4 address is written as four decimal numbers separated by periods
+1:15:02
+with each number ranging from 0 to 255. 1 192.168.1
+1:15:09
+the 1110 follows this format making it a correct IPv4 address. Option A is a MAC
+1:15:15
+address, B is just a string of digits without periods, and C incorrectly uses colons instead of periods.
+1:15:23
+Question 101. A database is being designed to record the total number of books checked out from a library. Which
+1:15:30
+of the following data types is most appropriate for storing this value?
+1:15:39
+The answer is C. Integer. An integer is used to store whole
+1:15:45
+numbers, making it the most appropriate data type for tracking the number of books checked out. Because integers do
+1:15:50
+not include decimals, they are ideal for representing whole number totals or counts. This ensures the value remains
+1:15:57
+accurate without adding unnecessary complexity. Question 102. A programmer is reviewing
+1:16:05
+different numbering systems and needs to identify which value is written in hexadeimal notation. Which of the
+1:16:11
+following best represents a hexadeimal value?
+1:16:18
+The answer is C 3 F 7 A.
+1:16:24
+Hexadeimal notation uses base 16 which allows digits 0 through 9 as well as the
+1:16:29
+letters A through F. The value 3 f7 a is valid because it only contains
+1:16:35
+characters within this range. Hexadeimal is often used to simplify binary representation making it easier to read
+1:16:42
+items such as memory addresses, MAC addresses, and hex color values in computing.
+1:16:49
+Question 103. Given the following pseudo code, which of the following programming
+1:16:55
+concepts does Y represent?
+1:17:02
+The answer is B. Variable. In this pseudo code, Y is a variable
+1:17:08
+because it stores a user's input and can be updated during program execution. After the user enters a value, Y is
+1:17:15
+increased by two and then evaluated in a conditional statement. This demonstrates how variables hold data that can change
+1:17:21
+and be used in calculations or decisions within code.
+1:17:27
+Question 104. A technician is assembling a desktop PC and installs the hardware
+1:17:33
+required for the computer to connect to a wired Ethernet network. Which of the following components provides this
+1:17:39
+physical network connection?
+1:17:45
+The answer is a nick. A network interface card or nick enables
+1:17:52
+a computer to connect to a network by providing the hardware interface for communication. A nick can be either
+1:17:58
+wired using an Ethernet port or wireless using built-in Wi-Fi capability. In both
+1:18:03
+cases, it allows the device to send and receive data on a network. Without a nick, the computer cannot directly
+1:18:10
+connect to other systems over a network. Question 105. A user calls the help desk
+1:18:18
+and reports that their laptop will not connect to the office Wi-Fi. The technician begins by asking the user
+1:18:24
+questions about when the issue started, whether other devices are affected, and what error messages appear. Which step
+1:18:30
+of the troubleshooting methodology is the technician performing.
+1:18:38
+The answer is B. Identify the problem. The first step in troubleshooting is to
+1:18:45
+identify the problem by gathering information about the issue. In this step, technicians ask questions, observe
+1:18:51
+symptoms, and confirm the scope of the problem before moving on to subsequent steps.
+1:18:58
+Question 106. A company needs a central system to manage user accounts, share files, and
+1:19:04
+host applications for employees across the network. Which type of computing device is best suited for this purpose?
+1:19:16
+The answer is C. Server. A server is a powerful computer designed
+1:19:22
+to provide resources, services, and data to other devices over a network. Servers
+1:19:28
+are commonly used to manage user accounts, host applications, share files, and store data centrally. Unlike
+1:19:34
+personal computing devices, servers are optimized for reliability, scalability, and continuous operation.
+1:19:43
+Question 107. An individual wants a device that tracks daily steps, monitors
+1:19:49
+heart rate, and provides notifications from their smartphone, all while being lightweight and portable. Which type of
+1:19:55
+computing device best meets this need?
+1:20:02
+The answer is B. Wearable device. A wearable device is designed to provide
+1:20:08
+computing functions such as health tracking, notifications, and integration with smartphones, all in a compact and
+1:20:15
+portable form. Examples include smart watches and fitness trackers. These devices focus on convenience and
+1:20:21
+continuous monitoring, making them different from larger portable computing devices like smartphones, tablets, or
+1:20:27
+laptops. Question 108. Which of the following
+1:20:33
+components serves as the main circuit board in a computer, allowing the CPU, memory, storage, and expansion cards to
+1:20:40
+communicate with each other?
+1:20:46
+The answer is C. Motherboard. The motherboard, also called the system
+1:20:53
+board, is the main circuit board that connects and coordinates all major computer components. It provides
+1:20:58
+pathways and connectors for the CPU, RAM, storage, and expansion cards to
+1:21:03
+work together. Without the motherboard, the individual parts of a computer cannot function as a complete system.
+1:21:12
+Question 109. A user purchases a desktop computer that has no built-in Ethernet
+1:21:17
+connectivity, but needs to be able to connect to an office network using a provided RJ45 jack. Which of the
+1:21:23
+following types of nick would be the most appropriate choice?
+1:21:31
+The answer is B. Wired expansion card.
+1:21:37
+A wired nick is required because the office network uses an RJ45 jack which supports physical Ethernet connections
+1:21:43
+rather than wireless signals. Additionally, an expansion card nick is necessary because the desktop lacks a
+1:21:49
+built-in Ethernet port. So, the hardware must be added through a motherboard expansion slot. Installing an expansion
+1:21:55
+card provides the missing connectivity and allows the computer to join the wired office network seamlessly.
+1:22:03
+Question 110. A student wants to back up lecture videos onto discs that can be
+1:22:08
+played in a DVD or Blu-ray player. Which of the following storage types would best meet this need?
+1:22:19
+The answer is D. Optical. Optical storage uses discs such as CDs,
+1:22:26
+DVDs, and Blu-ray discs to store data that can be read with a laser. These discs can hold a wide range of content
+1:22:33
+from simple text files to large video files depending on their format and capacity. Optical discs are well suited
+1:22:40
+for distributing movies, music, and software because it is inexpensive, portable, and compatible with many
+1:22:46
+standalone players and drives. It can also be used for backups, though its storage capacity and transfer speeds are
+1:22:53
+limited compared to more modern storage options. Question 111.
+1:23:00
+A technician is asked to upgrade a computer with a storage device that uses magnetic discs to read and write data.
+1:23:06
+Which of the following storage types best matches this description?
+1:23:15
+The answer is B. HDD. A hard disk drive or HDD uses spinning
+1:23:22
+magnetic platters to store data with read/right heads that access information on the discs. HDDs are known for their
+1:23:29
+large storage capacity and lower cost compared to SSDs, but they are slower and more susceptible to failure due to
+1:23:35
+their moving mechanical parts. Question 112. A user complains that
+1:23:42
+their desktop computer loses unsaved work every time the building experiences a brief power outage. Which of the
+1:23:49
+following peripheral devices should a technician install to address this issue?
+1:23:58
+The answer is a UPS. An uninterruptible power supply or UPS
+1:24:05
+provides temporary battery power during a power outage, giving users time to save work and safely shut down
+1:24:11
+equipment. It can also protect against power surges and voltage fluctuations, making it essential for keeping
+1:24:17
+computers and networking devices safe and running during brief interruptions.
+1:24:23
+Question 113. A network administrator needs to upgrade a switch to support fiber connections.
+1:24:30
+Instead of replacing the entire switch, they install a small hot swappable module that allows different fiber
+1:24:36
+connector types to be used. Which of the following interfaces is being installed?
+1:24:45
+The answer is C. SFP. A small form factor pluggable or SFP is
+1:24:53
+a hot swappable module that allows a network device like a switch to support different types of fiber or copper
+1:24:59
+connectors. SFP modules provide flexibility because the same switch can be adapted to multiple network media
+1:25:05
+types without replacing the entire device. Question 114.
+1:25:12
+A technician is setting up an older monitor that relies on an analog interface which sends separate red,
+1:25:18
+green, and blue color channels to display the image. Which of the following connection types is being
+1:25:23
+used?
+1:25:28
+The answer is C. VGA. Video graphics array or VGA is an analog
+1:25:36
+display interface that transmits video using separate red, green and blue channels along with sync signals. Unlike
+1:25:42
+modern digital standards such as HDMI, display port or Thunderbolt, VGA is
+1:25:48
+purely analog and commonly found on legacy monitors and projectors.
+1:25:54
+Question 115. A user wants to stream a movie from their smartphone to a smart TV while
+1:26:00
+still using the phone for other tasks. Which of the following technologies would best meet these requirements?
+1:26:11
+The answer is D. Casting. Casting allows a device to send a
+1:26:17
+specific media stream, such as a video or audio file, to a compatible display or speaker. Unlike screen mirroring,
+1:26:24
+which duplicates the devices display, casting lets the user continue using their device independently while the
+1:26:29
+content plays on a TV or other display device.
+1:26:34
+Question 116. An organization keeps sensitive workloads on premises but also uses
+1:26:40
+public cloud resources to handle web applications during peak demand. This combination of private infrastructure
+1:26:46
+and public cloud resources is an example of which deployment model.
+1:26:55
+The answer is a hybrid. A hybrid deployment combines on premises
+1:27:02
+infrastructure with public cloud services to create a flexible computing environment. Sensitive or regulated data
+1:27:08
+can remain securely stored and processed in the local data center while less critical workloads or applications can
+1:27:14
+take advantage of the scalability and cost efficiency of the public cloud. This model allows organizations to
+1:27:20
+balance security, compliance, and performance while adapting resources quickly to meet changing business needs.
+1:27:28
+Question 117. A startup wants to avoid the expense of purchasing servers and networking
+1:27:34
+hardware. Instead, it rents virtualized computing resources such as storage, processing power, and networking from a
+1:27:41
+cloud provider while still managing its own operating systems and applications. Which of the following cloud service
+1:27:47
+models is being used?
+1:27:54
+The answer is A. IAS infrastructure as a service or IAS
+1:28:01
+provides virtualized hardware resources such as storage, servers, and networking through a cloud provider. Customers are
+1:28:08
+responsible for managing the operating systems, applications, and data that run on this infrastructure while the
+1:28:14
+provider maintains the underlying hardware. This model offers flexibility and scalability without the cost of
+1:28:20
+maintaining physical hardware. Question 118. A remote employee needs
+1:28:27
+reliable internet access while traveling and decides to use their smartphone as a mobile hotspot. Which of the following
+1:28:34
+internet service types is being used?
+1:28:41
+The answer is D. Cellular. Cellular internet service uses mobile
+1:28:47
+provider networks to provide wireless connectivity. Users can access the internet directly on their mobile device
+1:28:53
+or share the connection by enabling a mobile hotspot. This makes cellular service ideal for remote work, travel,
+1:29:00
+and areas without wired infrastructure. Question 119.
+1:29:06
+A technician is troubleshooting a small office network. They discover that the device responsible for forwarding
+1:29:12
+traffic between the local area network and the internet is misconfigured. Which type of networking device was found to
+1:29:18
+be at fault?
+1:29:24
+The answer is B. Router. A router is a networking device that
+1:29:30
+directs traffic between different networks such as a local area network and the internet. It determines the best
+1:29:36
+path for data packets using IP addressing and routing tables, ensuring data reaches its correct destination.
+1:29:44
+Question 120. An administrator wants to block unauthorized external traffic from
+1:29:50
+entering the company's private network while still allowing legitimate communication. Which of the following
+1:29:55
+devices is primarily designed for this purpose?
+1:30:03
+The answer is C. Firewall. A firewall is a security device that
+1:30:09
+monitors and controls incoming and outgoing network traffic based on defined security rules. It acts as a
+1:30:15
+barrier between trusted internal networks and untrusted external networks such as the internet. Firewalls can be
+1:30:21
+hardware, software, or both and are a fundamental part of network defense.
+1:30:28
+Question 121. A small office has five computers connected together without a
+1:30:34
+dedicated server. Each computer can share files and printers directly with the others, and all devices are
+1:30:40
+considered equal on the network. Which of the following networking models is most likely being used?
+1:30:50
+The answer is B. Peer-to-peer. In a peer-to-peer network, all devices
+1:30:56
+are considered equal, and each one can act as both a client and a server. This allows users to share files, printers,
+1:31:03
+or other resources directly without needing a centralized server to manage connections. In contrast, a client
+1:31:09
+server model relies on a dedicated server to provide resources and control access, which makes it more scalable,
+1:31:15
+but also more complex than a peer-to-peer network. Question 122. A user sends an email from
+1:31:24
+their laptop and the message travels through the router across the internet and finally arrives at the recipient's
+1:31:30
+computer. Which of the following best describes this process?
+1:31:39
+The answer is C. Network communication. Network communication is the process of
+1:31:46
+data being transmitted between devices such as computers, servers, or mobile phones across a network. This allows
+1:31:53
+information like emails, files, and web pages to move from one system to another. Without network communication,
+1:32:00
+devices would not be able to share resources or access the internet.
+1:32:06
+Question 123. A network administrator configures a firewall to allow traffic
+1:32:11
+for HTTPS websites by enabling communication over port 443. Which of
+1:32:16
+the following best describes the purpose of a port in networking?
+1:32:25
+The answer is a. It identifies a specific service or application on a
+1:32:30
+device. A port is a logical identifier that directs network traffic to the correct
+1:32:36
+application or service on a device. For example, port 443 is commonly used for
+1:32:41
+HTTPS traffic, while port 80 is used for standard HTTP. Ports allow a single
+1:32:47
+computer with one IP address to handle multiple types of communication at the same time, such as browsing the web,
+1:32:53
+checking email, and streaming video. By organizing traffic this way, ports ensure data reaches the right
+1:32:59
+destination without conflicts between services.
+1:33:04
+Question 124. A technician is configuring a mail server to send
+1:33:09
+outgoing messages. Which of the following protocol and port combinations should be enabled?
+1:33:19
+The answer is B. SMTP port 25.
+1:33:25
+The simple mail transfer protocol abbreviated as SMTP is used to send outgoing email messages and it operates
+1:33:32
+on port 25 by default. Other email related protocols include POP 3 and IMAP
+1:33:37
+which are used to retrieve messages rather than send them. Knowing which protocol corresponds to which port helps
+1:33:42
+ensure proper configuration of mail servers and firewalls.
+1:33:48
+Question 125. A security analyst notices that files are being transferred between
+1:33:54
+two systems without encryption. Which of the following protocol and port combinations is most likely being used?
+1:34:05
+The answer is D. FTP port 21.
+1:34:11
+File transfer protocol abbreviated as FTP operates on port 21 and transfers
+1:34:16
+files without encryption. Meaning the data is sent in plain text. This makes it less secure compared to alternatives
+1:34:22
+like SFTP or FTPS which add encryption for confidentiality.
+1:34:29
+Question 126. A homeowner wants the fastest wireless speeds and the ability to use the new 6
+1:34:35
+GHz frequency band on a small home network. Which of the following Wi-Fi standards would best meet this
+1:34:41
+requirement?
+1:34:47
+The answer is C. Wi-Fi 6E. Wi-Fi 6E is the newest Wi-Fi standard
+1:34:55
+and expands on Wi-Fi 6 by adding support for the 6 GHz frequency band. This
+1:35:00
+allows for faster speeds, reduced interference, and improved performance compared to older standards such as
+1:35:06
+Wi-Fi 5 or Wi-Fi 4. Question 127. A user applies a setting
+1:35:14
+to reduce the size of files stored on their hard drive so more documents can fit without adding additional storage.
+1:35:20
+Which of the following file system characteristics is being used?
+1:35:28
+The answer is D. Compression. Compression is a file system
+1:35:34
+characteristic that reduces the amount of storage space that files take up by encoding data more efficiently. This
+1:35:40
+allows more files to be stored on the same drive without physically increasing capacity. While compression saves space,
+1:35:47
+it may require extra processing power when reading from or writing to files because the system must compress and
+1:35:52
+decompress the data to work with it. Question 128. A technician opens Task
+1:36:00
+Manager and sees multiple programs listed as running, each with its own memory and CPU usage. Which of the
+1:36:06
+following best describes what each of these running instances is called?
+1:36:15
+The answer is B. Process. A process is an active instance of a
+1:36:21
+program that is currently running on a computer and has its own memory space and system resources. An application
+1:36:27
+refers to the actual program or software that a user interacts with, such as a browser or word processor. When an
+1:36:34
+application is launched, it creates one or more processes to perform its tasks. This distinction explains why a single
+1:36:41
+application may appear as multiple processes in task manager.
+1:36:46
+Question 129. An employee successfully signs into their computer but cannot
+1:36:52
+open a specific shared folder on the network. Which of the following security concepts is preventing access?
+1:37:03
+The answer is a authorization. Authorization determines what resources
+1:37:10
+a user is allowed to access after they have been authenticated. In this case, the user has already logged in but is
+1:37:16
+denied access to the shared folder because their account lacks the necessary permissions. This demonstrates
+1:37:22
+how authorization enforces security policies by restricting access to only the data and resources a user is
+1:37:28
+permitted to use. Question 130. A user plugs a new printer
+1:37:35
+into their computer and the operating system automatically detects it, installs the correct driver, and makes
+1:37:41
+the printer available for use. Which of the following OS functions is being demonstrated?
+1:37:51
+The answer is D. Device management. Device management is an operating system
+1:37:57
+function that controls how hardware devices interact with the computer. The OS uses device drivers to translate
+1:38:04
+instructions between hardware and software, allowing components like printers, keyboards, storage drives, and
+1:38:10
+network cards to work properly. This coordination allows users to reliably connect, configure, and use a wide range
+1:38:17
+of peripherals with minimal effort. Question 131. An employee needs to
+1:38:24
+organize sales data into rows and columns, use formulas to calculate totals, and create charts to display
+1:38:30
+trends. Which type of software would be best for this task?
+1:38:39
+The answer is a spreadsheet software. Spreadsheet software is specifically
+1:38:46
+designed for managing data in rows and columns. It allows users to perform calculations with formulas, quickly
+1:38:52
+analyze large sets of information, and create charts or graphs to visualize results. These features make it the best
+1:38:59
+choice for tasks like financial tracking, sales analysis, and budgeting.
+1:39:06
+Question 132. A user wants to browse the internet without saving their search
+1:39:11
+history, cookies, or cached files on the computer. Which browser feature should the user enable?
+1:39:22
+The answer is C. Private browsing. Private browsing is a web browser
+1:39:28
+feature that prevents the saving of history, cookies, cached files, and form data during a session. Once the private
+1:39:35
+window is closed, none of this activity remains stored on the computer. This mode is useful for maintaining privacy
+1:39:41
+on shared devices, though it does not make the user anonymous to websites or internet service providers.
+1:39:49
+Question 133. A user installs an ad blocking extension in their browser but
+1:39:55
+still sees ads on websites. The technician checks the browser settings and confirms the extension is installed.
+1:40:01
+Which of the following is the most likely action needed to make the extension operational?
+1:40:11
+The answer is B. Enable the extension. The most likely reason the ad blocking
+1:40:18
+extension isn't working is that it has been installed but not enabled. Browser extensions must be turned on in the
+1:40:24
+settings before they can function. Even if the installation completed successfully, until enabled, the
+1:40:29
+extension remains inactive and has no effect on web pages. Once activated, the
+1:40:34
+extension integrates with the browser and begins performing its intended task, such as filtering ads from websites.
+1:40:43
+Question 134. A user opens Google Chrome to look up information but notices the
+1:40:48
+results are coming from Bing instead of Google search. The technician explains that this setting can be changed in the
+1:40:54
+browser. Which of the following web browser features should be modified to resolve the issue?
+1:41:04
+The answer is D. Default search engine. The default search engine is the service
+1:41:11
+a browser uses to perform searches. type directly into the address bar. Changing this setting allows users to choose
+1:41:17
+between engines such as Google search, Bing, or Duck D.Go. It's important to note that a web browser is the
+1:41:23
+application used to access websites, while a search engine is the online service that finds and displays results.
+1:41:31
+Question 135. An employee tries to launch a web-based training program, but
+1:41:37
+receives an error message stating the application is not supported in their current browser. Which of the following
+1:41:42
+actions should the employee take to resolve the issue?
+1:41:50
+The answer is C. Use a compatible browser.
+1:41:55
+Some applications are designed or tested to work only in specific web browsers. If an application does not load or
+1:42:02
+function properly, switching to a compatible browser often resolves the issue. Different browsers support
+1:42:07
+different web standards and technologies which can affect whether a program runs correctly. Using the recommended browser
+1:42:14
+ensures the web-based application has the compatibility, performance, and security features it needs to function
+1:42:20
+as intended. Question 136.
+1:42:26
+A system administrator needs to quickly automate renaming a batch of files and cleaning up temporary folders. Which
+1:42:32
+type of programming language is best suited for this kind of ad hoc task?
+1:42:41
+The answer is B. Scripting language. Scripting languages are designed to
+1:42:47
+automate small, repetitive or ad hoc tasks. Because they are typically interpreted rather than compiled, they
+1:42:54
+are quick to write, test, and run. They are commonly used for system administration, file management, and
+1:43:00
+process automation. This makes them ideal when a fast, lightweight solution is needed without creating a full-scale
+1:43:06
+application. Question 137. A software developer is
+1:43:13
+creating a program to record rainfall measurements which may include fractional values. Which of the
+1:43:19
+following data types would be the most appropriate for storing these values?
+1:43:28
+The answer is D. Float. A float is a data type used to store
+1:43:34
+numbers with decimal points. It is especially useful for representing fractional values such as measurements,
+1:43:40
+averages, or financial data. Floats allow for greater precision in calculations by maintaining digits
+1:43:46
+beyond the decimal point. This makes them ideal when exact values are needed instead of rounding to whole numbers.
+1:43:54
+Question 138. Which of the following best describes a boolean data type?
+1:44:05
+The answer is C. True false. A boolean is a data type that can only
+1:44:11
+store one of two values, true or false. It is used in programming to represent binary outcomes such as on and off, yes
+1:44:19
+and no, or success and failure. Booleans are fundamental in decision-making logic
+1:44:24
+because they allow programs to evaluate conditions and control the flow of execution.
+1:44:31
+Question 139. A developer is building an application that needs to calculate the
+1:44:36
+total price of an online order each time a customer checks out. Instead of writing the same code multiple times,
+1:44:42
+the developer creates a reusable block of code that performs this calculation whenever called. Which of the following
+1:44:48
+programming concepts is being used?
+1:44:56
+The answer is a function. A function is a reusable block of code
+1:45:02
+designed to perform a specific task. Instead of rewriting the same instructions in multiple places, the
+1:45:08
+developer can call the function whenever the calculation is needed. Functions make programs more organized, efficient,
+1:45:14
+and easier to maintain by grouping related instructions into a single unit.
+1:45:21
+Question 140. Given the following pseudo code, which of the following best
+1:45:26
+describes the purpose of line 30?
+1:45:33
+The answer is B. It is a comment used for documentation.
+1:45:39
+Line 30 uses the rem statement to create a comment, which is text included in code for documentation and explanation
+1:45:46
+purposes. Comments do not affect how the program runs. They exist to help developers and others understand the
+1:45:52
+logic of the code. Different programming languages use different symbols or keywords for comments such as a double
+1:45:58
+forward slash in Java or hashtag in Python. Including comments makes programs easier to read, maintain, and
+1:46:05
+troubleshoot. Question 141. Which of the following
+1:46:11
+best describes data correlation?
+1:46:18
+The answer is C. Relationship between data sets.
+1:46:24
+Data correlation refers to identifying and analyzing the relationship between two or more data sets. It helps reveal
+1:46:31
+trends, patterns, or connections that may not be obvious when looking at the data separately. Correlation adds value
+1:46:37
+by turning raw data into meaningful information for decision-making.
+1:46:43
+Question 142. Which of the following best describes big data?
+1:46:53
+The answer is B. Large and complex data sets.
+1:46:59
+Big data refers to very large and complex data sets that traditional tools struggle to manage. It is commonly
+1:47:05
+defined by the five V's. Volume, variety, velocity, veracity, and value.
+1:47:13
+Question 143. Which of the following is not a benefit of using a database
+1:47:18
+compared to a flat file system?
+1:47:25
+The answer is a data duplication. Databases provide several benefits over
+1:47:32
+flat file systems including support for multiple concurrent users, scalability, faster speed, and the ability to handle
+1:47:39
+a variety of data. They also improve consistency, reduce errors, and offer centralized management and security.
+1:47:46
+Flat file systems, however, often lead to data duplication, which is a drawback rather than a benefit.
+1:47:54
+Question 144. A database administrator is planning a new system and creates a
+1:48:00
+design showing the tables, fields, and how they relate to one another before any data is entered. Which database
+1:48:06
+concept is being applied in this scenario?
+1:48:13
+The answer is C. Schema. In this scenario, the administrator is
+1:48:20
+working on the schema which serves as the blueprint of a relational database. A schema defines the logical structure
+1:48:26
+including the tables, fields, and relationships before actual data is stored. This design step ensures the
+1:48:33
+database is organized, consistent, and ready to handle information efficiently.
+1:48:39
+Question 145. A college database has one table for students and another table for
+1:48:46
+courses. To link each student to the courses they are enrolled in, the administrator adds a column in the
+1:48:51
+courses table that refers to the primary key in the students table. Based on this scenario, which database concept is
+1:48:58
+being applied?
+1:49:04
+The answer is D. Foreign key. A foreign key is a field in one table
+1:49:10
+that refers to the primary key in another table, creating a relationship between them. In this scenario, the
+1:49:16
+column in the courses table points back to the students primary key in the students table. Foreign keys enforce
+1:49:22
+referential integrity, ensuring that records in one table always correspond to valid entries in another.
+1:49:30
+Question 146. A database administrator is creating a table for employee records and wants to
+1:49:37
+ensure that no two employees can be entered with the same employee ID number. Which database feature should be
+1:49:43
+used to enforce this rule?
+1:49:49
+The answer is B. Unique constraint. A unique constraint ensures that no two
+1:49:56
+rows in a table can have the same value in a specific column. This maintains data integrity by preventing duplicates
+1:50:02
+such as two employees being assigned the same employee ID. While similar to a primary key, which also enforces
+1:50:09
+uniqueness, a table can only have one primary key, but may include multiple unique constraints on different columns.
+1:50:17
+Question 147. Which of the following does a NoSQL database commonly used to
+1:50:23
+organize data?
+1:50:29
+The answer is B. Key value. NoSQL databases are non- relational
+1:50:35
+databases, meaning they do not rely on the traditional table and row structure of relational systems. Many NoSQL
+1:50:42
+databases organize data using a key value model where each unique key is paired with its corresponding value.
+1:50:48
+This approach makes them more flexible than relational databases, which require predefined schemas and strict
+1:50:54
+relationships. Question 148. Which of the following is
+1:51:01
+not one of the three core principles of the CIA triad used in database security?
+1:51:10
+The answer is D. Authorization. The CIA triad stands for
+1:51:16
+confidentiality, integrity, and availability. These three principles form the foundation of information
+1:51:22
+security by protecting sensitive data from unauthorized access, ensuring data remains accurate and trustworthy, and
+1:51:28
+making sure systems and data are accessible when needed.
+1:51:34
+Question 149. In which of the following situations should a person reasonably
+1:51:39
+expect their information to remain private?
+1:51:46
+The answer is C. Entering personal details into a school's secure registration website.
+1:51:53
+An expectation of privacy applies when personal information is submitted through a trusted and secure system. In
+1:52:00
+this case, entering details into a school's official registration website creates that expectation because the
+1:52:05
+data is sensitive and should be handled confidentially by the institution.
+1:52:12
+Question 150. A company in Europe collects customer data such as names,
+1:52:17
+addresses, and payment information. Which regulation requires the company to protect this personal data and give
+1:52:23
+customers rights over how it is used?
+1:52:30
+The answer is a GDPR. The General Data Protection Regulation
+1:52:37
+or GDPR is a European law that protects personal data and privacy. It requires
+1:52:43
+organizations to safeguard customer information, be transparent about how it is used, and give individuals rights
+1:52:48
+such as accessing or deleting their data. GDPR applies to any business handling the personal data of EU
+1:52:54
+residents, regardless of where the business is located. Question 151. A user receives an email
+1:53:03
+that appears to be from their bank asking them to click a link and enter their account login information. Which
+1:53:08
+type of security threat is this most likely an example of?
+1:53:16
+The answer is C. Fishing. Fishing is a type of social engineering
+1:53:23
+attack where an attacker pretends to be a trusted source such as a bank to trick users into providing sensitive
+1:53:29
+information. It is most often carried out through fraudulent emails that encourage the user to click a link or
+1:53:34
+enter personal details. The attacker's goal might be to steal login credentials, financial information, or
+1:53:40
+other private data. Question 152. A user is installing a new
+1:53:48
+application and is asked to type in a unique code made up of letters and numbers with hyphens between sections.
+1:53:53
+What is the installation process most likely requesting?
+1:54:02
+The answer is B. Product key. A product key is a unique alpha numeric
+1:54:08
+code used during software installation to prove that the copy of the software is genuine. It ensures that only
+1:54:14
+licensed users can install and activate the program. Product keys are commonly requested before completing the setup of
+1:54:21
+commercial software. Question 153. A user forgets their login
+1:54:28
+password and clicks the forgot password link on a website. The system sends them an email with instructions to create a
+1:54:35
+new password. Which of the following best describes this process?
+1:54:44
+The answer is D. Password reset. A password reset process allows a user
+1:54:50
+to securely create a new password when the original one is forgotten or compromised. Best practices include
+1:54:56
+sending reset instructions only through trusted channels such as a registered email or verified phone number to
+1:55:02
+confirm the user's identity. The process should also require the creation of a strong unique password that has not been
+1:55:09
+used before. This helps maintain account security while restoring access to the system.
+1:55:16
+Question 154. Which of the following best describes plain text?
+1:55:26
+The answer is D. Unencrypted human readable data.
+1:55:32
+Plain text refers to unencrypted human readable data. It can be easily viewed without the need for a decryption key or
+1:55:39
+specialized software. Because plain text is not protected, sensitive information such as passwords or personal details
+1:55:46
+should never be stored or transmitted in this format. Question 155. A home user sets up a
+1:55:54
+wireless router and secures it with a password that must be entered by anyone connecting to the Wi-Fi. Which of the
+1:56:00
+following authentication methods is being used?
+1:56:07
+The answer is a pre-shared key. A pre-shared key or PSK is a shared
+1:56:15
+password used to authenticate devices on a Wi-Fi network. It is often used in home and small office networks where all
+1:56:21
+users enter the same key to connect. While simple and convenient to set up, PSK is less secure in larger
+1:56:28
+environments because the same password is shared among many users.
+1:56:34
+Question 156. An organization is setting up a file server and needs a large
+1:56:39
+amount of storage while keeping costs low. Which of the following storage types would be the best choice?
+1:56:50
+The answer is D. HDD. A hard disk drive or HDD is the best
+1:56:57
+choice for a costconscious file server because it provides large storage capacity at a relatively low price.
+1:57:03
+While it does not offer the fastest performance, HDD technology is affordable, making it well suited for
+1:57:09
+environments where storing large amounts of data is more important than speed.
+1:57:15
+Question 157. Which of the following graphic device connectors provides the best support for
+1:57:21
+highdefinition audio and video?
+1:57:28
+The answer is a HDMI. Highdeinition multimedia interface or
+1:57:35
+HDMI is a connector that carries both highdefinition video and digital audio in a single cable. It is widely used
+1:57:42
+with monitors, projectors, TVs, and modern computers to deliver sharp images
+1:57:47
+and clear sound. Its ability to transmit high-quality video and audio together makes it popular choice among common
+1:57:53
+graphic device connectors. Question 158. A technician is explaining
+1:58:01
+storage sizes to a new computer user. The user asks, "How many megabytes are in 1 GB? Which of the following is the
+1:58:08
+correct answer?
+1:58:14
+The answer is C. 1,000. 1 GBTE is equal to 1,000 megabytes in
+1:58:21
+the decimal system commonly used for storage. In this system, each unit is 1,000 times larger than the previous
+1:58:28
+one. 1 kilob is 1,000 bytes, 1 megabyte is 1,00 kilob, and 1 GB is 1,000
+1:58:35
+megabytes. This standardized scale makes it easier to explain and compare storage sizes.
+1:58:43
+Question 159. An end user reports that their desktop computer will not connect
+1:58:48
+to the internet. The help desk technician asks the user to confirm that the network cable is securely connected,
+1:58:55
+the Wi-Fi switch is turned on, and the router has power. Which of the following troubleshooting steps is being applied?
+1:59:06
+The answer is a question the obvious. The technician is in the step of
+1:59:12
+establishing a theory of probable cause which includes questioning the obvious by checking basic issues such as power
+1:59:19
+connections or switches. The technician is ruling out simple causes before moving on to more complex possibilities.
+1:59:26
+This step ensures that time isn't wasted troubleshooting advanced problems when the solution may be straightforward.
+1:59:34
+Question 160. When comparing the 2.4 GHz and 5 GHz frequency bands in Wi-Fi
+1:59:41
+networks, which of the following statements is accurate?
+1:59:49
+The answer is B. The 5 GHz band supports faster speeds but has a shorter range.
+1:59:56
+The 5 GHz band in Wi-Fi networks provides higher data transfer speeds, but sacrifices range because its signals
+2:00:03
+do not travel as far and are more easily absorbed by walls and obstacles. In contrast, the 2.4 GHz band offers wider
+2:00:11
+coverage and better penetration through barriers, though at slower speeds. Understanding this trade-off helps when
+2:00:17
+choosing which frequency to use in different environments.
+2:00:22
+Question 161. A coffee shop wants to provide free Wi-Fi for customers, but
+2:00:28
+requires them to log in or accept terms of service before getting internet access. Which of the following solutions
+2:00:34
+would best meet this requirement?
+2:00:40
+The answer is B. Captive portal. A captive portal is a web page that
+2:00:47
+users must interact with before gaining access to the internet. It is often used in public places like coffee shops,
+2:00:54
+airports, and hotels to require acceptance of an acceptable use policy. This ensures that users agree to the
+2:01:00
+rules for appropriate network use such as prohibiting illegal activity or limiting bandwidth heavy services before
+2:01:06
+being allowed online. Question 162. A user tries to open a
+2:01:13
+folder on their computer but receives a message stating they do not have the required permission. Which operating
+2:01:19
+system feature is responsible for this restriction?
+2:01:27
+The answer is B. Access control. Access control is the operating system
+2:01:34
+feature that manages file and folder permissions. It defines which users or groups can read, write, or execute
+2:01:41
+files, ensuring that only authorized individuals can use or modify specific resources. This feature helps protect
+2:01:47
+sensitive data and maintain system security. Question 163. Which of the following
+2:01:56
+best describes a database designed to store and organize documents?
+2:02:05
+The answer is D. Non-reational. A non- relational database is designed
+2:02:11
+to store and organize documents, making it more flexible than a traditional relational database. Instead of relying
+2:02:18
+on rows and columns, this type of database allows information to be grouped and retrieved in a way that
+2:02:23
+matches the structure of the stored documents. This flexibility makes non-reational databases especially
+2:02:29
+useful when handling large amounts of information that does not fit neatly into a fixed table format.
+2:02:36
+Question 164. Which of the following is the primary advantage of selecting a
+2:02:41
+mobile device that uses an ARMbased processor?
+2:02:49
+The answer is C. Battery life. ARMbased processors are designed to be
+2:02:55
+power efficient, making battery life the main advantage in mobile devices. By consuming less energy than many
+2:03:02
+traditional processors, ARM CPUs allow smartphones and tablets to operate longer on a single charge. This
+2:03:08
+efficiency is one of the key reasons ARMbased processors dominates the mobile device market.
+2:03:15
+Question 165. Which of the following best describes the purpose of ROM in a
+2:03:21
+computer system?
+2:03:27
+The answer is a permanent storage for firmware and system instructions.
+2:03:34
+Readon memory or ROM is a type of non-volatile storage that holds permanent data such as firmware and
+2:03:40
+essential system instructions. Unlike RAM, the data in ROM is not erased when the device is powered off. This makes it
+2:03:47
+ideal for storing the basic startup code a computer needs to boot and operate reliably.
+2:03:53
+Question 166. Which type of database organizes information into multiple tables and
+2:04:00
+links them together to show relationships between the data?
+2:04:08
+The answer is C. Relational. A relational database organizes
+2:04:14
+information into multiple tables and uses relationships to connect the data. This structure allows data to be stored
+2:04:21
+efficiently while reducing duplication and improving consistency. By linking tables with keys, relational databases
+2:04:27
+make it possible to correlate and query related information across different data sets.
+2:04:34
+Question 167. A technician receives a call from a user reporting internet
+2:04:39
+connectivity problems. After investigation, the technician identifies the root cause of the issue. According
+2:04:46
+to the troubleshooting process, what should the technician do next?
+2:04:54
+The answer is B. Establish a plan of action.
+2:05:00
+Once the root cause of a problem has been identified, the next step in the troubleshooting methodology is to
+2:05:05
+establish a plan of action. This means deciding on the most effective way to correct the issue while minimizing the
+2:05:11
+chance of creating new problems. In many environments, the plan may also need to be reviewed or approved by a manager,
+2:05:17
+supervisor, or change control board before being carried out. Taking this step ensures that the solution is both
+2:05:24
+technically sound and organizationally supported. Question 168. A user wants an easy and
+2:05:32
+secure way to keep track of multiple account usernames and passwords without writing them down or saving them in
+2:05:38
+plain text. Which of the following tools would best meet this need?
+2:05:47
+The answer is a password manager. A password manager is designed to
+2:05:53
+securely organize and store user credentials in an encrypted database. It allows the end user to create strong,
+2:06:00
+unique passwords for each account without needing to memorize them all. Most password managers can also
+2:06:05
+automatically fill in login information and sync credentials across multiple devices, making them both secure and
+2:06:11
+convenient. This helps reduce risky practices such as reusing passwords.
+2:06:18
+Question 169. A small business is deciding between paying for software
+2:06:24
+once upfront or paying a smaller recurring fee to always have the latest version. Which of the following best
+2:06:29
+describes this type of decision?
+2:06:36
+The answer is C. Subscription versus one-time.
+2:06:41
+This situation is an example of choosing between a subscription model and a one-time purchase model for software. A
+2:06:47
+subscription involves paying a recurring fee and typically includes updates and new features as long as the subscription
+2:06:53
+is active. A one-time purchase requires a larger upfront cost, but does not provide ongoing updates unless
+2:06:59
+specifically stated. Question 170. Which of the following
+2:07:06
+types of information is most suitable for storage in a document style database?
+2:07:15
+The answer is C. Social media posts.
+2:07:20
+Document databases are non- relational systems designed to store unstructured or semistructured information such as
+2:07:26
+text posts or userenerated content. Social media posts are a good example
+2:07:32
+because they vary in length and format, but still need to be searchable and organized. This flexibility makes
+2:07:38
+document databases ideal for handling large volumes of information that don't fit neatly into rows and columns.
+2:07:46
+Question 171. A technician installs new equipment and completes the setup by
+2:07:51
+entering the devices network address into a web browser to configure it. Which type of installation method was
+2:07:57
+used?
+2:08:02
+The answer is A. IPbased. An IP-based installation is used when a
+2:08:09
+device is connected to the network and configured through its network address typically by using a web interface in a
+2:08:15
+browser. This method is common for devices like printers, routers, and otherworked hardware.
+2:08:23
+Question 172. An attacker physically cuts the communication lines leading
+2:08:29
+into a data center preventing internet access to internal servers. This scenario represents which type of
+2:08:35
+security concern.
+2:08:41
+The answer is B. Availability. This is an availability concern because
+2:08:47
+the attack prevents users from accessing systems and services. Availability is one of the three core principles of the
+2:08:54
+CIA triad. Ensuring resources remain accessible when needed. Disrupting physical communication lines is a direct
+2:09:01
+attack on system uptime and accessibility. Question 173. A company's security
+2:09:09
+policy requires that users cannot reuse their last five passwords when creating a new one. This requirement is an
+2:09:16
+example of which password best practice?
+2:09:23
+The answer is D. Password history. Password history prevents users from
+2:09:30
+reusing a set number of their most recent passwords. This policy requires users to create new and unique passwords
+2:09:36
+each time, reducing the risk of repeating or cycling through old credentials. By enforcing this rule,
+2:09:42
+organizations strengthen overall password security and make accounts harder to compromise.
+2:09:49
+Question 174. A user is concerned about attackers taking advantage of software
+2:09:55
+vulnerabilities. Which of the following actions would best reduce the chance of being exposed to new exploits?
+2:10:06
+The answer is B. Remove unnecessary software.
+2:10:11
+Removing unnecessary software reduces the number of applications that could contain vulnerabilities. By keeping only
+2:10:18
+essential programs installed, the system presents fewer potential entry points for attackers. This limits the attack
+2:10:24
+surface and lowers the overall risk of exploitation.
+2:10:30
+Question 175. Operating systems such as iOS and Android are primarily designed
+2:10:36
+for which type of devices?
+2:10:42
+The answer is C. Mobile devices. iOS and Android are operating systems
+2:10:50
+created for mobile devices such as smartphones and tablets. These OS types are designed to support touchscreen
+2:10:56
+interfaces, mobile app ecosystems, and wireless connectivity like Wi-Fi, Bluetooth, and cellular networks. They
+2:11:03
+provide built-in services such as cameras, GPS, and sensors that are essential for modern mobile
+2:11:09
+applications. Unlike desktop or server operating systems, mobile OS platforms
+2:11:14
+are optimized for portability, battery efficiency, hand seamless integration with cloud services and app stores.
+2:11:23
+Question 176. In programming, a while loop repeatedly executes a block of code based on which
+2:11:30
+of the following?
+2:11:36
+The answer is B. the condition being true. A while loop executes its code block as
+2:11:43
+long as the conditional statement evaluates to true. Each time the loop runs, the condition is checked again
+2:11:48
+before the next iteration. When the condition becomes false, the loop stops and the program continues with the next
+2:11:54
+instruction after the loop. Question 177. Which type of computing
+2:12:02
+device is the most likely to require scheduled maintenance windows to apply updates and security patches?
+2:12:13
+The answer is D. Servers. Servers are central to providing shared
+2:12:19
+resources and services such as databases, email, and web applications.
+2:12:24
+Because so many users and systems rely on them, administrators schedule planned downtime for maintenance to avoid
+2:12:30
+unexpected service interruptions. During this time, patches, security updates, and hardware or software upgrades can be
+2:12:37
+applied safely. This practice ensures the server environment remains secure, stable, and reliable while minimizing
+2:12:44
+disruption to business operations. Question 178. Which of the following
+2:12:51
+would be considered an example of multiffactor authentication?
+2:13:00
+The answer is C. Smart card and pen. Multiffactor authentication or MFA
+2:13:07
+requires using authentication methods from at least two different categories. The three main categories are something
+2:13:13
+you know such as a password or pen, something you have such as a smart card or hardware token, and something you are
+2:13:19
+such as a fingerprint or face scan. A smart card and pin works as an MFA solution because it combines two
+2:13:25
+categories, possession of the card and knowledge of the pen.
+2:13:30
+Question 179. A company wants to ensure that if an employees laptop is lost or
+2:13:36
+stolen, the information stored on it cannot be accessed by unauthorized individuals. Which of the following
+2:13:42
+solutions would best protect the data?
+2:13:49
+The answer is B. Full disk encryption. Full disk encryption protects the data
+2:13:56
+stored on a laptop by converting it into unreadable code that cannot be accessed without the correct decryption key. Even
+2:14:02
+if the laptop is physically stolen, the thief cannot view the files without authorization. This makes encryption one
+2:14:09
+of the most effective ways to secure sensitive data on portable devices.
+2:14:15
+Question 180. A technician needs to set up a new printer that supports the plug-andplay feature. Which type of
+2:14:22
+connector would the technician most likely use?
+2:14:30
+The answer is a USB. Most modern printers that support
+2:14:36
+plug-andplay use a USB connection. With USB, the operating system can automatically detect the printer when it
+2:14:42
+is connected, locate or download the proper drivers, and configure it for immediate use. This eliminates the need
+2:14:48
+for manual setup steps, making installation faster and easier. While other connectors like RJ45 can be used
+2:14:55
+for network printers, USB remains the most common choice for direct plug-and-play installations.
+2:15:03
+Question 181. A technician needs to configure which device a computer should
+2:15:08
+boot from, such as a hard drive, USB drive, or network location. Which system
+2:15:13
+component would most likely be used to make this change?
+2:15:21
+The answer is a BIOS. The basic input output system or BIOS is
+2:15:28
+firmware that initializes hardware during the startup process and allows technicians to configure system level
+2:15:34
+settings such as the boot order. By accessing the BIOS setup, a user can choose whether the computer should boot
+2:15:40
+from a hard drive, USB, optical media, or a network device. This makes the BIOS
+2:15:45
+the most common place to configure boot drive selection.
+2:15:50
+Question 182. A user needs to log in and work with a cloud hosted application.
+2:15:57
+Which type of software would they most likely use to access it?
+2:16:05
+The answer is C. Web browsing software. Web browsing software is the primary
+2:16:12
+tool for accessing cloud-based applications. A browser allows users to connect to online platforms like email
+2:16:18
+services, productivity tools, or file storage through the internet. Without a browser, most web-based cloud
+2:16:25
+applications cannot be reached, making it the most likely software type for this purpose.
+2:16:32
+Question 183. Which of the following computing devices is most likely to have
+2:16:37
+an onboard wireless nick?
+2:16:44
+The answer is C. Tablet. A tablet is designed for portability and
+2:16:50
+typically includes an onboard wireless nick for Wi-Fi and sometimes cellular connectivity. Unlike desktops or
+2:16:56
+servers, which commonly rely on wired Ethernet or may require expansion cards for wireless connectivity, mobile
+2:17:02
+devices like tablets and smartphones have onboard wireless nicks to stay connected on the go. This makes tablets
+2:17:08
+the most likely choice from the list to include onboard wireless networking by default.
+2:17:15
+Question 184. Which of the following best explains the function of a NAS
+2:17:20
+device?
+2:17:26
+The answer is B. Provides network storage.
+2:17:31
+A network attached storage or NAS device is designed to provide centralized file storage over a network. Users on
+2:17:38
+different systems can access shared data through the NAS, making it useful for collaboration, backups, and file
+2:17:44
+sharing. Unlike servers, a NAS is dedicated to storage rather than running applications or managing other
+2:17:50
+resources. Question 185. A technician installs a
+2:17:57
+new video card to resolve display problems on a workstation. After installation, the system starts up and
+2:18:03
+the display works properly, so the technician returns it to the user. Later, the user reports that the
+2:18:09
+speakers no longer produce sound. Which troubleshooting step did the technician most likely skip?
+2:18:19
+The answer is D. Verify full system functionality.
+2:18:25
+The technician skipped the step to verify full system functionality. After a repair, it is important to confirm
+2:18:31
+that not only the fixed component works, but also that the rest of the system is still functioning correctly. In this
+2:18:37
+case, while the video card installation resolved the display issue, it also caused an unexpected problem with the
+2:18:43
+speakers. Verifying full system functionality would have caught this issue before returning the device to the
+2:18:48
+user. Question 186.
+2:18:54
+Which of the following devices is mainly used with a television to view online movies and shows?
+2:19:04
+The answer is D. Streaming media device. A streaming media device is built to
+2:19:11
+connect to a television and provide access to online content such as movies, TV shows, and music. These devices use
+2:19:18
+internet connectivity to stream content directly from cloud-based services. They are purpose-built for entertainment and
+2:19:25
+differ from general computing devices or networking hardware.
+2:19:30
+Question 187. A user attempts to create a new password of capital T 9 lowercase
+2:19:37
+Q exclamation point, but the system refuses to accept it. Which password best practice is the most likely reason
+2:19:44
+for the rejection?
+2:19:50
+The answer is D. Password length. The password capital T 9 lowercase Q
+2:19:58
+exclamation point is too short to meet minimum security requirements. Most systems enforce a password length policy
+2:20:04
+that requires at least eight characters or more to strengthen protection against guessing or brute force attacks. By
+2:20:11
+enforcing longer passwords, organizations make it harder for attackers to break into accounts.
+2:20:18
+Question 188. Which of the following internal components generates the most heat during normal computer operation
+2:20:25
+and is therefore most likely to cause overheating issues?
+2:20:33
+The answer is B. GPU. The graphics processing unit or GPU is
+2:20:40
+one of the most heat intensive components in a computer especially during demanding tasks like gaming,
+2:20:46
+video rendering or other graphics heavy operations. Because GPUs perform large
+2:20:51
+numbers of calculations in parallel, they generate significant heat and require strong cooling. The central
+2:20:57
+processing unit or CPU also produces considerable heat during multitasking and heavy processing.
+2:21:05
+Question 189. A help desk technician runs into a problem and wants to know if
+2:21:11
+others in the organization have already documented a solution. What should the technician check first?
+2:21:21
+The answer is B. Research the knowledge base. A knowledge base is a centralized
+2:21:28
+resource of previously reported issues, fixes, and troubleshooting steps. By checking it first, the technician can
+2:21:35
+quickly determine if the problem has already been solved and avoid duplicating effort. Using the knowledge
+2:21:40
+base saves time, ensures consistency, and promotes faster resolution for end users.
+2:21:48
+Question 190. Which of the following computing devices would be used to provide wired network connectivity
+2:21:54
+between multiple computers within the same local area network?
+2:22:03
+The answer is C. Switch. A switch is designed to connect multiple
+2:22:09
+devices on a local area network using wired connections. Switches act as the central point of connection, letting
+2:22:16
+computers, printers, and other devices communicate over the same network. They are essential for building reliable and
+2:22:22
+scalable wired networks and are widely used in homes, offices, and data centers
+2:22:27
+to provide consistent and dependable connectivity. Question 191. A user upgrades their
+2:22:36
+internet plan from 100 megabits per second to 1 Gbit per second. Which of the following best describes what has
+2:22:42
+increased?
+2:22:48
+The answer is C. Throughput. Throughput is the measure of how much
+2:22:54
+data can be transferred in a given amount of time. It is often used to describe network speed in units such as
+2:23:00
+bits per second. In this scenario, upgrading from 100 megabits per second to 1 Gbit per second increases the
+2:23:06
+throughput, meaning more data can be transferred each second.
+2:23:12
+Question 192. Which of the following best describes attenuation in a wireless
+2:23:17
+network?
+2:23:23
+The answer is B. The reduction of signal strength over distance.
+2:23:29
+Attenuation describes how a signal becomes weaker as it travels over distance. In wireless networking,
+2:23:35
+attenuation is often made worse by walls, interference, or other physical and environmental obstacles. As
+2:23:42
+attenuation increases, the signal loses strength which can cause slower speeds, poor connectivity or dropped
+2:23:48
+connections. Question 193. In a relational database,
+2:23:55
+which feature is used to make sure only acceptable values can be stored in a specific column?
+2:24:05
+The answer is a constraint. A constraint in a relational database is
+2:24:12
+a rule that restricts the type of data that can be stored in a column. For example, a constraint can ensure that
+2:24:18
+values fall within a certain range, are unique, or match a specific format. This helps maintain accuracy and consistency
+2:24:24
+of the data stored in the database. Question 194. Which of the following
+2:24:32
+best describes the purpose of location tracking as part of device security?
+2:24:41
+The answer is B. Monitors the geographic position of a device.
+2:24:48
+Location tracking is used to monitor the physical position of a device, often through GPS or network signals. It is
+2:24:54
+valuable for security because it allows organizations or users to detect unusual movement, recover lost or stolen
+2:25:01
+devices, and maintain logs of where a device has been used. This supports accountability and helps protect
+2:25:07
+sensitive information. Question 195. Which of the following
+2:25:14
+represents the four fundamental functions of a computer system?
+2:25:22
+The answer is D. Input, processing, output, and storage.
+2:25:29
+The four fundamental computing operations are input, processing, output, and storage. Input allows data
+2:25:36
+to enter the system. Processing transforms the data into useful information. Output presents the results
+2:25:41
+and storage saves data for future use. These four steps form the foundation of how all computer systems function?
+2:25:51
+Question 196. Which wireless communication method typically requires two devices to be
+2:25:57
+within 6 in of each other to exchange data?
+2:26:05
+The answer is B. NFC. Near field communication or NFC is a
+2:26:12
+short-range wireless technology that allows devices to share information when placed very close together, often within
+2:26:18
+a few inches. It is commonly used for contactless payments, secure identification, and quick data
+2:26:24
+transfers. Unlike Bluetooth or Wi-Fi, NFC is designed for close proximity, low
+2:26:29
+power communication. Question 197. Given the following table
+2:26:36
+of employee information, which of the following fields best represents a primary key?
+2:26:46
+The answer is A. ID. A primary key is a unique field that
+2:26:52
+identifies each record in a database table. In this example, the ID field uniquely distinguishes one employee from
+2:26:59
+another. While fields like name, year, month, or day could repeat across multiple records. Using a primary key
+2:27:06
+ensures accuracy and prevents duplicate records in the database.
+2:27:12
+Question 198. A technician is assembling custom Ethernet cables and needs a tool
+2:27:17
+to attach RJ45 connectors to the cable ends. Which tool should the technician
+2:27:22
+use?
+2:27:28
+The answer is B. Crimper. A crimper is the tool used to attach
+2:27:34
+connectors such as RJ45 plugs to the ends of network cables. It presses the
+2:27:39
+metal contacts inside the connector onto the cables wires, creating a secure connection. Crimpers are essential when
+2:27:46
+making or repairing custom Ethernet cables. Question 199. A user wants to take a
+2:27:54
+laptop outdoors and still connect to the internet without using a wired connection. Which of the following
+2:27:59
+components would best enable this capability?
+2:28:07
+The answer is C. WLAN card. AWL LAN card, also known as a wireless
+2:28:15
+expansion card, provides laptops and other compute devices with the ability to connect to Wi-Fi networks. By
+2:28:21
+installing or enabling a WLAN card, the device can connect to the internet without requiring a cable, making it
+2:28:27
+ideal for portable use outdoors or in areas where wired connections are unavailable.
+2:28:34
+Question 200. An organization requires that employee emails be downloaded to
+2:28:39
+their computers so messages are stored locally and no longer kept on the mail server. Which protocol should be set up
+2:28:45
+in the email client to meet this requirement?
+2:28:52
+The answer is B. POP 3. Post Office Protocol 3, abbreviated as
+2:28:59
+POP 3, is an email protocol that retrieves messages from the mail server and stores them on the local device.
+2:29:05
+After download, the messages are typically removed from the server, freeing server storage and allowing
+2:29:10
+offline access. This makes POP 3 the best choice when emails should not remain on the server.
+2:29:17
+Wow, you have completed 200 questions. How about one more question as a reward
+2:29:22
+for your hard work? Question 201. A programmer needs a
+2:29:28
+statement to run exactly 100 times in a row. Which programming construct would be the best choice to accomplish this?
+2:29:40
+The answer is D. Four. A for loop is used to repeat a block of
+2:29:46
+code a set number of times, making it the best choice when the exact number of repetitions is known, such as 100. A
+2:29:53
+while loop also repeats code but is based on a condition being true rather than a fixed count. If and else are
+2:29:59
+branching constructs, meaning they control the programs flow by choosing different paths of execution, but they
+2:30:04
+do not repeat code multiple times. Congratulations on completing our
+2:30:10
+CompTIA Tech Plus practice exam. Your dedication and effort are truly
+2:30:15
+commendable. With this milestone behind you, you're one step closer to earning your Tech Plus certification. The next
+2:30:22
+step is to register for the official exam and put your knowledge to the test. While you've already accomplished a lot,
+2:30:28
+a bit of extra review never hurts. With that said, feel free to revisit our free training videos or take another round of
+2:30:35
+the practice exam whenever you'd like. It's all about making sure you're fully prepared. And remember, every step you
+2:30:41
+take brings you closer to your goal. So stay confident, give it your best, and remember, we're cheering you on all the
+2:30:47
+way. [Music]
+2:30:53
+Thank you for watching. Subscribe for more great content.

@@ -1,0 +1,2030 @@
+[
+  {
+    "episode_id": "therapy3_t246_t253_policeman_anxiety_causality",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I’m afraid."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_03\nstudent_state: fearful_disclosure\nbehavior_tags: anxiety_report\nmechanism_shape: system_dynamics\nteaching_actions: validates_insight, identifies_mechanism, externalizes_superego\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_03\nstyle: LS_04\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Framing the anxiety as an external 'punitive mechanism' rather than a personal failure.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I didn’t see it before."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_01\nstudent_state: dawning_awareness\nbehavior_tags: insight_acquisition\nmechanism_shape: structural_analogy\nteaching_actions: uses_metaphor, personifies_defense\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_03\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Using the 'Policeman/Taser' analogy to make the abstract mechanism concrete and ego-dystonic.\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_04\nstudent_state: resonating_agreement\nbehavior_tags: agreement\nmechanism_shape: none\nteaching_actions: invites_rebellion, mobilizes_will\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_03\nstyle: LS_03\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Asking the patient to make an existential choice to defy the superego.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t3037_t3043_vine_tree_metaphor",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I do that a lot."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_02\nstudent_state: compliant_admission\nbehavior_tags: recognition\nmechanism_shape: none\nteaching_actions: reinforces_pattern_recognition\nregister: intensity=PR_01, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Solidifying the observation of the defense.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I’m not sure it’s that.\nThat’s just the way I am."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_01\nstudent_state: resigned_identification\nbehavior_tags: syntonic_defense, identity_claim\nmechanism_shape: structural_analogy\nteaching_actions: challenges_identity, uses_metaphor, separates_self_from_defense\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_03\nstyle: LS_03\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: identification_with_content\nintent: Using the Tree/Vine metaphor to separate the patient's core self from the acquired defense structure.\napproach: offer_perspective_shift\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t551_t554_do_i_have_to_share",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I just don’t share feelings."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: META\nfunction_id: META_01\nstudent_state: stubborn_refusal\nbehavior_tags: defiance, identity_statement\nmechanism_shape: causal_chain\nteaching_actions: removes_demand, highlights_consequence, uses_paradox\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_06\ndepth: PD_01\nmeta_mode: MM_02\ntraps_avoided: retreat\nintent: Clarifying the rules of engagement: Freedom + Consequence.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t322_t334_nonverbal_transference_resistance",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "Yeah.\nWhat? Am I supposed to look at you?"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: guarded_irritation\nbehavior_tags: defensive_innocence\nmechanism_shape: none\nteaching_actions: interprets_behavior, labels_avoidance\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Framing the behavior as 'avoidance'.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I find it easier to think when I look away."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_01\nstudent_state: justification\nbehavior_tags: rationalization\nmechanism_shape: none\nteaching_actions: mirrors_statement, highlights_consequence\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Mirroring the rationalization to show its relational impact.\napproach: mirror_back\n      },
+      {
+        "role": "user",
+        "content": "[Sighs, shifts in his chair.] Yes.\n[Looks out the window.]"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: passive_withdrawal\nbehavior_tags: nonverbal_resistance\nmechanism_shape: none\nteaching_actions: relentless_observation\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Staying with the behavioral data despite resistance.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "[Looks back at the therapist and then slouches in his chair.] I like the view."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: META\nfunction_id: META_01\nstudent_state: resistant_boredom\nbehavior_tags: sarcastic_defense\nmechanism_shape: none\nteaching_actions: questions_commitment, shifts_to_meta\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_02\ntraps_avoided: none\nintent: Shifting from the specific behavior to the general level of engagement.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I think I’m very involved."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_01\nstudent_state: proforma_defense\nbehavior_tags: denial\nmechanism_shape: structural_analogy\nteaching_actions: uses_professional_analogy, invites_perspective_taking\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_03\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: ego_defense\nintent: Using the patient's own professional standards to evaluate his behavior.\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "Not too involved, I guess."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_04\nstudent_state: caught_in_logic\nbehavior_tags: reluctant_admission\nmechanism_shape: none\nteaching_actions: demands_quantification\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Forcing a precise quantification of the resistance.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I’d say about twenty percent."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: META\nfunction_id: META_03\nstudent_state: sober_realization\nbehavior_tags: honest_assessment\nmechanism_shape: causal_chain\nteaching_actions: links_input_to_outcome, invites_collaboration\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_02\ntraps_avoided: none\nintent: Showing the consequence of the quantified resistance on the therapeutic outcome.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t518_t526_defiant_collaboration",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I don’t want to fing depend on you!"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_02\nstudent_state: angry_independence\nbehavior_tags: defiance, hostility\nmechanism_shape: subject_object_inversion\nteaching_actions: validates_honesty, reframes_defiance, highlights_ambivalence\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_03\nstyle: LS_06\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: false_paradox\nintent: Reframing the attack as 'collaboration' (honesty) and highlighting the split (Feet vs Words).\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "You can’t make me depend upon you."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_04\nstudent_state: defensive_wall\nbehavior_tags: power_struggle\nmechanism_shape: constraint_collapse\nteaching_actions: agrees_with_resistance, emphasizes_autonomy, uses_paradoxical_injunction\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_03\nstyle: LS_06\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: ego_defense\nintent: Radically affirming the patient's right to choose, including the choice to reject help.\napproach: increase_pressure\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t447_t454_only_you_can_know_meta",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I was hoping you could tell me what my problem is."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: META\nfunction_id: META_03\nstudent_state: hopeful_passivity\nbehavior_tags: dependency, passive_role\nmechanism_shape: constraint_collapse\nteaching_actions: refuses_role, defines_epistemology\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_02\ntraps_avoided: looking_outward\nintent: Clarifying the limits of the therapist's knowledge and the patient's unique access to their own experience.\napproach: increase_pressure\n      },
+      {
+        "role": "user",
+        "content": "But you have all this training.\nSurely you can tell me if I have a problem or not."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_01\nstudent_state: anxious_insistence\nbehavior_tags: pressure_for_answer\nmechanism_shape: subject_object_inversion\nteaching_actions: maintains_boundary, insists_on_patient_knowledge\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_04\nmeta_mode: MM_02\ntraps_avoided: answer_hunting\nintent: Forcing the patient to take the seat of the 'Knower'.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t582_t585_dead_therapy_reductio",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I’m dead to my feelings."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: META\nfunction_id: META_03\nstudent_state: hopeless_shutdown\nbehavior_tags: dramatic_defense, deadness\nmechanism_shape: structural_analogy\nteaching_actions: extends_metaphor, exposes_futility\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_01\nstyle: LS_05\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: retreat\nintent: Using the patient's metaphor ('dead') to show the impossibility of the therapeutic task.\napproach: offer_perspective_shift\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t1195_t1202_consolidation_template_linking",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "Yeah."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_01\nstudent_state: understanding_nod\nbehavior_tags: agreement\nmechanism_shape: structural_analogy\nteaching_actions: links_past_to_present, applies_template_to_transference\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_03\nstyle: LS_02\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Connecting the historical template to the current interaction (Transference).\napproach: offer_perspective_shift\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t658_t669_projection_virtue_trap",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I know you think that this is self-neglect, but I think you’re wrong.\nThere’s a virtue to being patient."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_05\nstudent_state: righteous_defense\nbehavior_tags: moralizing_defense, projection\nmechanism_shape: subject_object_inversion\nteaching_actions: uses_irony, agrees_with_defense\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_06\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: moral_blackmail\nintent: Using sarcastic agreement to expose the absurdity of the defense ('Patience' as solution).\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "[Rise of anxiety.] It’s not how long I would like to wait.\nIt’s just that I have to right now."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_06\nstudent_state: anxious_helplessness\nbehavior_tags: victim_stance\nmechanism_shape: constraint_collapse\nteaching_actions: clarifies_agency, validates_choice_to_wait\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_06\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Removing the 'victim' frame.\nWaiting is an active choice, not a passive imposition.\napproach: increase_pressure\n      },
+      {
+        "role": "user",
+        "content": "But I can’t keep going this way!"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_03\nstudent_state: desperate_realization\nbehavior_tags: bottoming_out\nmechanism_shape: system_dynamics\nteaching_actions: uses_irony, challenges_urgency\nregister: intensity=PR_04, intimacy=IN_02, attunement=AT_02\nstyle: LS_06\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Pushing the 'patience' defense to its extreme to force the healthy part of the patient to rebel.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t85_t94_character_defense_concrete_labeling",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I just forget about it."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_03\nstudent_state: dismissive_avoidance\nbehavior_tags: represion, minimization\nmechanism_shape: abstraction_strip\nteaching_actions: lists_concrete_details, identifies_self_neglect\nregister: intensity=PR_03, intimacy=IN_03, attunement=AT_02\nstyle: LS_01\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: vagueness\nintent: Stripping away the abstraction ('it') to reveal the concrete reality (hit, bruise, pain) and the mechanism of ignoring.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "It’s no big deal."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_05\nstudent_state: defensive_numbness\nbehavior_tags: minimization, denial\nmechanism_shape: subject_object_inversion\nteaching_actions: mirrors_defense, highlights_contradiction\nregister: intensity=PR_03, intimacy=IN_03, attunement=AT_02\nstyle: LS_02\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: ego_defense\nintent: Confronting the minimization by repeating the concrete facts alongside the minimizing label.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t171_t183_self_torture_distinction",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I know that was stupid of me to say."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_03\nstudent_state: habitual_shame\nbehavior_tags: self_attack\nmechanism_shape: none\nteaching_actions: labels_behavior, confronts_defense\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_04\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Redefining the patient's 'thought' as an 'act' of verbal abuse.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Well, it was stupid."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_04\nstudent_state: defensive_justification\nbehavior_tags: rationalization\nmechanism_shape: system_dynamics\nteaching_actions: forces_evaluation, amplifies_experience\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_02\nstyle: LS_01\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Forcing the patient to experience the impact of the defense through repetition.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "It was stupid.\nIt was stupid."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_02\nstudent_state: experiencing_impact\nbehavior_tags: compliance, experiential_check\nmechanism_shape: causal_chain\nteaching_actions: probes_affect\nregister: intensity=PR_01, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Connecting the action to the emotional result.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Bad."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_02\nstudent_state: sadness\nbehavior_tags: affect_labeling\nmechanism_shape: causal_chain\nteaching_actions: establishes_causality, questions_motive\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Challenging the motivation behind the self-harming behavior.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "[Tears.] I always do that to myself."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_03\nstudent_state: dawning_awareness\nbehavior_tags: realization\nmechanism_shape: none\nteaching_actions: identifies_omission, points_to_agency\nregister: intensity=PR_01, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Pointing out the lack of self-defense.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "But shouldn’t I think about my mistakes?"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_03\nstudent_state: cognitive_resistance\nbehavior_tags: rationalization, moral_defense\nmechanism_shape: comparison_contrast\nteaching_actions: asks_factual_question\nregister: intensity=PR_02, intimacy=IN_01, attunement=AT_01\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Setting up a logical trap to dismantle the rationalization.\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "Once."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_02\nstudent_state: factual_admission\nbehavior_tags: reality_check\nmechanism_shape: comparison_contrast\nteaching_actions: asks_factual_question, compares_frequency\nregister: intensity=PR_03, intimacy=IN_01, attunement=AT_01\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Contrasting the single error with the multiple punishments.\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "Probably hundreds of times."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_03\nstudent_state: dawning_awareness\nbehavior_tags: realization\nmechanism_shape: constraint_collapse\nteaching_actions: forces_choice, redefines_behavior\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: semantic_fog\nintent: Finalizing the distinction between learning and torture.\napproach: increase_pressure\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t238_t240_who_to_protect_choice",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "It protects him."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_04\nstudent_state: sober_recognition\nbehavior_tags: insight, realization\nmechanism_shape: constraint_collapse\nteaching_actions: forces_choice, mobilizes_will\nregister: intensity=PR_03, intimacy=IN_03, attunement=AT_03\nstyle: LS_01\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Demanding an existential choice of allegiance.\napproach: increase_pressure\n      },
+      {
+        "role": "user",
+        "content": "Me."
+      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t164_t168_love_self_hatred_reframe",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "[Rise of feeling.\nTears in her eyes.] Maybe that is how I love."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_03\nstudent_state: tragic_confusion\nbehavior_tags: romanticized_suffering, cognitive_distortion\nmechanism_shape: subject_object_inversion\nteaching_actions: redefines_concept, establishes_criterion\nregister: intensity=PR_04, intimacy=IN_03, attunement=AT_02\nstyle: LS_01\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: semantic_fog\nintent: Providing a new definition of Love (must include Freedom) and relabeling the old behavior as Self-Hatred.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t702_t705_cancer_metaphor",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I can see I am hard on myself."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_01\nstudent_state: mild_agreement\nbehavior_tags: understatement, minimization\nmechanism_shape: structural_analogy\nteaching_actions: amplifies_pathology, uses_medical_metaphor, sets_ultimatum\nregister: intensity=PR_04, intimacy=IN_03, attunement=AT_01\nstyle: LS_03\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: minimization\nintent: Upgrading the frame from 'character quirk' ('hard on self') to 'lethal disease' ('Cancer') to create urgency.\napproach: offer_perspective_shift\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t892_t897_portrayal_somatic_block",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "[Hands drop.] I’m having trouble breathing.\nI feel like my throat is closing up. I need to get my inhaler.\nI think I’m having an allergic reaction."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_02\nstudent_state: somatic_panic\nbehavior_tags: somatization, retroflexion, flight_into_illness\nmechanism_shape: subject_object_inversion\nteaching_actions: interprets_symptom, reverses_direction\nregister: intensity=PR_03, intimacy=IN_03, attunement=AT_02\nstyle: LS_02\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: identification_with_content\nintent: Explaining the mechanism of the symptom (Retroflexion): Impulse turned inward.\napproach: apply_standard_function\n      }
+    ]
+  }
+]
+
+[
+  {
+    "episode_id": "therapy3_t961_t964_washing_body_reparation",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I would wash it and prepare it for burial."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_01\nstudent_state: tender_grief\nbehavior_tags: reparation, grief\nmechanism_shape: none\nteaching_actions: deepens_imagery, focuses_on_love\nregister: intensity=PR_01, intimacy=IN_04, attunement=AT_03\nstyle: LS_01\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Directing the patient to fully experience the act of love/grief.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t1168_t1173_consolidation_rage_anxiety_distinction",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "Right."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_02\nstudent_state: receptive_learning\nbehavior_tags: cognitive_alignment\nmechanism_shape: causal_chain\nteaching_actions: locates_pathology, defines_causality\nregister: intensity=PR_01, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Defining the causality of the symptom: Feeling -> Anxiety.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: UNKNOWN\nstudent_state: clarity\nbehavior_tags: insight_consolidation\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t476_t494_passive_omnipotent_transference",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I’m not sure I have the energy to do this."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: META\nfunction_id: META_01\nstudent_state: collapsed_dependency\nbehavior_tags: passivity, helplessness\nmechanism_shape: none\nteaching_actions: validates_obstacle, refuses_rescue\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Naming the reality of the situation without offering a solution.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Isn’t there something you can do?"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: META\nfunction_id: META_03\nstudent_state: pleading\nbehavior_tags: magical_thinking, dependency\nmechanism_shape: causal_chain\nteaching_actions: refuses_omnipotence, quantifies_contribution\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_02\ntraps_avoided: spiritual_superego\nintent: Explaining the mechanics of the therapeutic partnership (The 100/20 Rule).\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "But what if I can’t do it?"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_06\nstudent_state: anxious_paralysis\nbehavior_tags: fear_of_failure\nmechanism_shape: causal_chain\nteaching_actions: accepts_failure, declines_rescue\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: retreat\nintent: Accepting the patient's helplessness to show the cost (failure).\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "[Begins to cry.] But I can’t go on this way!"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_02\nstudent_state: existential_crisis\nbehavior_tags: emotional_breakthrough, desperation\nmechanism_shape: causal_chain\nteaching_actions: labels_habit, invites_agency\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Defining the 'helplessness' as a 'destructive habit' to be solved.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I guess I have to stop giving up on myself.\nBut I was hoping you could do something."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_04\nstudent_state: reluctant_agency\nbehavior_tags: ownership, residual_wish\nmechanism_shape: constraint_collapse\nteaching_actions: clarifies_limits, demands_partnership\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_03\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Setting the boundary that help requires partnership.\napproach: increase_pressure\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t1128_t1134_belief_eternity_closure",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "Only believe in me.\nBelieve that I will succeed."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_04\nstudent_state: deep_vulnerability\nbehavior_tags: affirmation, internalization\nmechanism_shape: none\nteaching_actions: echoes_affirmation\nregister: intensity=PR_01, intimacy=IN_04, attunement=AT_03\nstyle: LS_01\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Reinforcing the positive introject.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Believe that I will succeed."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_04\nstudent_state: strengthening\nbehavior_tags: consolidation\nmechanism_shape: none\nteaching_actions: invites_eternal_bond, anchors_internalization\nregister: intensity=PR_01, intimacy=IN_04, attunement=AT_03\nstyle: LS_03\ndepth: PD_04\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Establishing a permanent internal resource (Eternity).\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t179_t183_defending_against_abuse",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I hadn’t even thought of that."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_03\nstudent_state: surprise\nbehavior_tags: realization\nmechanism_shape: none\nteaching_actions: repeats_framing\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Reinforcing the new frame (defense vs abuse).\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "But shouldn’t I think about my mistakes?"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_03\nstudent_state: defensive_logic\nbehavior_tags: cognitive_resistance\nmechanism_shape: comparison_contrast\nteaching_actions: asks_factual_question\nregister: intensity=PR_02, intimacy=IN_01, attunement=AT_01\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Using concrete data to dismantle the rationalization.\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "Once."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_02\nstudent_state: factual_admission\nbehavior_tags: reality_check\nmechanism_shape: comparison_contrast\nteaching_actions: contrasts_frequency\nregister: intensity=PR_03, intimacy=IN_01, attunement=AT_01\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Exposing the disproportionate nature of the self-attack.\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "Probably hundreds of times."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_03\nstudent_state: dawning_awareness\nbehavior_tags: concession\nmechanism_shape: constraint_collapse\nteaching_actions: forces_choice, redefines_behavior\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: semantic_fog\nintent: Establishing the distinction between 'Learning' and 'Torture'.\napproach: increase_pressure\n      },
+      {
+        "role": "user",
+        "content": "I see your point."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_04\nstudent_state: agreement\nbehavior_tags: insight\nmechanism_shape: none\nteaching_actions: offers_choice, mobilizes_agency\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_03\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Asking the patient to choose between the defense (torture) and the self (defense).\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t993_t997_facing_eyes_guilt",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "He’s face down."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_04\nstudent_state: defensive_visualization\nbehavior_tags: avoidance\nmechanism_shape: none\nteaching_actions: modifies_imagery\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_02\nstyle: LS_01\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Overcoming the avoidance by modifying the visualization parameters.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "His eyes are closed."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_04\nstudent_state: resistant_modification\nbehavior_tags: avoidance\nmechanism_shape: none\nteaching_actions: modifies_imagery\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_02\nstyle: LS_01\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Persisting against the avoidance.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I don’t look at them."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_04\nstudent_state: active_refusal\nbehavior_tags: avoidance\nmechanism_shape: none\nteaching_actions: blocks_avoidance, amplifies_imagery\nregister: intensity=PR_03, intimacy=IN_03, attunement=AT_02\nstyle: LS_03\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Forcing the confrontation with the consequence of rage (dead eyes).\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Well, now I feel guilty."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_01\nstudent_state: emotional_impact\nbehavior_tags: guilt_access\nmechanism_shape: none\nteaching_actions: deepens_affect\nregister: intensity=PR_01, intimacy=IN_04, attunement=AT_03\nstyle: LS_01\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Facilitating the deep experience of the emergent feeling.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t625_t629_cave_imagery_alliance",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I have a hard time relating to people."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_03\nstudent_state: distant_abstraction\nbehavior_tags: vagueness\nmechanism_shape: abstraction_strip\nteaching_actions: corrects_euphemism, challenges_goal\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: vagueness\nintent: Confronting the vague 'hard time relating' with the brutal reality of 'rejecting/pushing away'.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "[Tears in her eyes.] I feel like there’s a little girl in a cave afraid of the light outside the cave."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_01\nstudent_state: poetic_access\nbehavior_tags: spontaneous_imagery, vulnerability\nmechanism_shape: structural_analogy\nteaching_actions: amplifies_metaphor, speaks_to_unconscious\nregister: intensity=PR_02, intimacy=IN_04, attunement=AT_03\nstyle: LS_03\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Adopting the patient's metaphor (Cave) and reframing it as a 'Prison' to mobilize the wish for freedom.\napproach: offer_perspective_shift\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t969_t976_portrayal_devaluation_trash",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I just want to put it in a trash bag and put him out in the trash."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_01\nstudent_state: contemptuous_dismissal\nbehavior_tags: devaluation, disposal\nmechanism_shape: structural_analogy\nteaching_actions: interprets_defense, links_to_history, reframes_task\nregister: intensity=PR_02, intimacy=IN_04, attunement=AT_03\nstyle: LS_03\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: identification_with_content\nintent: Interpreting 'Trash' as a defense (Identification with the Aggressor/Mother) and guiding towards 'Burial' (Integration).\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "I felt really abandoned when he got married."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_01\nstudent_state: vulnerable_pain\nbehavior_tags: grief, attachment_injury\nmechanism_shape: none\nteaching_actions: interprets_attachment, names_role\nregister: intensity=PR_01, intimacy=IN_04, attunement=AT_03\nstyle: LS_03\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Naming the hidden attachment ('Secret Wife') that explains the pain of abandonment.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t1002_t1006_portrayal_identification_victim",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "Mine."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_05\nstudent_state: pathological_guilt\nbehavior_tags: identification_with_victim, masochism\nmechanism_shape: subject_object_inversion\nteaching_actions: mirrors_pathology, probes_action\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: identification_with_content\nintent: Exposing the self-destructive nature of the defense.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I burn it."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_01\nstudent_state: destructive_rage\nbehavior_tags: self_destruction\nmechanism_shape: structural_analogy\nteaching_actions: links_imagery_to_life, interprets_metaphor\nregister: intensity=PR_03, intimacy=IN_03, attunement=AT_03\nstyle: LS_03\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Connecting the imagery (burning) to the life pattern (self-sabotage).\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "[Cries.]"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_04\nstudent_state: painful_recognition\nbehavior_tags: insight_affect\nmechanism_shape: subject_object_inversion\nteaching_actions: redirects_impulse, removes_self_target\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Correcting the aim of the impulse away from self towards the true object.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "My mother’s."
+      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t1062_t1077_unlocking_sexual_fusion",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I just go in, I just fing. I just go, go, go, go, go! And just release! Arrrrgh!\nI just release! Release! ... 'Held me back so long! You can’t date!\n... You have to restrain yourself.'"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_01\nstudent_state: explosive_liberation\nbehavior_tags: sexual_rage, catharsis\nmechanism_shape: none\nteaching_actions: encourages_exhaustion, probes_for_more\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_03\nstyle: LS_01\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Pushing for total emptying of the impulse.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I think there would be—I would stab, knife... Chest/upper body.\nJust throw it in, just go, go, go, go, go, go, go!"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_01\nstudent_state: frenzied_attack\nbehavior_tags: sadistic_fantasy\nmechanism_shape: none\nteaching_actions: probes_for_more\nregister: intensity=PR_01, intimacy=IN_03, attunement=AT_03\nstyle: LS_01\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Continuing the drain.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Beat her rear end... Make her bend over, strap her rear end hard.\nJust really let her have it good and hard... Ahhhh, there’s just sexual tension release... 'you’ve been a bad girl, and you really deserve this, ugh!'"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_01\nstudent_state: ecstatic_release\nbehavior_tags: sexual_sadism, release\nmechanism_shape: none\nteaching_actions: validates_release, reflects_experience\nregister: intensity=PR_01, intimacy=IN_04, attunement=AT_03\nstyle: LS_01\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Confirming and validating the primitive fusion (Violence + Sex) without judgment.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Yeah, yes, yes, yes, yes, yes!\nWhew! Thank you."
+      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t533_t535_no_right_to_tell",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "Aren’t you going to say something about my not wanting to get better?"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_04\nstudent_state: provocative_waiting\nbehavior_tags: dependency, superego_projection\nmechanism_shape: constraint_collapse\nteaching_actions: refuses_authority, validates_pathology_right\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: spiritual_superego\nintent: Radically affirming the patient's autonomy, including the right to remain sick.\napproach: increase_pressure\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t802_t807_portrayal_intellectualization_block",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I think it was really terrible of him to do that."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_01\nstudent_state: cognitive_distance\nbehavior_tags: intellectualization, judgment\nmechanism_shape: constraint_collapse\nteaching_actions: corrects_mistake, blocks_intellectualization, re-asks_feeling\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: category_conflation\nintent: Blocking the intellectual defense ('thought covering feeling') and returning to the feeling inquiry.\napproach: increase_pressure\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3_t874_t878_portrayal_negation",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I don’t want to do anything with it.\n[Fist drops.]"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: avoidant_denial\nbehavior_tags: negation, somatic_shutdown\nmechanism_shape: negation_purge\nteaching_actions: points_to_reality, re-instructs_somatic_form\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: vagueness\nintent: Confronting the verbal negation ('I don't want to') with the physical reality ('There was a fist').\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I feel some heat rising up in me."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_04\nstudent_state: somatic_activation\nbehavior_tags: affect_breakthrough\nmechanism_shape: none\nteaching_actions: bypasses_superego, invites_fantasy\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_03\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Framing the portrayal as 'what you would never do' to bypass moral inhibition.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3.1_t2363_t2366_unspoken_criticism",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "You probably think this is stupid."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: defensive_anticipation\nbehavior_tags: projection, mind_reading\nmechanism_shape: abstraction_strip\nteaching_actions: challenges_projection, demands_evidence\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: looking_outward\nintent: Challenging the reality of the projection by demanding concrete proof.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Well, you haven’t said anything, but it could be true."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: uncertain_suspicion\nbehavior_tags: inference_error\nmechanism_shape: none\nteaching_actions: repeats_challenge\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Persisting in the evidence check to force the collapse of the projection.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Well, there isn’t any yet."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_02\nstudent_state: factual_concession\nbehavior_tags: reality_acceptance\nmechanism_shape: subject_object_inversion\nteaching_actions: interprets_mechanism, locates_source\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_02\nstyle: LS_04\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Explaining the mechanism of projection (Internal Critic -> External Perception).\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I’m always criticizing myself."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_03\nstudent_state: realization\nbehavior_tags: insight, ownership\nmechanism_shape: none\nteaching_actions: consolidates_insight\nregister: intensity=PR_01, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Solidifying the model of Projection.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3.1_t3151_t3168_dating_judge_projection",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "Me."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_02\nstudent_state: simple_admission\nbehavior_tags: ownership\nmechanism_shape: none\nteaching_actions: identifies_projection_target\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Mapping the projection mechanism.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "These women."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_03\nstudent_state: tracking_logic\nbehavior_tags: projection_target\nmechanism_shape: system_dynamics\nteaching_actions: explains_mechanism, distinguishes_reality_from_projection\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_02\nstyle: LS_02\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: looking_outward\nintent: Explaining social anxiety as a relationship with one's own projected judge.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: UNKNOWN\nstudent_state: agreement\nbehavior_tags: insight\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "[Laughs.]"
+      }
+    ]
+  }
+]
+
+[
+  {
+    "episode_id": "therapy3.1_t3130_t3141_medical_leave_denial",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I’m afraid, if the rest of my office finds out I am requesting medical leave, they’ll really get angry with me."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Well, I’m not sure my medical issues are really severe enough."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: guilty_uncertainty\nbehavior_tags: self_doubt, minimization\nmechanism_shape: none\nteaching_actions: asks_for_facts\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_01\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Forcing concrete grounding to counter the vague minimization.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I’ve got fifty percent lung function, according to the doctors, and I can’t carry more than twenty pounds, or else it will cause problems with the surgery I had on my neck."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_02\nstudent_state: objective_report\nbehavior_tags: factual_reporting\nmechanism_shape: comparison_contrast\nteaching_actions: contrasts_facts, exposes_absurdity\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_01\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: false_paradox\nintent: Using the contradiction between facts (20 vs 80) and feeling (doubt) to break the denial.\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "Eighty pounds.\n\nI see what you mean. If I can carry only twenty, I can’t carry eighty."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_02\nstudent_state: clarity\nbehavior_tags: realization, logical_acceptance\nmechanism_shape: subject_object_inversion\nteaching_actions: interprets_dynamic, re-owns_punishment\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Mapping the 'Projection of Punitive Superego'.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "But I think they would be angry."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: UNKNOWN\nstudent_state: residual_fear\nbehavior_tags: projection, fear_of_conflict\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3.1_t2950_t2965_terrible_mother_defense",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I’m a terrible mother. I don’t know why you keep working with me. I’m not getting any better. Don’t you think the clinic will finally decide I shouldn’t be in therapy because it’s taking too long?"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UNKNOWN\nstudent_state: guilt_ridden_collapse\nbehavior_tags: self_attack, masochism\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I think I’m a terrible mother."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_05\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: subject_object_inversion\nteaching_actions: differentiates_self_from_feeling, objectifies_superego\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_04\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: identification_with_content\nintent: Separating 'Who I am' (Terrible Mother) from 'What is happening' (Criticism Mechanism).\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "But I am a terrible mother."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UNKNOWN\nstudent_state: stubborn_conviction\nbehavior_tags: resistance, identity_defense\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Yes, but I think it is right."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_02\nstudent_state: moral_alignment\nbehavior_tags: syntonic_superego\nmechanism_shape: causal_chain\nteaching_actions: links_mechanism_to_symptom\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_02\nstyle: LS_02\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Making the defense ego-dystonic by linking it to the symptom (depression).\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Yes.\n\nOh, definitely."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_04\nstudent_state: realization_of_cost\nbehavior_tags: dystonic_shift\nmechanism_shape: none\nteaching_actions: sets_aside_defense, redirects_to_affect\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_03\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Operationalizing the separation ('put aside') to access the underlying feeling.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Okay."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: UNKNOWN\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I didn’t like it."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: UNKNOWN\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Anger?"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: UNKNOWN\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3.1_t2977_t2997_mirroring_the_superego_psychotic",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I’m terrible. God does not love me. I know he could not love me. Otherwise, I would not have had all these traumas. I had these traumas because I am bad."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_03\nstudent_state: despairing_conviction\nbehavior_tags: psychotic_depression, moral_masochism\nmechanism_shape: structural_analogy\nteaching_actions: mirrors_logic, uses_paradox\nregister: intensity=PR_03, intimacy=IN_04, attunement=AT_03\nstyle: LS_06\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: recursion_loop\nintent: Adopting the patient's pathological logic to expose its absurdity (Enactive Mirroring).\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "[Surprise and a smile.] What? Oh, Dr. Jon, you should not punish yourself."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_03\nstudent_state: shocked_amusement\nbehavior_tags: cognitive_dissonance, healthy_ego\nmechanism_shape: structural_analogy\nteaching_actions: persists_in_logic\nregister: intensity=PR_03, intimacy=IN_04, attunement=AT_03\nstyle: LS_06\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Maintaining the mirror until the patient explicitly identifies the pattern.\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "[Laughs.] Oh, you are funny. You can’t help it that you haven’t cured me yet. I am much better now.\n\n[Laughs.] Now I see. You are doing to yourself what I have been doing to me."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UNKNOWN\nstudent_state: liberated_clarity\nbehavior_tags: insight, humor\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "[Laughs.] Oh, that would be horrible. Do you think I am not bad?"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_03\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: none\nteaching_actions: reframes_identity_as_emotion\nregister: intensity=PR_02, intimacy=IN_04, attunement=AT_03\nstyle: LS_01\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Replacing the identity ('Bad') with the feeling ('Mad').\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Oh, you think I turn the anger on me rather than feel it toward my mother?"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: UNKNOWN\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: UNKNOWN\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3.1_t3000_t3017_fake_guilt_self_attack",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I feel so terrible about the way I talked to Jane last night. I’m such a terrible person."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UNKNOWN\nstudent_state: performative_guilt\nbehavior_tags: guilt, self_attack\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I told her I don’t want to make love to her so often because I find her too fat. I told her I think she is ugly. She cried and cried. Don’t you think that was just terrible of me?"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UNKNOWN\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I do. I think I was perfectly awful to her."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UNKNOWN\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "What?"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: abstraction_strip\nteaching_actions: probes_reparation\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Testing the authenticity of the guilt by checking for reparative action.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I didn’t."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UNKNOWN\nstudent_state: caught_out\nbehavior_tags: omission\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Are you thinking I should have?"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_06\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: constraint_collapse\nteaching_actions: challenges_motivation, removes_pressure\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Exposing the lack of genuine desire to repair (Fake Guilt).\napproach: increase_pressure\n      },
+      {
+        "role": "user",
+        "content": "I hadn’t thought about that. I just figured if I told her I felt terrible, that would be enough."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UNKNOWN\nstudent_state: naivety\nbehavior_tags: magical_thinking\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "It’s true. I didn’t actually tell her I was sorry."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UNKNOWN\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I didn’t come back to her afterward about it."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_03\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: subject_object_inversion\nteaching_actions: interprets_defense, defines_substitution\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: false_paradox\nintent: Framing self-attack as a defense *against* guilt/reparation.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3.1_t3180_t3190_husband_villain_projection",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "We had an argument the other night. And, since we were ratcheting up, I said, “Let’s hold off until we see Jon on Monday.\nLet’s talk about this then, and see if he can help us.”"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UNKNOWN\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I feel angry. I feel like he is telling you how he did so well, and how I was out of control. I feel like he is misrepresenting me, as if I’m “all bad,” and he’s “all good.”"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: victimized_anger\nbehavior_tags: projection, splitting\nmechanism_shape: comparison_contrast\nteaching_actions: corrects_distortion, clarifies_reality\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: semantic_fog\nintent: Differentiating objective reality (what was said) from projected reality (what was heard).\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "It feels that way."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_02\nstudent_state: subjective_conviction\nbehavior_tags: emotional_reasoning\nmechanism_shape: causal_chain\nteaching_actions: validates_affect, explains_mechanism\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_03\nstyle: LS_02\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Explaining the causal link: Assumption -> Feeling.\nValidating the feeling while invalidating the assumption.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy3.1_t3121_t3125_integrated_conscience_staff",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I don’t think my staff will like it if I give myself a raise but not them."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: anxious_anticipation\nbehavior_tags: projection\nmechanism_shape: source_tracing\nteaching_actions: traces_source\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Tracing the projection back to the subject.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I am."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_03\nstudent_state: honest_admission\nbehavior_tags: ownership\nmechanism_shape: subject_object_inversion\nteaching_actions: interprets_internal_conflict\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Reframing external fear as internal moral conflict.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "That’s true."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_02\nstudent_state: recognition\nbehavior_tags: agreement\nmechanism_shape: system_dynamics\nteaching_actions: explains_defense_function\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Explaining *why* the projection happens (to create resentment instead of guilt).\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "That’s true because I am already judging myself, and they don’t know about any of this yet."
+      }
+    ]
+  },
+  {
+    "episode_id": "therapy2_t726_t748_fragile_anxiety_regulation",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "Yes, but not as much."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_04\nstudent_state: engaged\nbehavior_tags: compliance\nmechanism_shape: none\nteaching_actions: checks_symptom\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_03\nstyle: LS_01\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Monitoring anxiety regulation.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Not just today. I’ve been feeling this way for a couple of weeks."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: UNKNOWN\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: UNKNOWN\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: UNKNOWN\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I have a migraine right now."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_01\nstudent_state: distress\nbehavior_tags: somatic_report\nmechanism_shape: structural_analogy\nteaching_actions: labels_symptom, educates_patient\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_04\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Teaching the patient to identify migraine/symptoms as Anxiety.\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "What did you say?"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: UNKNOWN\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I don’t think so."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: UNKNOWN\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: UNKNOWN\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I can see you, but it’s a little blurry."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: UNKNOWN\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I think it is clear, but people do tell me that I seem slow."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_02\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: system_dynamics\nteaching_actions: summarizes_symptoms, links_to_underlying_affect\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_03\nstyle: LS_04\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Connecting the diverse symptoms to a single cause (Anxiety) triggered by a hidden Feeling.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Yes. [Wave of tears.]"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: UNKNOWN\nstudent_state: emotional_release\nbehavior_tags: breakthrough\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy2_t1095_t1125_somatic_transference_breakthrough",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "Not sure.\nThey’re, they’re kind of locked into position."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: UNKNOWN\nstudent_state: curious_observation\nbehavior_tags: somatic_awareness\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Well, the most comfortable position is like this.\n[Places arms to his side at rest—defense.]"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: UNKNOWN\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "They want to do something."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: UNKNOWN\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Protect myself... I think I was saying to myself, I don’t want to protect myself.\nI want to move forward, and if I protect myself, I’m not going to be able to."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_02\nstudent_state: internal_conflict\nbehavior_tags: insight, conflict_awareness\nmechanism_shape: causal_chain\nteaching_actions: validates_somatic_history, links_to_past\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_03\nstyle: LS_02\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Validating the body's reaction as a historical truth (Past).\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Mm-hmm."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_01\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: structural_analogy\nteaching_actions: interprets_transference, uses_analogy\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_03\nstyle: LS_03\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: category_conflation\nintent: Differentiating the 'Here and Now' (Therapist) from the 'There and Then' (Someone else) using the 'Stereo' analogy.\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "Okay."
+      }
+    ]
+  },
+  {
+    "episode_id": "therapy2_t129_t135_cutting_hallway_interruption",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I went out there and sure enough, there she was, sitting on the floor, cutting her wrist with an X-Acto knife..."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_05\nstudent_state: dissociated_rage\nbehavior_tags: acting_out, self_harm\nmechanism_shape: structural_analogy\nteaching_actions: interprets_action, defines_defense\nregister: intensity=PR_03, intimacy=IN_03, attunement=AT_03\nstyle: LS_03\ndepth: PD_04\nmeta_mode: MM_01\ntraps_avoided: pain_validates_reality\nintent: Reframing the physical cut as a metaphor for the psychic defense mechanism.\napproach: offer_perspective_shift\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy2_t1713_t1725_denial_fantasy_son",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "He said he was not drinking anymore, so I was shocked to learn that he was drinking again."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_02\nstudent_state: naive_disappointment\nbehavior_tags: shock, denial\nmechanism_shape: subject_object_inversion\nteaching_actions: mirrors_fantasy, exposes_contradiction\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_06\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: false_paradox\nintent: Using irony to mirror the patient's irrational expectation.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "But I was shocked!"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_02\nstudent_state: defensive_confusion\nbehavior_tags: insistence\nmechanism_shape: causal_chain\nteaching_actions: validates_reaction, explains_mechanism\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Explaining 'shock' as a symptom of prior denial.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I see.\nIf I deny the truth, then I am surprised when he lies again."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_02\nstudent_state: clarity\nbehavior_tags: insight\nmechanism_shape: causal_chain\nteaching_actions: summarizes_cycle, highlights_cost\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Consolidating the insight into a clear causal sequence.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy2_t1730_t1738_denial_words_husband",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "We talked about it, and he said he’s sorry, and he won’t do it again."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: hopeful_delusion\nbehavior_tags: naivety, denial\nmechanism_shape: comparison_contrast\nteaching_actions: identifies_focus, contrasts_data\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: symbolic_literalism\nintent: Pointing out the discrepancy between data sources (Words vs Deeds).\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "But he said he wouldn’t do it again."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: defensive_insistence\nbehavior_tags: rationalization\nmechanism_shape: comparison_contrast\nteaching_actions: validates_fact, reiterates_contrast\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Persisting in the distinction between speech and action.\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "But he said he was sorry."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_03\nstudent_state: stuck_in_loop\nbehavior_tags: cognitive_loop\nmechanism_shape: comparison_contrast\nteaching_actions: sharpens_contrast, uses_brute_fact\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Replacing 'did' with 'fists' to make the reality unavoidable.\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "Hmm.\nI hadn’t thought of it that way."
+      }
+    ]
+  },
+  {
+    "episode_id": "therapy2_t1740_t1746_denial_deed_jennifer",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "She comes to the front door... curses at me, throws a glass of water on me, and then tells me to get the hell out of her life.\nCan you believe that?"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: indignant_confusion\nbehavior_tags: shock, denial\nmechanism_shape: none\nteaching_actions: states_fact, removes_emotion\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Stating the bare fact without the patient's narrative overlay.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "But how are we going to work this out?"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_02\nstudent_state: stubborn_hope\nbehavior_tags: magical_thinking\nmechanism_shape: comparison_contrast\nteaching_actions: identifies_impulse, highlights_conflict\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: false_paradox\nintent: Articulating the impossible wish driving the denial.\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "But shouldn’t we be able to work things out?"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: META\nfunction_id: META_03\nstudent_state: moral_bargaining\nbehavior_tags: idealization, should_statement\nmechanism_shape: ontological_shift\nteaching_actions: rephrases_question, exposes_absurdity\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_06\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Moving to the meta-level: The patient is arguing with Reality itself.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Shouldn’t it?"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_06\nstudent_state: crumbling_defense\nbehavior_tags: doubt\nmechanism_shape: causal_chain\nteaching_actions: states_law_of_reality, predicts_pain\nregister: intensity=PR_03, intimacy=IN_03, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Establishing the consequence of Denial in Deed (Getting hurt by reality).\napproach: increase_pressure\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy2_t1773_t1787_object_of_rage_identification",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I’m hardly one to talk.\nI have been holding feelings back."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_05\nstudent_state: guilty_retreat\nbehavior_tags: self_blame, identification\nmechanism_shape: subject_object_inversion\nteaching_actions: tracks_shift, redirects_focus\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_03\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: identification_with_content\nintent: Blocking the shift from 'You hurt me' to 'I am bad'.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I’m not being fair.\nAfter all, you have been really helpful."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_06\nstudent_state: placating\nbehavior_tags: reaction_formation\nmechanism_shape: none\nteaching_actions: validates_trigger, blocks_self_attack\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Persisting in blocking the identification to clear the path for the anger.\napproach: increase_pressure\n      },
+      {
+        "role": "user",
+        "content": "I didn’t see that."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_01\nstudent_state: surprise\nbehavior_tags: insight\nmechanism_shape: none\nteaching_actions: facilitates_experience\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Guiding the patient to experience the affect directly.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy2_t1826_t1846_instant_repression_anxiety",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "No."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: unaware\nbehavior_tags: denial\nmechanism_shape: comparison_contrast\nteaching_actions: points_to_somatic_sign\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Confronting the verbal denial with somatic evidence.\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "Yes... I’m like this most of the time, but it’s no big deal."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_01\nstudent_state: dismissive\nbehavior_tags: minimization\nmechanism_shape: none\nteaching_actions: labels_defense\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Defining 'no big deal' as 'ignoring'.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "There’s no sense making a big deal of it."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_02\nstudent_state: resistant\nbehavior_tags: rationalization\nmechanism_shape: causal_chain\nteaching_actions: predicts_consequence, invites_collaboration\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Showing the cost of the defense (it gets worse) and asking for a new stance.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I have no idea."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: META\nfunction_id: META_01\nstudent_state: cognitive_fog\nbehavior_tags: helplessness, repression\nmechanism_shape: constraint_collapse\nteaching_actions: highlights_ambivalence, declares_impasse\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_02\ntraps_avoided: retreat\nintent: Addressing the 'Repression' (Going blank) as a barrier to the work.\napproach: increase_pressure\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy2_t1876_t1888_isolation_affect_resume",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I was angry when she threw my resume in the trash."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_01\nstudent_state: cognitive_report\nbehavior_tags: intellectual_insight\nmechanism_shape: none\nteaching_actions: probes_experience\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Moving from the label 'anger' to the experience.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I don’t."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_01\nstudent_state: detached\nbehavior_tags: isolation_of_affect\nmechanism_shape: comparison_contrast\nteaching_actions: labels_isolation\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Identifying 'Isolation of Affect' (Knowing vs Feeling).\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "Oh, I’m angry."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: defensive_agreement\nbehavior_tags: intellectual_defense\nmechanism_shape: comparison_contrast\nteaching_actions: confronts_incongruence\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: semantic_fog\nintent: Using observational data (sound/look) to challenge the verbal claim.\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "[Fidgets.] Maybe I’m not angry."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_02\nstudent_state: uncertainty\nbehavior_tags: confusion\nmechanism_shape: none\nteaching_actions: points_to_defense\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Tracking the moment the defense (Ignoring) activates.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "If I don’t feel angry, maybe I’m not angry."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_04\nstudent_state: logical_deduction\nbehavior_tags: rationalization\nmechanism_shape: causal_chain\nteaching_actions: re-presents_stimulus\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Bringing the stimulus (Resume in Trash) back into focus to re-ignite the feeling.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "[A fist forms.]"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_01\nstudent_state: somatic_activation\nbehavior_tags: unconscious_expression\nmechanism_shape: comparison_contrast\nteaching_actions: points_to_somatic_marker\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_02\nstyle: LS_01\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Using the body's signal (Fist) to access the feeling.\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "I feel I’m getting hot."
+      }
+    ]
+  }
+]
+
+[
+  {
+    "episode_id": "therapy2_t1891_t1896_minimization_car",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "A little peeved."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: casual_dismissal\nbehavior_tags: minimization, euphemism\nmechanism_shape: none\nteaching_actions: mirrors_minimization, questions_appropriateness\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Highlight the absurdity of the word choice.\napproach: mirror_back\n      },
+      {
+        "role": "user",
+        "content": "Yes."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_02\nstudent_state: unaware_compliance\nbehavior_tags: agreement\nmechanism_shape: comparison_contrast\nteaching_actions: contrasts_stimulus_response, labels_minimization\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: semantic_fog\nintent: Contrasting the severity of the event (Stranded in snow) with the mildness of the reaction (Peeved).\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "That’s true.\nHe did throw me out of the car."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_01\nstudent_state: sober_recognition\nbehavior_tags: realization\nmechanism_shape: none\nteaching_actions: invites_full_affect\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_03\nstyle: LS_02\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Inviting the true self to speak without the defense.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy2_t1898_t1915_rationalization_employee",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "Right because she—"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_06\nstudent_state: automatic_explanation\nbehavior_tags: rationalization\nmechanism_shape: constraint_collapse\nteaching_actions: blocks_rationalization\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: reification_of_mind\nintent: Interrupting the causal explanation ('because') to focus on the experience.\napproach: increase_pressure\n      },
+      {
+        "role": "user",
+        "content": "If she hadn’t done it—"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I think my anger is due to her similarities to my mother."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: detached_analysis\nbehavior_tags: intellectualization\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "But it’s true.\nShe is like my mother."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_05\nstudent_state: unknown\nbehavior_tags: none\nmechanism_shape: subject_object_inversion\nteaching_actions: validates_content, identifies_function, redirects_to_affect\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: intellectual_grasp\nintent: Defining the 'truth' (similarity to mother) as a cover for the 'feeling'.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "How can I feel angry when the company has already punished her?"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: cognitive_block\nbehavior_tags: logical_defense\nmechanism_shape: none\nteaching_actions: none\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Standard function application\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "[Sighs.\nPounds his fist on the chair.] I tell you I think it’s because—"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_01\nstudent_state: struggle\nbehavior_tags: affect_emergence, habitual_defense\nmechanism_shape: embodied_contradiction\nteaching_actions: blocks_rationalization, points_to_somatic_marker\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Redirecting attention from the 'because' loop to the immediate somatic evidence (fist).\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy2_t1529_t1535_distancing_window",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "Sure.\n[Defense: Said in a diffident tone of voice.]"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: ambivalent_compliance\nbehavior_tags: incongruence, diffidence\nmechanism_shape: embodied_contradiction\nteaching_actions: mirrors_tone, challenges_congruence\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Pointing out the discrepancy between the word 'Sure' and the diffident tone.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "No, I’m sure. [Defense: Looks away.]"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: defensive_withdrawal\nbehavior_tags: avoidance, nonverbal_defense\nmechanism_shape: none\nteaching_actions: points_to_nonverbal_behavior\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Highlighting the immediate somatic defense (looking away).\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Yeah, what of it?"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_01\nstudent_state: irritated_defense\nbehavior_tags: defiance, minimization\nmechanism_shape: subject_object_inversion\nteaching_actions: interprets_behavior, labels_distancing\nregister: intensity=PR_03, intimacy=IN_03, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: vagueness\nintent: Defining the physical act (looking away) as an interpersonal defense (distancing).\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "[Looks back at the therapist.] Yeah, I notice that."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_02\nstudent_state: conscious_awareness\nbehavior_tags: re-engagement, insight\nmechanism_shape: causal_chain\nteaching_actions: establishes_consequence, invites_collaboration\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_02\ntraps_avoided: none\nintent: Establishing the cost of the defense (blocks therapy) and recruiting the patient's will to solve it.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy2_t1562_t1570_evasiveness_conflict",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I don’t know if I would say it was a conflict—maybe more of a disagreement or a discussion."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: anxious_softening\nbehavior_tags: euphemism, minimization\nmechanism_shape: comparison_contrast\nteaching_actions: tracks_shifting_language, labels_evasiveness\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: semantic_fog\nintent: Pointing out the linguistic drift (Conflict -> Disagreement -> Discussion) as a mechanism of avoidance.\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "It’s a complicated situation.\nI don’t know how to describe it."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: defensive_fog\nbehavior_tags: obfuscation\nmechanism_shape: none\nteaching_actions: persists_in_confrontation, labels_shifting\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Maintaining focus on the 'Shifting' behavior.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I’m trying to."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_01\nstudent_state: helpless_effort\nbehavior_tags: compliance_defense\nmechanism_shape: none\nteaching_actions: evaluates_performance\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Judging the quality of the report (Unclear).\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "My boss says I’m not clear."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: META\nfunction_id: META_01\nstudent_state: passive_agreement\nbehavior_tags: externalization\nmechanism_shape: causal_chain\nteaching_actions: links_defense_to_outcome, sets_condition\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_02\ntraps_avoided: vagueness\nintent: Explaining that lack of clarity (defense) prevents help (outcome).\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy2_t1573_t1587_generalization_problem",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "It’s not a specific problem.\nMore of a general problem. Perhaps it’s an emotional problem.\nI don’t know."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_01\nstudent_state: foggy_resistance\nbehavior_tags: vagueness, generalization\nmechanism_shape: none\nteaching_actions: demands_specificity\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Countering generalization with a demand for specifics.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Like I said, it’s not a specific problem.\nMy previous therapist called it a personality disorder."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_06\nstudent_state: detached_diagnosis\nbehavior_tags: intellectualization, labeling\nmechanism_shape: constraint_collapse\nteaching_actions: blocks_external_reference, repeats_question\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: looking_outward\nintent: Removing the 'Previous Therapist' constraint to force internal ownership.\napproach: increase_pressure\n      },
+      {
+        "role": "user",
+        "content": "There is a behavioral problem."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_01\nstudent_state: moving_target\nbehavior_tags: evasion\nmechanism_shape: none\nteaching_actions: tracks_language, repeats_demand\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Following the patient's terminology (Behavioral) but still demanding specifics.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "There’s a tendency in certain situations to avoid intimacy."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: academic_distance\nbehavior_tags: generalization\nmechanism_shape: none\nteaching_actions: labels_generalization\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: vagueness\nintent: Calling out the abstraction mechanism ('Certain situations').\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Vague?\nYes, I’m vague."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_02\nstudent_state: agreement\nbehavior_tags: concession\nmechanism_shape: causal_chain\nteaching_actions: establishes_cost, resets_question\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Establishing the 'Cost of Defense' (No clear idea = No help) and resetting the inquiry.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy2_t1593_t1608_hypothetical_speech",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I suppose."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_01\nstudent_state: hesitant\nbehavior_tags: ambivalence\nmechanism_shape: constraint_collapse\nteaching_actions: forces_binary\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: vagueness\nintent: Collapsing the 'middle ground' of indecision.\napproach: increase_pressure\n      },
+      {
+        "role": "user",
+        "content": "It could be."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_01\nstudent_state: evasive\nbehavior_tags: non_commitment\nmechanism_shape: none\nteaching_actions: repeats_binary\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Persisting in the binary pressure.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Maybe it is, and maybe it isn’t."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: resistant_game\nbehavior_tags: defiance, ambivalence\nmechanism_shape: structural_analogy\nteaching_actions: labels_pattern, uses_metaphor\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_03\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Identifying the pattern as 'Fence Sitting'.\napproach: offer_perspective_shift\n      },
+      {
+        "role": "user",
+        "content": "It’s sort of a problem in my opinion."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: partial_admission\nbehavior_tags: weasel_words\nmechanism_shape: none\nteaching_actions: catches_minimization\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: minimization\nintent: Addressing the 'Watering Down' (Minimization).\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I guess so."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_01\nstudent_state: reluctant\nbehavior_tags: passive_agreement\nmechanism_shape: constraint_collapse\nteaching_actions: confronts_hedge, demands_ownership\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Forcing ownership of the defense itself.\napproach: increase_pressure\n      },
+      {
+        "role": "user",
+        "content": "I guess you could say I leave things indefinite."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_04\nstudent_state: distanced\nbehavior_tags: externalization\nmechanism_shape: subject_object_inversion\nteaching_actions: redirects_to_self\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: looking_outward\nintent: Demanding the patient's own authority.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I leave things indefinite.\nI think that’s a possibility."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: slipping_away\nbehavior_tags: partial_ownership\nmechanism_shape: structural_analogy\nteaching_actions: summarizes_defense, uses_metaphor\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_03\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Final confrontation of the 'Fence Sitting' pattern.\napproach: offer_perspective_shift\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy2_t1611_t1620_retraction_anger",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I was angry."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_04\nstudent_state: brief_honesty\nbehavior_tags: admission\nmechanism_shape: none\nteaching_actions: probes_somatic\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_02\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Moving to somatic experience.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I don’t know that it was anger, more irritation."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: anxious_backpedal\nbehavior_tags: retraction, minimization\nmechanism_shape: none\nteaching_actions: labels_defense\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: retreat\nintent: Pointing out the retreat.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I wouldn’t say I was angry."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_02\nstudent_state: active_erasure\nbehavior_tags: denial\nmechanism_shape: constraint_collapse\nteaching_actions: confronts_retraction\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Identifying the specific mechanism: 'Unsaying' (Retraction).\napproach: increase_pressure\n      },
+      {
+        "role": "user",
+        "content": "Maybe I wasn’t angry."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: confusion\nbehavior_tags: gaslighting_self\nmechanism_shape: none\nteaching_actions: tracks_sequence\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Persisting in holding the patient to their original truth.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Maybe I didn’t feel angry at all."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: total_denial\nbehavior_tags: negation\nmechanism_shape: system_dynamics\nteaching_actions: summarizes_process, labels_erasure\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Naming the entire sequence (Say -> Retract -> Erase) as a defense.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy2_t1624_t1629_rumination_neurotransmitters",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "Other therapists have said that I have a tendency to be passiveaggressive."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_04\nstudent_state: detached_reporting\nbehavior_tags: externalization, intellectualization\nmechanism_shape: subject_object_inversion\nteaching_actions: redirects_to_self, demands_ownership\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: looking_outward\nintent: Forcing the patient to take a stance ('Your opinion').\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I guess, given that a number of previous therapists have indicated—"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_04\nstudent_state: passive_compliance\nbehavior_tags: compliance\nmechanism_shape: none\nteaching_actions: persists_in_redirection\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Maintaining the demand for internal authority.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "Uh, yes, I would say I am passive-aggressive.\nOf course, that could be due to neurotransmitters, my psychiatrist said—"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_06\nstudent_state: flight_to_biology\nbehavior_tags: biological_defense, rumination\nmechanism_shape: constraint_collapse\nteaching_actions: blocks_rumination, refocuses_on_self\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: conceptual_reification\nintent: Blocking the flight into biological rumination to return to the self.\napproach: increase_pressure\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy2_t1643_t1652_vagueness_relationship",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "It’s a relationship problem of sorts."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: tentative\nbehavior_tags: vagueness\nmechanism_shape: none\nteaching_actions: labels_vagueness\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: vagueness\nintent: Pointing out the defense (Vagueness).\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "It is kind of vague.\nI’m not really sure there is a specific problem really."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: foggy_confusion\nbehavior_tags: denial\nmechanism_shape: none\nteaching_actions: persists_in_labeling\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Ensuring the patient owns the vagueness.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I’m vague, but the problem is vague I think."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: META\nfunction_id: META_01\nstudent_state: defensive_attribution\nbehavior_tags: projection\nmechanism_shape: causal_chain\nteaching_actions: establishes_consequence, links_to_failure\nregister: intensity=PR_03, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_02\ntraps_avoided: vagueness\nintent: Linking the defense to therapeutic failure.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy2_t1660_t1670_avoidance_sadness",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I try to avoid any reminders of it."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_04\nstudent_state: honest_report\nbehavior_tags: avoidance\nmechanism_shape: none\nteaching_actions: points_to_here_and_now\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Pointing out the defense happening in the room.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I don’t want to face it."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: META\nfunction_id: META_01\nstudent_state: fearful_refusal\nbehavior_tags: resistance\nmechanism_shape: causal_chain\nteaching_actions: grants_autonomy, highlights_cost, questions_motive\nregister: intensity=PR_03, intimacy=IN_03, attunement=AT_03\nstyle: LS_02\ndepth: PD_03\nmeta_mode: MM_02\ntraps_avoided: retreat\nintent: Establishing the choice: Avoidance = Continued Suffering.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I don’t want to suffer anymore.\nIt’s just that I’m scared of feeling the sadness."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_04\nstudent_state: vulnerable_ambivalence\nbehavior_tags: ambivalence, insight\nmechanism_shape: constraint_collapse\nteaching_actions: offers_choice, aligns_with_health\nregister: intensity=PR_02, intimacy=IN_03, attunement=AT_03\nstyle: LS_02\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Inviting the patient to choose Mastery over Suffering.\napproach: increase_pressure\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy2_t1516_t1522_cover_words_grief",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I feel upset."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_01\nstudent_state: guarded\nbehavior_tags: cover_word\nmechanism_shape: none\nteaching_actions: validates_but_redirects, bypasses_cover_word\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: semantic_fog\nintent: Bypassing 'upset' (vague) to get to the core feeling.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I’m still in shock."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_01\nstudent_state: guarded\nbehavior_tags: cover_word\nmechanism_shape: none\nteaching_actions: validates_but_redirects, persists\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Bypassing 'shock'.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "It’s terrible."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: UNMAKING\nfunction_id: UM_01\nstudent_state: guarded\nbehavior_tags: judgment\nmechanism_shape: none\nteaching_actions: validates_but_redirects, persists\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_01\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Bypassing 'terrible' (judgment).\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "I feel lost without her."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_01\nstudent_state: closer_to_affect\nbehavior_tags: near_miss\nmechanism_shape: none\nteaching_actions: affirms_reality, deepens_focus\nregister: intensity=PR_01, intimacy=IN_03, attunement=AT_03\nstyle: LS_01\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Confirming the reality ('You lost her') to trigger the grief.\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy2_t390_t394_fighting_to_stay_alive",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "What I’m feeling out of this anger is that [Sighs.] … I feel … that I’m fighting to stay alive right now."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_03\nstudent_state: desperate_sincerity\nbehavior_tags: existential_confession, vulnerability\nmechanism_shape: none\nteaching_actions: reflects_meaning, offers_empathy, identifies_isolation\nregister: intensity=PR_01, intimacy=IN_04, attunement=AT_03\nstyle: LS_01\ndepth: PD_03\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Reframing the struggle ('Fighting') as a relational deficit ('Alone').\napproach: apply_standard_function\n      }
+    ]
+  },
+  {
+    "episode_id": "therapy2_t1749_t1753_displacement_desk",
+    "lineage": "Therapeutic",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "I was so furious, I slammed my fist on the desk."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_03\nstudent_state: reactive_anger\nbehavior_tags: displacement, acting_out\nmechanism_shape: constraint_collapse\nteaching_actions: challenges_target, uses_logic\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Using simple logic to question the target of the displacement.\napproach: increase_pressure\n      },
+      {
+        "role": "user",
+        "content": "No."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: REMAKING\nfunction_id: RM_02\nstudent_state: sober_realization\nbehavior_tags: recognition\nmechanism_shape: subject_object_inversion\nteaching_actions: redirects_to_source\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Guiding the patient to identify the true target.\napproach: apply_standard_function\n      },
+      {
+        "role": "user",
+        "content": "No, I was furious toward Alex."
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Therapeutic\nphase: SELF-MAKING\nfunction_id: SM_03\nstudent_state: focused_anger\nbehavior_tags: redirection, insight\nmechanism_shape: none\nteaching_actions: summarizes_mechanism\nregister: intensity=PR_01, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: none\nintent: Solidifying the insight into the defense mechanism.\napproach: apply_standard_function\n      }
+    ]
+  }
+]

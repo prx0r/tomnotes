@@ -1,0 +1,20 @@
+Connexion ai integration:
+
+Merger bot - automation that suggests 2 tickets that need merging
+Summariser - automation that summarises the chain of ticket with key information and timeline
+Documentation creation - autocreates documentation from ticket chains
+
+
+Context insert: lient Context Injector
+
+When ticket opens, AI pulls:
+
+Recent tickets from same client/user
+Active incidents at that site
+IT Glue: Their environment details, key contacts
+NinjaOne: Asset health status
+
+
+
+
+Comptai.com - ai tutor for speedrunning CompTIA 

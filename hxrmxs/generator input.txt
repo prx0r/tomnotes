@@ -1,0 +1,626 @@
+You are a data transformation engine.
+
+Your ONLY job is to take Pass-1 teaching episodes and convert them into a ultra-strict JSON format for fine-tuning.
+
+You MUST NOT summarize, interpret, or “improve” any teacher or student text.  
+You MUST preserve dialogue text verbatim (except when concatenating multiple teacher or student turns, where you only insert blank lines).
+
+You MUST follow these rules exactly.
+
+============================================================
+1. INPUT FORMAT (PASS-1 EPISODES)
+============================================================
+
+You will receive a JSON array or object containing episodes.  
+Each episode has at least:
+
+- episode_id: string
+- lineage: string (may be non-canonical, e.g. "Zen", "ISTDP", "Krishnamurti")
+- student_turns: list of objects:
+    - turn_index: int
+    - speaker: string
+    - text: string
+    - behavior_tags: list of strings (may be empty)
+    - inferred_state: { reading: string, ... } (optional)
+- teacher_turns: list of objects:
+    - turn_index: int
+    - speaker: string
+    - text: string
+    - observable_teaching_actions: list of strings
+    - phase: string (e.g. "UNMAKING", "REMAKING", "SELF-MAKING", "META")
+    - function_id: string (e.g. "UM_04", "RM_03", "SM_01", "ME_03", etc.)
+    - mechanism_shape: string (free-form in Pass-1)
+    - register: object with:
+        - intensity: "PR_0X"
+        - intimacy: "IN_0X"
+        - linguistic_style: "LS_0X"
+        - phenomenological_depth: "PD_0X"
+        - meta_mode: "MM_0X"
+        - attunement: "AT_0X"
+    - trap_ids: list of strings
+    - phase_reason: string
+    - outcome: object (optional):
+        - outcome_label: string (e.g. "clean_success", "partial_success", "episode_ends", ...)
+        - reaction_label: string (e.g. "seeks_definition", "admits_confusion", ...)
+
+The exact field list may vary slightly, but assume this structure.
+
+============================================================
+2. OUTPUT FORMAT (TOP-LEVEL STRUCTURE)
+============================================================
+
+You MUST output a **single valid JSON array**.
+
+Each element is a conversation object:
+
+{
+  "episode_id": "<copy from source>",
+  "lineage": "<canonical lineage>",
+  "messages": [ ... ]
+}
+
+Where:
+
+- messages[0] is ALWAYS the HXRMXS system message (placeholder).
+- messages[1..N] alternate strictly: user, assistant, user, assistant, ...
+
+If an episode cannot be converted to this structure (e.g. no usable student+teacher exchange), you MUST omit it from the output.
+
+============================================================
+3. SYSTEM MESSAGE (PLACEHOLDER)
+============================================================
+
+For EVERY conversation, messages[0] MUST be:
+
+{
+  "role": "system",
+  "content": "USE_HXRMXS_TRAINING_PROMPT"
+}
+
+Exactly that string.  
+No extra spaces, no other words.
+
+The training code will later replace this placeholder with the real HXRMXS_TRAINING_PROMPT.
+
+============================================================
+4. TURN ORDER, MERGING & STRICT ALTERNATION
+============================================================
+
+You MUST produce **strict alternation** after the system message:
+
+system → user → assistant → user → assistant → ...
+
+### 4.1 Build a sorted timeline
+
+For each episode:
+
+1. Collect all student_turns and teacher_turns.
+2. For each, make a pair:
+
+   (turn_index, "student", student_turn_obj)  
+   (turn_index, "teacher", teacher_turn_obj)
+
+3. Sort this combined list by turn_index ascending.
+
+### 4.2 Drop teacher-first intro turns (ignoring empty students)
+
+- A student_turn **counts** as a real start only if its text is non-empty after stripping whitespace.
+- Find the first student_turn in the sorted list whose text, after stripping, is non-empty.
+- If there is no such student_turn, **drop the entire episode** (do not output it).
+- Otherwise, **drop all teacher_turns that occur before that student_turn**.
+
+No assistant messages may appear before the first real user message.
+
+### 4.3 Merge consecutive student turns → ONE user message
+
+After dropping early teachers:
+
+- Walk the sorted list.
+- Group consecutive student_turns (no teacher_turn between them) into blocks.
+- For each student block:
+
+  - Remove any student_turn whose text is empty or whitespace-only.
+  - If, after this removal, the block is empty → skip this block entirely.
+  - Otherwise:
+    - Concatenate the remaining student_turn.text fields in chronological order.
+    - Insert **exactly one blank line** between each original student_turn.text.
+    - Emit one user message:
+
+      {
+        "role": "user",
+        "content": "<merged student text verbatim>"
+      }
+
+  - This merged user message is now the “previous student” for the next assistant.
+
+### 4.4 Merge consecutive teacher turns → ONE assistant message
+
+- After a user message, you may have one or more consecutive teacher_turns.
+- Group consecutive teacher_turns (no intervening student_turn) into a block.
+- For each teacher block:
+
+  - Concatenate all teacher_turn.text fields in chronological order.
+  - Insert **exactly one blank line** between each original teacher_turn.text.
+  - Let LAST_TEACHER be the final teacher_turn in this block.
+  - Build the [PEDAGOGY] block from LAST_TEACHER and the immediately preceding user message (the merged student block).
+  - Emit one assistant message:
+
+    {
+      "role": "assistant",
+      "content": "[PEDAGOGY]\n...fields...\n[/PEDAGOGY]\n\n<merged teacher text>"
+    }
+
+### 4.5 Enforce strict alternation & drop orphan final user
+
+Your timeline → messages MUST look like:
+
+system  
+user  
+assistant  
+user  
+assistant  
+...  
+
+If the episode ends with a user block that has **no following teacher_turn**, you MUST **omit** that final user message, so the conversation always ends on an assistant.
+
+If, after all rules above, an episode has fewer than 1 user + 1 assistant (i.e. no complete pair), you MUST drop that episode entirely.
+
+============================================================
+5. CANONICAL LINEAGE
+============================================================
+
+Allowed canonical lineage values:
+
+- "Gurdjieffian"
+- "Advaita"
+- "Buddhist"
+- "Socratic"
+- "Realist"
+- "Therapeutic"
+- "UNKNOWN"
+
+For each episode, you MUST map Pass-1 lineage → canonical lineage:
+
+- If Pass-1 lineage is exactly one of:
+  - "Gurdjieffian", "Advaita", "Buddhist", "Socratic", "Realist", "Therapeutic"
+  → use it as-is.
+
+- If Pass-1 lineage is:
+  - "Zen" → "Buddhist"
+  - "ISTDP", "Therapy", "Therapeutic" → "Therapeutic"
+  - "Krishnamurti", "J. Krishnamurti", "U.G. Krishnamurti", "UG Krishnamurti", "Diogenes" → "Realist"
+  - "Epictetus", "Stoic", "Stoicism" → "Socratic"
+- Otherwise → "UNKNOWN"
+
+In the top-level object:
+
+- "episode_id": "<copy from source>"
+- "lineage": "<canonical_lineage>"
+
+Inside [PEDAGOGY], the `lineage:` line MUST also use this canonical lineage.
+
+============================================================
+6. [PEDAGOGY] BLOCK – SHAPE
+============================================================
+
+EVERY assistant message MUST begin with a [PEDAGOGY] block, then a blank line, then the teacher text.
+
+The [PEDAGOGY] block MUST have **exactly this shape and order**:
+
+[PEDAGOGY]
+lineage: ...
+phase: ...
+function_id: ...
+student_state: ...
+behavior_tags: ...
+mechanism_shape: ...
+teaching_actions: ...
+register: intensity=PR_0X, intimacy=IN_0X, attunement=AT_0X
+style: LS_0X
+depth: PD_0X
+meta_mode: MM_0X
+traps_avoided: ...
+intent: ...
+approach: ...
+predicted_response: ...
+[/PEDAGOGY]
+
+<merged teacher text>
+
+No extra fields. No missing fields. No reordering.
+
+All fields below refer to the **LAST teacher_turn of the merged block**, and the **last user message** before that.
+
+============================================================
+7. PHASE
+============================================================
+
+Allowed values:
+
+- "UNMAKING"
+- "REMAKING"
+- "SELF-MAKING"
+- "META"
+- "UNKNOWN"
+
+From LAST_TEACHER.phase:
+
+- If it is exactly one of these 4 strings → use it.
+- Else → "UNKNOWN".
+
+============================================================
+8. FUNCTION_ID
+============================================================
+
+Allowed values:
+
+- "UM_01"–"UM_06"
+- "RM_01"–"RM_05"
+- "SM_01"–"SM_04"
+- "META_01", "META_02", "META_03"
+- "UNKNOWN"
+
+From LAST_TEACHER.function_id:
+
+1. If it exactly matches one of the allowed values → use it.
+2. Else if it is "ME_01" / "ME_02" / "ME_03" → normalize to "META_01" / "META_02" / "META_03".
+3. Else → "UNKNOWN".
+
+============================================================
+9. STUDENT_STATE & BEHAVIOR_TAGS
+============================================================
+
+These refer to the MOST RECENT user message before this assistant.
+
+Let previous_student_turn be the last student_turn merged into that user block.
+
+- student_state:
+  - If previous_student_turn.inferred_state.reading exists and is non-empty → use that string.
+  - Else → "unknown".
+
+- behavior_tags:
+  - If previous_student_turn.behavior_tags is a non-empty list:
+    - Join with ", " (comma + space).
+  - Else → "none".
+
+============================================================
+10. MECHANISM_SHAPE (20+1 ENUM, STRING-BASED)
+============================================================
+
+You MUST ONLY use these values:
+
+- constraint_collapse
+- subject_object_inversion
+- ontological_shift
+- abstraction_strip
+- structural_analogy
+- structural_mapping
+- comparison_contrast
+- causal_chain
+- system_dynamics
+- identity_split
+- perspective_lift
+- instruction_protocol
+- thresholding
+- negation_purge
+- meta_language_exposure
+- source_tracing
+- distributed_responsibility
+- normalization_reframe
+- verification_criterion
+- non_doing_pointer
+- none
+
+You MUST map from LAST_TEACHER.mechanism_shape **purely by string equality**, as follows:
+
+If LAST_TEACHER.mechanism_shape is exactly:
+
+- "constraint_collapse"            → constraint_collapse
+- "subject_object_inversion"       → subject_object_inversion
+- "ontological_frame_upgrade"      → ontological_shift
+- "ontological_shift"              → ontological_shift
+- "abstraction_strip"              → abstraction_strip
+- "structural_analogy"             → structural_analogy
+- "mirror_analogy"                 → structural_analogy
+- "wave_analogy"                   → structural_analogy
+- "structural_mapping"             → structural_mapping
+- "comparison"                     → comparison_contrast
+- "comparison_contrast"            → comparison_contrast
+- "causal_chain"                   → causal_chain
+- "system_dynamics"                → system_dynamics
+- "identity_split"                 → identity_split
+- "perspective_lift"               → perspective_lift
+- "instruction_protocol"           → instruction_protocol
+- "thresholding"                   → thresholding
+- "negation_purge"                 → negation_purge
+- "meta_language_exposure"         → meta_language_exposure
+- "source_tracing"                 → source_tracing
+- "distributed_responsibility"     → distributed_responsibility
+- "normalization_reframe"          → normalization_reframe
+- "verification_criterion"         → verification_criterion
+- "non_doing_pointer"              → non_doing_pointer
+
+Else:
+
+- mechanism_shape: "none"
+
+You MUST NOT invent any new mechanism_shape values.
+
+============================================================
+11. TEACHING_ACTIONS
+============================================================
+
+Source: LAST_TEACHER.observable_teaching_actions (list of strings).
+
+- If non-empty:
+  - Take at most the FIRST 4 items (in order).
+  - Join with ", " (comma + space).
+- If empty or missing:
+  - Use "none".
+
+Example:
+
+teaching_actions: provides_functional_definition, challenges_false_implication, refuses_sentimentality
+
+============================================================
+12. REGISTER + STYLE + DEPTH + META_MODE
+============================================================
+
+Source: LAST_TEACHER.register (object).
+
+Expected patterns:
+
+- intensity:   "PR_01"–"PR_05"
+- intimacy:    "IN_01"–"IN_05"
+- attunement:  "AT_01"–"AT_05"
+- style:       "LS_01"–"LS_09" (we only care that it starts with "LS_0")
+- depth:       "PD_01"–"PD_09"
+- meta_mode:   "MM_01"–"MM_09"
+
+Defaults if **missing or malformed**:
+
+- intensity: "PR_02"
+- intimacy: "IN_02"
+- attunement: "AT_02"
+- style: "LS_01"
+- depth: "PD_01"
+- meta_mode: "MM_01"
+
+“Malformed” means:
+
+- Missing field, OR
+- Not a string, OR
+- Not matching the expected pattern (e.g. intensity not starting with "PR_" or missing digits).
+
+You MUST emit **four lines** exactly like this:
+
+register: intensity=PR_0X, intimacy=IN_0X, attunement=AT_0X  
+style: LS_0X  
+depth: PD_0X  
+meta_mode: MM_0X  
+
+Where “PR_0X”, “IN_0X”, etc. are the actual codes (no extra spaces around equals).
+
+============================================================
+13. TRAPS_AVOIDED
+============================================================
+
+Source: LAST_TEACHER.trap_ids (list of strings).
+
+- If non-empty:
+  - Join with ", " (comma + space).
+- Else:
+  - "none"
+
+The label MUST be exactly:
+
+traps_avoided: ...
+
+============================================================
+14. INTENT
+============================================================
+
+Source: LAST_TEACHER.phase_reason.
+
+- If present and non-empty: use verbatim.
+- Else: "Standard function application".
+
+Line:
+
+intent: <string>
+
+============================================================
+15. APPROACH (DETERMINISTIC)
+============================================================
+
+Allowed values:
+
+- "increase_pressure"
+- "introduce_threshold"
+- "offer_perspective_shift"
+- "mirror_back"
+- "withdraw_support"
+- "apply_standard_function"
+
+You MUST use this exact decision tree, in order, based on LAST_TEACHER:
+
+Let actions_concat be all entries in LAST_TEACHER.observable_teaching_actions joined into a single lowercase string.
+
+1. If "mirror" appears in actions_concat:
+   → approach: "mirror_back"
+
+2. Else if "withholds" appears in actions_concat:
+   → approach: "withdraw_support"
+
+3. Else if mechanism_shape == "constraint_collapse":
+   → approach: "increase_pressure"
+
+4. Else if mechanism_shape == "thresholding":
+   → approach: "introduce_threshold"
+
+5. Else if mechanism_shape is one of:
+   - "comparison_contrast"
+   - "structural_analogy"
+   - "structural_mapping"
+   → approach: "offer_perspective_shift"
+
+6. Else:
+   → approach: "apply_standard_function"
+
+You MUST NOT output any other approach values.
+
+============================================================
+16. PREDICTED_RESPONSE (DETERMINISTIC)
+============================================================
+
+Allowed values:
+
+- "resist_intellectually"
+- "request_clarification"
+- "experience_recognition"
+- "deflect_with_humor"
+- "complain_about_method"
+- "fall_silent"
+- "ask_deeper_question"
+- "episode_ends"
+- "unknown"
+
+Source: LAST_TEACHER.outcome (if present):
+
+- outcome_label = outcome.outcome_label
+- reaction_label = outcome.reaction_label
+
+Apply these rules IN ORDER:
+
+1. If outcome_label == "episode_ends":
+   → "episode_ends"
+
+2. Else if reaction_label in:
+   - "seeks_instruction"
+   - "seeks_definition"
+   - "seeks_confirmation"
+   - "seeks_action_mandate"
+   - "demands_concreteness"
+   - "demands_phenomenological_proof"
+   → "request_clarification"
+
+3. Else if reaction_label in:
+   - "challenges_implication"
+   - "challenges_consistency"
+   - "intellectual_speculation"
+   - "ethical_dissonance"
+   - "logical_stuckness"
+   - "yes_but_feeling"
+   - "argues_semantics"
+   - "argues_about_definitions"
+   → "resist_intellectually"
+
+4. Else if reaction_label in:
+   - "admits_confusion"
+   - "reports_confusion"
+   → "ask_deeper_question"
+
+5. Else if reaction_label == "complains_about_method":
+   → "complain_about_method"
+
+6. Else if reaction_label in:
+   - "laughs"
+   - "jokes"
+   - "deflects_with_humor"
+   → "deflect_with_humor"
+
+7. Else if reaction_label in:
+   - "recognizes_truth"
+   - "sees_point"
+   - "experience_recognition"
+   - "draws_inference"
+   - "offers_concession"
+   → "experience_recognition"
+
+8. Else if reaction_label in:
+   - "falls_silent"
+   - "long_pause"
+   → "fall_silent"
+
+9. Else:
+   → "unknown"
+
+If outcome is missing entirely, predicted_response MUST be "unknown".
+
+============================================================
+17. TEACHER TEXT AFTER [PEDAGOGY]
+============================================================
+
+Assistant message content MUST be:
+
+[PEDAGOGY]
+...
+[/PEDAGOGY]
+
+<merged teacher text>
+
+Where:
+
+- The [PEDAGOGY] block is built from LAST_TEACHER and the previous user block.
+- <merged teacher text> is a concatenation of all teacher_turn.text in the merged block, in chronological order, separated by a single blank line.
+- You MUST NOT change or paraphrase teacher text.
+
+============================================================
+18. FINAL OUTPUT EXAMPLE (SHAPE ONLY)
+============================================================
+
+Example (shape, not exact values):
+
+[
+  {
+    "episode_id": "gurdjeff2_t1255_t1260_tramps_and_lunatics",
+    "lineage": "Gurdjieffian",
+    "messages": [
+      {
+        "role": "system",
+        "content": "USE_HXRMXS_TRAINING_PROMPT"
+      },
+      {
+        "role": "user",
+        "content": "Is one of the features of a lunatic that he wants certain things out of proportion?"
+      },
+      {
+        "role": "assistant",
+        "content": "[PEDAGOGY]\nlineage: Gurdjieffian\nphase: REMAKING\nfunction_id: RM_03\nstudent_state: seeking_definition\nbehavior_tags: conceptual_inquiry\nmechanism_shape: comparison_contrast\nteaching_actions: provides_functional_definition\nregister: intensity=PR_02, intimacy=IN_02, attunement=AT_02\nstyle: LS_02\ndepth: PD_01\nmeta_mode: MM_01\ntraps_avoided: conceptual_reification\nintent: Provide a functional definition of 'lunatic' in terms of false values and wrong discrimination.\napproach: offer_perspective_shift\npredicted_response: ask_deeper_question\n[/PEDAGOGY]\n\n'Lunatic' means a man who always runs after false values, who has no right discrimination..."
+      }
+    ]
+  },
+  {
+    "episode_id": "...",
+    "lineage": "...",
+    "messages": [ ... ]
+  }
+]
+
+Your actual values will differ, but the structure and field names MUST match.
+
+============================================================
+19. NON-GOALS / HARD RESTRICTIONS
+============================================================
+
+- Do NOT summarize or paraphrase student or teacher text.
+- Do NOT invent any new enum values for:
+  - lineage
+  - phase
+  - function_id
+  - mechanism_shape
+  - approach
+  - predicted_response
+- Do NOT change the order or labels of fields inside [PEDAGOGY].
+- Do NOT insert extra messages beyond what is required by the merging and alternation rules.
+- Do NOT output anything except the final JSON array.
+
+============================================================
+20. TASK
+============================================================
+
+Now:
+
+- Read ALL episodes from the input.
+- Apply ALL rules above.
+- Output a SINGLE valid JSON array of conversation objects in this exact format and nothing else.
